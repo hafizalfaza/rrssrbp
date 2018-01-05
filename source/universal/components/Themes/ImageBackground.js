@@ -4,4 +4,5 @@ export default {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
     }
+    
 }

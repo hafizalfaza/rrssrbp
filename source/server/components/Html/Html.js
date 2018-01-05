@@ -25,12 +25,22 @@ export const Html = ({ children, clientStats, store }: Object) => {
         width: 100%;
 
         box-sizing: border-box;
+
+        font-family: 'Source Sans Pro', sans-serif;
+
+        color: 'black';
+
+        font-size: '12px';
+        
       }
 
       *, *:before, *:after {
         -webkit-box-sizing: inherit;
         -moz-box-sizing: inherit;
         box-sizing: inherit;
+        font-size: '12px';
+        margin: 0;
+        padding: 0;
       }
     `
 

@@ -9,13 +9,13 @@ import IndexPage from 'universal/pages/IndexPage'
 import LoadingPage from 'universal/pages/LoadingPage'
 import TestPage from 'universal/pages/TestPage'
 import NotFoundPage from 'universal/pages/NotFoundPage'
+import HomePage from 'universal/pages/HomePage'
 
 export const routes = [
   {
     path: '/',
-    component: IndexPage,
-    exact: true,
-    loadData
+    component: HomePage,
+    exact: true
   },
   {
     path: '/loading',

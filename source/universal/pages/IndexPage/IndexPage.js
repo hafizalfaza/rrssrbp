@@ -10,6 +10,7 @@ import { loadUser } from '../../actions/usersAction';
 import Page from 'universal/components/Page'
 import Center from 'universal/components/Center'
 import Text from 'universal/components/Text'
+import Flexbox from 'universal/components/Flexbox'
 
 export const IndexPage = (props) => {
   // console.log(window)
@@ -28,6 +29,7 @@ export const IndexPage = (props) => {
         <button onClick={() => props.usersAction()}>click me</button>
         <div>{props.users.test}</div>
       </Center>
+      <Flexbox backgroundColor="red"></Flexbox>
     </Page>
   )
 }

@@ -26,6 +26,12 @@ export const Html = ({ children, clientStats, store }: Object) => {
 
         box-sizing: border-box;
       }
+
+      *, *:before, *:after {
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        box-sizing: inherit;
+      }
     `
 
     const styleSheet = new ServerStyleSheet()

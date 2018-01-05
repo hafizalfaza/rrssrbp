@@ -7,9 +7,13 @@ export default {
         flexDirection: 'row',
         justifyContent: 'space-between'
     },
+    rowGappedAround: {
+        flexDirection: 'row',
+        justifyContent: 'space-around'
+    },
     columnGapped: {
         flexDirection: 'column',
         justifyContent: 'space-between'
     }
-    
+
 }

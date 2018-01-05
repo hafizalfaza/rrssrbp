@@ -10,6 +10,7 @@ import LoadingPage from 'universal/pages/LoadingPage'
 import TestPage from 'universal/pages/TestPage'
 import NotFoundPage from 'universal/pages/NotFoundPage'
 import HomePage from 'universal/pages/HomePage'
+import ProfilePage from 'universal/pages/ProfilePage'
 
 export const routes = [
   {
@@ -25,6 +26,11 @@ export const routes = [
   {
     path: '/test',
     component: TestPage,
+    exact: true
+  },
+  {
+    path: '/profile',
+    component: ProfilePage,
     exact: true
   },
   {

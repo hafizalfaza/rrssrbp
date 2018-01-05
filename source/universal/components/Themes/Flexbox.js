@@ -6,6 +6,10 @@ export default {
     rowGapped: {
         flexDirection: 'row',
         justifyContent: 'space-between'
+    },
+    columnGapped: {
+        flexDirection: 'column',
+        justifyContent: 'space-between'
     }
     
 }

@@ -28,14 +28,17 @@ class NewsfeedItem extends Component {
                             round
                         >
                         </ImageBackground>
-                        <div>
-                            <h2 style={{fontSize: '12px'}}>
+                        <Flexbox
+                            theme={flexboxTheme.columnGapped}
+                            style={{padding: '3px 10px'}}
+                        >
+                            <h2 style={{fontSize: '13px'}}>
                                 kevinsystrom
                             </h2>
-                            <h3>
+                            <h3 style={{fontSize: '13px'}}>
                                 New Zealand
                             </h3>
-                        </div>
+                        </Flexbox>
                     </Flexbox>
                     <div>...</div>
                 </Flexbox>

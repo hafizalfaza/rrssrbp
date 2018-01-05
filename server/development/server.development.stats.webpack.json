@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.10.0",
-  "hash": "b065398031edfbfd4ce8",
-  "time": 3162,
+  "hash": "4c238a2e112ca3e49622",
+  "time": 2899,
   "publicPath": "",
   "assetsByChunkName": {
     "main": "serverSideRender.js"
@@ -11,7 +11,7 @@
   "assets": [
     {
       "name": "serverSideRender.js",
-      "size": 874304,
+      "size": 879471,
       "chunks": [
         0
       ],
@@ -41,14 +41,14 @@
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 714284,
+      "size": 718368,
       "names": [
         "main"
       ],
       "files": [
         "serverSideRender.js"
       ],
-      "hash": "e2dd84774183411223ea",
+      "hash": "1f55270a1f0a11e35e79",
       "parents": [],
       "modules": [
         {
@@ -70,8 +70,8 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 171,
-            "building": 41
+            "factory": 158,
+            "building": 47
           },
           "failed": false,
           "errors": 0,
@@ -445,8 +445,8 @@
           "issuerId": 83,
           "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
           "profile": {
-            "factory": 606,
-            "building": 234
+            "factory": 527,
+            "building": 227
           },
           "failed": false,
           "errors": 0,
@@ -667,8 +667,8 @@
           "issuerId": 83,
           "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
           "profile": {
-            "factory": 738,
-            "building": 255
+            "factory": 671,
+            "building": 216
           },
           "failed": false,
           "errors": 0,
@@ -871,8 +871,8 @@
           "issuerId": 44,
           "issuerName": "./node_modules/react-router-dom/es/Link.js",
           "profile": {
-            "factory": 728,
-            "building": 257
+            "factory": 662,
+            "building": 220
           },
           "failed": false,
           "errors": 0,
@@ -1039,9 +1039,9 @@
           "issuerId": 152,
           "issuerName": "./source/universal/pages/IndexPage/index.js",
           "profile": {
-            "factory": 753,
-            "building": 237,
-            "dependencies": 278
+            "factory": 681,
+            "building": 241,
+            "dependencies": 235
           },
           "failed": false,
           "errors": 0,
@@ -1136,9 +1136,9 @@
           "issuerId": 34,
           "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
           "profile": {
-            "factory": 842,
-            "building": 51,
-            "dependencies": 135
+            "factory": 752,
+            "building": 57,
+            "dependencies": 133
           },
           "failed": false,
           "errors": 0,
@@ -1226,9 +1226,9 @@
           "issuerId": 168,
           "issuerName": "./source/server/components/Html/Html.js",
           "profile": {
-            "factory": 728,
-            "building": 270,
-            "dependencies": 315
+            "factory": 657,
+            "building": 234,
+            "dependencies": 313
           },
           "failed": false,
           "errors": 0,
@@ -1415,8 +1415,8 @@
           "issuerId": 152,
           "issuerName": "./source/universal/pages/IndexPage/index.js",
           "profile": {
-            "factory": 670,
-            "building": 103
+            "factory": 596,
+            "building": 108
           },
           "failed": false,
           "errors": 0,
@@ -1504,9 +1504,9 @@
           "issuerId": 152,
           "issuerName": "./source/universal/pages/IndexPage/index.js",
           "profile": {
-            "factory": 671,
-            "building": 104,
-            "dependencies": 190
+            "factory": 597,
+            "building": 111,
+            "dependencies": 199
           },
           "failed": false,
           "errors": 0,
@@ -1594,9 +1594,9 @@
           "issuerId": 152,
           "issuerName": "./source/universal/pages/IndexPage/index.js",
           "profile": {
-            "factory": 284,
-            "building": 111,
-            "dependencies": 258
+            "factory": 288,
+            "building": 72,
+            "dependencies": 218
           },
           "failed": false,
           "errors": 0,
@@ -1685,8 +1685,8 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 173,
-            "building": 114
+            "factory": 162,
+            "building": 113
           },
           "failed": false,
           "errors": 0,
@@ -1780,8 +1780,8 @@
           "issuerId": 85,
           "issuerName": "./node_modules/history/createBrowserHistory.js",
           "profile": {
-            "factory": 177,
-            "building": 70
+            "factory": 150,
+            "building": 41
           },
           "failed": false,
           "errors": 0,
@@ -1858,8 +1858,8 @@
           "issuerId": 97,
           "issuerName": "./node_modules/history/es/index.js",
           "profile": {
-            "factory": 51,
-            "building": 98
+            "factory": 48,
+            "building": 62
           },
           "failed": false,
           "errors": 0,
@@ -1952,8 +1952,8 @@
           "issuerId": 74,
           "issuerName": "./node_modules/react/cjs/react.development.js",
           "profile": {
-            "factory": 791,
-            "building": 257
+            "factory": 721,
+            "building": 199
           },
           "failed": false,
           "errors": 0,
@@ -2021,8 +2021,8 @@
           "issuerId": 74,
           "issuerName": "./node_modules/react/cjs/react.development.js",
           "profile": {
-            "factory": 663,
-            "building": 233
+            "factory": 579,
+            "building": 225
           },
           "failed": false,
           "errors": 0,
@@ -2090,9 +2090,9 @@
           "issuerId": 74,
           "issuerName": "./node_modules/react/cjs/react.development.js",
           "profile": {
-            "factory": 664,
-            "building": 233,
-            "dependencies": 1
+            "factory": 580,
+            "building": 226,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -2160,8 +2160,8 @@
           "issuerId": 74,
           "issuerName": "./node_modules/react/cjs/react.development.js",
           "profile": {
-            "factory": 664,
-            "building": 234
+            "factory": 580,
+            "building": 227
           },
           "failed": false,
           "errors": 0,
@@ -2229,9 +2229,9 @@
           "issuerId": 97,
           "issuerName": "./node_modules/history/es/index.js",
           "profile": {
-            "factory": 50,
-            "building": 92,
-            "dependencies": 18
+            "factory": 48,
+            "building": 57,
+            "dependencies": 14
           },
           "failed": false,
           "errors": 0,
@@ -2305,8 +2305,8 @@
           "issuerId": 9,
           "issuerName": "./node_modules/babel-plugin-universal-import/universalImport.js",
           "profile": {
-            "factory": 492,
-            "building": 42
+            "factory": 449,
+            "building": 28
           },
           "failed": false,
           "errors": 0,
@@ -2374,8 +2374,8 @@
           "issuerId": 34,
           "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
           "profile": {
-            "factory": 515,
-            "building": 214
+            "factory": 496,
+            "building": 147
           },
           "failed": false,
           "errors": 0,
@@ -2447,9 +2447,9 @@
           "issuerId": 170,
           "issuerName": "./node_modules/react-universal-component/server.js",
           "profile": {
-            "factory": 265,
-            "building": 232,
-            "dependencies": 2
+            "factory": 261,
+            "building": 202,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -2517,9 +2517,9 @@
           "issuerId": 74,
           "issuerName": "./node_modules/react/cjs/react.development.js",
           "profile": {
-            "factory": 534,
-            "building": 259,
-            "dependencies": 49
+            "factory": 491,
+            "building": 232,
+            "dependencies": 31
           },
           "failed": false,
           "errors": 0,
@@ -2578,9 +2578,9 @@
           "issuerId": 85,
           "issuerName": "./node_modules/history/createBrowserHistory.js",
           "profile": {
-            "factory": 177,
-            "building": 63,
-            "dependencies": 1
+            "factory": 149,
+            "building": 47,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -2639,8 +2639,8 @@
           "issuerId": 85,
           "issuerName": "./node_modules/history/createBrowserHistory.js",
           "profile": {
-            "factory": 177,
-            "building": 72,
+            "factory": 150,
+            "building": 49,
             "dependencies": 0
           },
           "failed": false,
@@ -2700,8 +2700,8 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 297,
-            "building": 138
+            "factory": 294,
+            "building": 132
           },
           "failed": false,
           "errors": 0,
@@ -2764,9 +2764,9 @@
           "issuerId": 25,
           "issuerName": "./node_modules/react-router-dom/es/Router.js",
           "profile": {
-            "factory": 584,
-            "building": 322,
-            "dependencies": 138
+            "factory": 509,
+            "building": 300,
+            "dependencies": 110
           },
           "failed": false,
           "errors": 0,
@@ -2829,9 +2829,9 @@
           "issuerId": 105,
           "issuerName": "./node_modules/react-router-dom/es/matchPath.js",
           "profile": {
-            "factory": 583,
-            "building": 348,
-            "dependencies": 274
+            "factory": 509,
+            "building": 319,
+            "dependencies": 234
           },
           "failed": false,
           "errors": 0,
@@ -2894,8 +2894,8 @@
           "issuerId": 98,
           "issuerName": "./node_modules/history/es/createBrowserHistory.js",
           "profile": {
-            "factory": 53,
-            "building": 10,
+            "factory": 34,
+            "building": 7,
             "dependencies": 0
           },
           "failed": false,
@@ -2959,8 +2959,8 @@
           "issuerId": 51,
           "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
           "profile": {
-            "factory": 713,
-            "building": 222
+            "factory": 634,
+            "building": 196
           },
           "failed": false,
           "errors": 0,
@@ -3019,8 +3019,8 @@
           "issuerId": 108,
           "issuerName": "./node_modules/react-redux/es/components/Provider.js",
           "profile": {
-            "factory": 353,
-            "building": 32
+            "factory": 273,
+            "building": 35
           },
           "failed": false,
           "errors": 0,
@@ -3083,8 +3083,8 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 175,
-            "building": 136
+            "factory": 163,
+            "building": 133
           },
           "failed": false,
           "errors": 0,
@@ -3154,8 +3154,8 @@
           "issuerId": 52,
           "issuerName": "./node_modules/redux/es/createStore.js",
           "profile": {
-            "factory": 575,
-            "building": 352
+            "factory": 634,
+            "building": 196
           },
           "failed": false,
           "errors": 0,
@@ -3218,8 +3218,8 @@
           "issuerId": 131,
           "issuerName": "./node_modules/react-router-config/es/matchRoutes.js",
           "profile": {
-            "factory": 579,
-            "building": 269
+            "factory": 505,
+            "building": 255
           },
           "failed": false,
           "errors": 0,
@@ -3278,9 +3278,9 @@
           "issuerId": 59,
           "issuerName": "./source/universal/Routes/Routes.js",
           "profile": {
-            "factory": 55,
+            "factory": 40,
             "building": 104,
-            "dependencies": 40
+            "dependencies": 35
           },
           "failed": false,
           "errors": 0,
@@ -3343,8 +3343,8 @@
           "issuerId": 34,
           "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
           "profile": {
-            "factory": 516,
-            "building": 220
+            "factory": 497,
+            "building": 153
           },
           "failed": false,
           "errors": 0,
@@ -3407,8 +3407,8 @@
           "issuerId": 34,
           "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
           "profile": {
-            "factory": 516,
-            "building": 229
+            "factory": 497,
+            "building": 159
           },
           "failed": false,
           "errors": 0,
@@ -3471,8 +3471,8 @@
           "issuerId": 34,
           "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
           "profile": {
-            "factory": 516,
-            "building": 236
+            "factory": 497,
+            "building": 167
           },
           "failed": false,
           "errors": 0,
@@ -3535,8 +3535,8 @@
           "issuerId": 74,
           "issuerName": "./node_modules/react/cjs/react.development.js",
           "profile": {
-            "factory": 663,
-            "building": 232
+            "factory": 579,
+            "building": 224
           },
           "failed": false,
           "errors": 0,
@@ -3586,8 +3586,8 @@
           "issuerId": 22,
           "issuerName": "./node_modules/prop-types/checkPropTypes.js",
           "profile": {
-            "factory": 285,
-            "building": 45
+            "factory": 239,
+            "building": 28
           },
           "failed": false,
           "errors": 0,
@@ -3637,8 +3637,8 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 157,
-            "building": 21
+            "factory": 143,
+            "building": 24
           },
           "failed": false,
           "errors": 0,
@@ -3691,8 +3691,8 @@
           "issuerId": 23,
           "issuerName": "./node_modules/history/LocationUtils.js",
           "profile": {
-            "factory": 280,
-            "building": 12
+            "factory": 228,
+            "building": 7
           },
           "failed": false,
           "errors": 0,
@@ -3744,8 +3744,8 @@
           "issuerId": 23,
           "issuerName": "./node_modules/history/LocationUtils.js",
           "profile": {
-            "factory": 281,
-            "building": 9
+            "factory": 229,
+            "building": 7
           },
           "failed": false,
           "errors": 0,
@@ -3797,8 +3797,8 @@
           "issuerId": 85,
           "issuerName": "./node_modules/history/createBrowserHistory.js",
           "profile": {
-            "factory": 178,
-            "building": 73
+            "factory": 150,
+            "building": 51
           },
           "failed": false,
           "errors": 0,
@@ -3848,9 +3848,9 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 295,
-            "building": 127,
-            "dependencies": 595
+            "factory": 293,
+            "building": 123,
+            "dependencies": 517
           },
           "failed": false,
           "errors": 0,
@@ -3904,8 +3904,8 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 297,
-            "building": 136
+            "factory": 294,
+            "building": 131
           },
           "failed": false,
           "errors": 0,
@@ -3959,9 +3959,9 @@
           "issuerId": 45,
           "issuerName": "./node_modules/react-router-dom/es/Route.js",
           "profile": {
-            "factory": 586,
-            "building": 307,
-            "dependencies": 153
+            "factory": 510,
+            "building": 290,
+            "dependencies": 120
           },
           "failed": false,
           "errors": 0,
@@ -4015,8 +4015,8 @@
           "issuerId": 33,
           "issuerName": "./node_modules/react-router/matchPath.js",
           "profile": {
-            "factory": 355,
-            "building": 78
+            "factory": 300,
+            "building": 69
           },
           "failed": false,
           "errors": 0,
@@ -4066,8 +4066,8 @@
           "issuerId": 98,
           "issuerName": "./node_modules/history/es/createBrowserHistory.js",
           "profile": {
-            "factory": 53,
-            "building": 13
+            "factory": 35,
+            "building": 8
           },
           "failed": false,
           "errors": 0,
@@ -4135,8 +4135,8 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 174,
-            "building": 110
+            "factory": 162,
+            "building": 109
           },
           "failed": false,
           "errors": 0,
@@ -4194,8 +4194,8 @@
           "issuerId": 108,
           "issuerName": "./node_modules/react-redux/es/components/Provider.js",
           "profile": {
-            "factory": 353,
-            "building": 30,
+            "factory": 272,
+            "building": 35,
             "dependencies": 166
           },
           "failed": false,
@@ -4252,9 +4252,9 @@
           "issuerId": 49,
           "issuerName": "./node_modules/react-redux/es/index.js",
           "profile": {
-            "factory": 306,
-            "building": 178,
-            "dependencies": 669
+            "factory": 304,
+            "building": 172,
+            "dependencies": 606
           },
           "failed": false,
           "errors": 0,
@@ -4308,8 +4308,8 @@
           "issuerId": 31,
           "issuerName": "./node_modules/redux/es/index.js",
           "profile": {
-            "factory": 274,
-            "building": 147
+            "factory": 276,
+            "building": 141
           },
           "failed": false,
           "errors": 0,
@@ -4365,8 +4365,8 @@
           "issuerId": 113,
           "issuerName": "./node_modules/lodash-es/_baseGetTag.js",
           "profile": {
-            "factory": 122,
-            "building": 33
+            "factory": 115,
+            "building": 22
           },
           "failed": false,
           "errors": 0,
@@ -4421,7 +4421,7 @@
           "issuerName": "./node_modules/redux/es/index.js",
           "profile": {
             "factory": 280,
-            "building": 198
+            "building": 183
           },
           "failed": false,
           "errors": 0,
@@ -4475,8 +4475,8 @@
           "issuerId": 31,
           "issuerName": "./node_modules/redux/es/index.js",
           "profile": {
-            "factory": 275,
-            "building": 159
+            "factory": 276,
+            "building": 155
           },
           "failed": false,
           "errors": 0,
@@ -4530,9 +4530,9 @@
           "issuerId": 112,
           "issuerName": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
           "profile": {
-            "factory": 177,
-            "building": 235,
-            "dependencies": 1
+            "factory": 180,
+            "building": 230,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -4589,9 +4589,9 @@
           "issuerId": 128,
           "issuerName": "./node_modules/react-redux/es/connect/mergeProps.js",
           "profile": {
-            "factory": 174,
-            "building": 236,
-            "dependencies": 2
+            "factory": 177,
+            "building": 230,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -4645,8 +4645,8 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 174,
-            "building": 134
+            "factory": 163,
+            "building": 130
           },
           "failed": false,
           "errors": 0,
@@ -4702,9 +4702,9 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 75,
-            "building": 41,
-            "dependencies": 57
+            "factory": 64,
+            "building": 57,
+            "dependencies": 42
           },
           "failed": false,
           "errors": 0,
@@ -4761,8 +4761,8 @@
           "issuerId": 5,
           "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
           "profile": {
-            "factory": 71,
-            "building": 266
+            "factory": 74,
+            "building": 280
           },
           "failed": false,
           "errors": 0,
@@ -4812,9 +4812,9 @@
           "issuerId": 34,
           "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
           "profile": {
-            "factory": 305,
-            "building": 111,
-            "dependencies": 1
+            "factory": 181,
+            "building": 226,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -4870,8 +4870,8 @@
           "issuerId": 177,
           "issuerName": "./source/universal/reducers/usersReducer.js",
           "profile": {
-            "factory": 370,
-            "building": 93
+            "factory": 206,
+            "building": 251
           },
           "failed": false,
           "errors": 0,
@@ -4927,9 +4927,9 @@
           "issuerId": 4,
           "issuerName": "./node_modules/react-universal-component/dist/index.js",
           "profile": {
-            "factory": 263,
-            "building": 43,
-            "dependencies": 1
+            "factory": 219,
+            "building": 35,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -4979,8 +4979,8 @@
           "issuerId": 170,
           "issuerName": "./node_modules/react-universal-component/server.js",
           "profile": {
-            "factory": 265,
-            "building": 227,
+            "factory": 261,
+            "building": 205,
             "dependencies": 0
           },
           "failed": false,
@@ -5031,9 +5031,9 @@
           "issuerId": 154,
           "issuerName": "./source/universal/pages/TestPage/index.js",
           "profile": {
-            "factory": 224,
-            "building": 148,
-            "dependencies": 221
+            "factory": 222,
+            "building": 91,
+            "dependencies": 198
           },
           "failed": false,
           "errors": 0,
@@ -5086,9 +5086,9 @@
           "issuerId": 155,
           "issuerName": "./source/universal/pages/NotFoundPage/index.js",
           "profile": {
-            "factory": 194,
-            "building": 178,
-            "dependencies": 191
+            "factory": 196,
+            "building": 115,
+            "dependencies": 174
           },
           "failed": false,
           "errors": 0,
@@ -5141,9 +5141,9 @@
           "issuerId": 156,
           "issuerName": "./source/universal/pages/HomePage/index.js",
           "profile": {
-            "factory": 172,
-            "building": 240,
-            "dependencies": 2
+            "factory": 167,
+            "building": 166,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -5182,7 +5182,7 @@
           "name": "./source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js",
           "index": 157,
           "index2": 155,
-          "size": 4597,
+          "size": 8291,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -5195,9 +5195,9 @@
           "issuerId": 157,
           "issuerName": "./source/universal/pages/HomePage/Newsfeed/NewsfeedItem/index.js",
           "profile": {
-            "factory": 71,
-            "building": 131,
-            "dependencies": 3
+            "factory": 47,
+            "building": 123,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -5228,7 +5228,7 @@
           ],
           "optimizationBailout": [],
           "depth": 6,
-          "source": "var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport React, { Component } from 'react';\nimport Flexbox from 'universal/components/Flexbox';\nimport ImageBackground from 'universal/components/ImageBackground';\n\n// Components Themes\n\nimport flexboxTheme from 'universal/components/themes/Flexbox';\nimport imageBackgroundTheme from 'universal/components/themes/ImageBackground';\n\nvar NewsfeedItem = function (_Component) {\n    _inherits(NewsfeedItem, _Component);\n\n    function NewsfeedItem() {\n        _classCallCheck(this, NewsfeedItem);\n\n        return _possibleConstructorReturn(this, (NewsfeedItem.__proto__ || Object.getPrototypeOf(NewsfeedItem)).apply(this, arguments));\n    }\n\n    _createClass(NewsfeedItem, [{\n        key: 'render',\n        value: function render() {\n            return React.createElement(\n                'div',\n                null,\n                React.createElement(\n                    Flexbox,\n                    {\n                        theme: flexboxTheme.rowGapped,\n                        align: 'center',\n                        style: { padding: '12px', border: '1px black solid' }\n                    },\n                    React.createElement(\n                        Flexbox,\n                        {\n                            theme: flexboxTheme.rowAlignLeft\n                        },\n                        React.createElement(ImageBackground, {\n                            theme: imageBackgroundTheme.coverCenter,\n                            backgroundImage: 'https://images.businessoffashion.com/profiles/asset/2170/ca7d6946a3f502181905560b14ead8299d1a9783.jpeg?auto=format%2Ccompress&fit=crop&h=360&ixlib=php-1.1.0&q=60&w=660',\n                            style: { width: '40px', height: '40px' },\n                            round: true\n                        })\n                    ),\n                    React.createElement(\n                        'div',\n                        null,\n                        '...'\n                    )\n                ),\n                React.createElement(\n                    ImageBackground,\n                    {\n                        theme: imageBackgroundTheme.coverCenter,\n                        backgroundImage: 'https://farm1.nzstatic.com/_proxy/imageproxy_1y/serve/driving-in-new-zealand.jpg?focalpointx=50&focalpointy=50&height=440&outputformat=jpg&quality=75&source=2757411&transformationsystem=focalpointcrop&width=1280&securitytoken=10500ECA684FDFB552AD68F889927D1C' },\n                    'style=',\n                    { width: '100%', height: '200px' }\n                )\n            );\n        }\n    }]);\n\n    return NewsfeedItem;\n}(Component);\n\nvar _default = NewsfeedItem;\n\n\nexport default _default;\n;\n\nvar _temp = function () {\n    if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n        return;\n    }\n\n    __REACT_HOT_LOADER__.register(NewsfeedItem, 'NewsfeedItem', '/Users/hafizalfaza/practice/react/instaclone/source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js');\n\n    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js');\n}();\n\n;"
+          "source": "var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport React, { Component } from 'react';\nimport Flexbox from 'universal/components/Flexbox';\nimport ImageBackground from 'universal/components/ImageBackground';\n\n// Components Themes\n\nimport flexboxTheme from 'universal/components/themes/Flexbox';\nimport imageBackgroundTheme from 'universal/components/themes/ImageBackground';\n\nvar NewsfeedItem = function (_Component) {\n    _inherits(NewsfeedItem, _Component);\n\n    function NewsfeedItem() {\n        _classCallCheck(this, NewsfeedItem);\n\n        return _possibleConstructorReturn(this, (NewsfeedItem.__proto__ || Object.getPrototypeOf(NewsfeedItem)).apply(this, arguments));\n    }\n\n    _createClass(NewsfeedItem, [{\n        key: 'render',\n        value: function render() {\n            return React.createElement(\n                'div',\n                null,\n                React.createElement(\n                    Flexbox,\n                    {\n                        theme: flexboxTheme.rowGapped,\n                        align: 'center',\n                        style: { padding: '12px', border: '1px black solid' }\n                    },\n                    React.createElement(\n                        Flexbox,\n                        {\n                            theme: flexboxTheme.rowAlignLeft\n                        },\n                        React.createElement(ImageBackground, {\n                            theme: imageBackgroundTheme.coverCenter,\n                            backgroundImage: 'https://images.businessoffashion.com/profiles/asset/2170/ca7d6946a3f502181905560b14ead8299d1a9783.jpeg?auto=format%2Ccompress&fit=crop&h=360&ixlib=php-1.1.0&q=60&w=660',\n                            style: { width: '40px', height: '40px' },\n                            round: true\n                        }),\n                        React.createElement(\n                            Flexbox,\n                            {\n                                theme: flexboxTheme.columnGapped\n                            },\n                            React.createElement(\n                                'h2',\n                                { style: { fontSize: '14px' } },\n                                'kevinsystrom'\n                            ),\n                            React.createElement(\n                                'h3',\n                                { style: { fontSize: '14px' } },\n                                'New Zealand'\n                            )\n                        )\n                    ),\n                    React.createElement(\n                        'div',\n                        null,\n                        '...'\n                    )\n                ),\n                React.createElement(ImageBackground, {\n                    theme: imageBackgroundTheme.coverCenter,\n                    backgroundImage: 'https://farm1.nzstatic.com/_proxy/imageproxy_1y/serve/driving-in-new-zealand.jpg?focalpointx=50&focalpointy=50&height=440&outputformat=jpg&quality=75&source=2757411&transformationsystem=focalpointcrop&width=1280&securitytoken=10500ECA684FDFB552AD68F889927D1C',\n                    style: { width: '100%', paddingBottom: '100%' }\n                }),\n                React.createElement(\n                    Flexbox,\n                    {\n                        theme: flexboxTheme.rowGapped,\n                        style: { padding: '15px 20px' }\n                    },\n                    React.createElement(\n                        Flexbox,\n                        {\n                            theme: flexboxTheme.rowAlignLeft\n                        },\n                        React.createElement(\n                            'div',\n                            { style: { marginRight: '10px' } },\n                            React.createElement(\n                                'svg',\n                                { width: '22px', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 51.997 51.997' },\n                                React.createElement('path', { d: 'M51.911 16.242c-.759-8.354-6.672-14.415-14.072-14.415-4.93 0-9.444 2.653-11.984 6.905-2.517-4.307-6.846-6.906-11.697-6.906C6.759 1.826.845 7.887.087 16.241c-.06.369-.306 2.311.442 5.478 1.078 4.568 3.568 8.723 7.199 12.013l18.115 16.439 18.426-16.438c3.631-3.291 6.121-7.445 7.199-12.014.748-3.166.502-5.108.443-5.477zm-2.39 5.019c-.984 4.172-3.265 7.973-6.59 10.985L25.855 47.481 9.072 32.25c-3.331-3.018-5.611-6.818-6.596-10.99-.708-2.997-.417-4.69-.416-4.701l.015-.101c.65-7.319 5.731-12.632 12.083-12.632 4.687 0 8.813 2.88 10.771 7.515l.921 2.183.921-2.183c1.927-4.564 6.271-7.514 11.069-7.514 6.351 0 11.433 5.313 12.096 12.727.002.016.293 1.71-.415 4.707z' })\n                            )\n                        ),\n                        React.createElement(\n                            'div',\n                            null,\n                            React.createElement(\n                                'svg',\n                                { width: '22px', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 60 60' },\n                                React.createElement('path', { d: 'M55.232 43.104C58.354 38.745 60 33.705 60 28.5c0-14.888-13.458-27-30-27S0 13.612 0 28.5s13.458 27 30 27c4.262 0 8.378-.79 12.244-2.348 6.805 3.927 16.212 5.282 16.618 5.338a1 1 0 0 0 .846-1.697c-2.301-2.3-3.885-7.153-4.476-13.689zM42.84 51.182c-2.11-1.302-4.467-2.814-5.017-3.249a.998.998 0 0 0-1.337-.29 1.024 1.024 0 0 0-.492.861c-.003.589.006.77 4.081 3.316A30.706 30.706 0 0 1 30 53.5c-15.439 0-28-11.215-28-25s12.561-25 28-25 28 11.215 28 25c0 4.897-1.591 9.643-4.601 13.724a.995.995 0 0 0-.191.677c.35 4.174 1.238 9.49 3.44 13.16-3.334-.678-9.343-2.183-13.808-4.879z' })\n                            )\n                        )\n                    ),\n                    React.createElement(\n                        'div',\n                        null,\n                        React.createElement(\n                            'svg',\n                            { style: { width: '22px' }, xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 46 46' },\n                            React.createElement('path', { d: 'M8 0v46l15-12 15 12V0H8zm28 42L23 31 10 42V2h26v40z' })\n                        )\n                    )\n                )\n            );\n        }\n    }]);\n\n    return NewsfeedItem;\n}(Component);\n\nvar _default = NewsfeedItem;\n\n\nexport default _default;\n;\n\nvar _temp = function () {\n    if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n        return;\n    }\n\n    __REACT_HOT_LOADER__.register(NewsfeedItem, 'NewsfeedItem', '/Users/hafizalfaza/practice/react/instaclone/source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js');\n\n    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js');\n}();\n\n;"
         },
         {
           "id": 69,
@@ -5249,7 +5249,7 @@
           "issuerId": null,
           "issuerName": null,
           "profile": {
-            "factory": 2,
+            "factory": 1,
             "building": 2
           },
           "failed": false,
@@ -5280,8 +5280,8 @@
           "issuerId": 69,
           "issuerName": "multi raf/polyfill ./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 48,
-            "building": 15
+            "factory": 45,
+            "building": 18
           },
           "failed": false,
           "errors": 0,
@@ -5322,8 +5322,8 @@
           "issuerId": 70,
           "issuerName": "./node_modules/raf/polyfill.js",
           "profile": {
-            "factory": 344,
-            "building": 490
+            "factory": 347,
+            "building": 458
           },
           "failed": false,
           "errors": 0,
@@ -5365,7 +5365,7 @@
           "issuerName": "./node_modules/raf/index.js",
           "profile": {
             "factory": 149,
-            "building": 214
+            "building": 198
           },
           "failed": false,
           "errors": 0,
@@ -5406,8 +5406,8 @@
           "issuerId": 69,
           "issuerName": "multi raf/polyfill ./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 65,
-            "building": 768
+            "factory": 64,
+            "building": 746
           },
           "failed": false,
           "errors": 0,
@@ -5451,8 +5451,8 @@
           "issuerId": 0,
           "issuerName": "./node_modules/react/index.js",
           "profile": {
-            "factory": 131,
-            "building": 296
+            "factory": 120,
+            "building": 302
           },
           "failed": false,
           "errors": 0,
@@ -5493,8 +5493,8 @@
           "issuerId": 40,
           "issuerName": "./node_modules/react-dom/server.js",
           "profile": {
-            "factory": 165,
-            "building": 302
+            "factory": 158,
+            "building": 305
           },
           "failed": false,
           "errors": 0,
@@ -5535,9 +5535,9 @@
           "issuerId": 75,
           "issuerName": "./node_modules/react-dom/server.node.js",
           "profile": {
-            "factory": 148,
-            "building": 301,
-            "dependencies": 337
+            "factory": 133,
+            "building": 227,
+            "dependencies": 357
           },
           "failed": false,
           "errors": 0,
@@ -5578,8 +5578,8 @@
           "issuerId": 76,
           "issuerName": "./node_modules/react-dom/cjs/react-dom-server.node.development.js",
           "profile": {
-            "factory": 340,
-            "building": 255
+            "factory": 357,
+            "building": 217
           },
           "failed": false,
           "errors": 0,
@@ -5620,8 +5620,8 @@
           "issuerId": 77,
           "issuerName": "./node_modules/fbjs/lib/hyphenateStyleName.js",
           "profile": {
-            "factory": 63,
-            "building": 136
+            "factory": 45,
+            "building": 126
           },
           "failed": false,
           "errors": 0,
@@ -5662,8 +5662,8 @@
           "issuerId": 76,
           "issuerName": "./node_modules/react-dom/cjs/react-dom-server.node.development.js",
           "profile": {
-            "factory": 340,
-            "building": 256
+            "factory": 360,
+            "building": 215
           },
           "failed": false,
           "errors": 0,
@@ -5704,8 +5704,8 @@
           "issuerId": 76,
           "issuerName": "./node_modules/react-dom/cjs/react-dom-server.node.development.js",
           "profile": {
-            "factory": 340,
-            "building": 256
+            "factory": 361,
+            "building": 214
           },
           "failed": false,
           "errors": 0,
@@ -5746,8 +5746,8 @@
           "issuerId": 80,
           "issuerName": "./node_modules/fbjs/lib/camelizeStyleName.js",
           "profile": {
-            "factory": 62,
-            "building": 135
+            "factory": 45,
+            "building": 125
           },
           "failed": false,
           "errors": 0,
@@ -5788,8 +5788,8 @@
           "issuerId": 76,
           "issuerName": "./node_modules/react-dom/cjs/react-dom-server.node.development.js",
           "profile": {
-            "factory": 2,
-            "building": 0
+            "factory": 1,
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -5829,9 +5829,9 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 294,
-            "building": 117,
-            "dependencies": 88
+            "factory": 292,
+            "building": 114,
+            "dependencies": 76
           },
           "failed": false,
           "errors": 0,
@@ -5874,9 +5874,9 @@
           "issuerId": 1,
           "issuerName": "./node_modules/prop-types/index.js",
           "profile": {
-            "factory": 197,
-            "building": 56,
-            "dependencies": 2
+            "factory": 165,
+            "building": 39,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -5917,9 +5917,9 @@
           "issuerId": 83,
           "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
           "profile": {
-            "factory": 607,
-            "building": 254,
-            "dependencies": 134
+            "factory": 528,
+            "building": 242,
+            "dependencies": 119
           },
           "failed": false,
           "errors": 0,
@@ -5962,9 +5962,9 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 294,
-            "building": 122,
-            "dependencies": 733
+            "factory": 293,
+            "building": 117,
+            "dependencies": 667
           },
           "failed": false,
           "errors": 0,
@@ -6007,9 +6007,9 @@
           "issuerId": 86,
           "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "profile": {
-            "factory": 602,
-            "building": 264,
-            "dependencies": 168
+            "factory": 524,
+            "building": 250,
+            "dependencies": 142
           },
           "failed": false,
           "errors": 0,
@@ -6052,8 +6052,8 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 296,
-            "building": 128
+            "factory": 293,
+            "building": 125
           },
           "failed": false,
           "errors": 0,
@@ -6096,9 +6096,9 @@
           "issuerId": 88,
           "issuerName": "./node_modules/react-router-dom/es/MemoryRouter.js",
           "profile": {
-            "factory": 595,
-            "building": 294,
-            "dependencies": 166
+            "factory": 517,
+            "building": 274,
+            "dependencies": 136
           },
           "failed": false,
           "errors": 0,
@@ -6143,9 +6143,9 @@
           "issuerId": 89,
           "issuerName": "./node_modules/react-router/es/MemoryRouter.js",
           "profile": {
-            "factory": 289,
-            "building": 30,
-            "dependencies": 1
+            "factory": 253,
+            "building": 19,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -6188,9 +6188,9 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 296,
-            "building": 134,
-            "dependencies": 587
+            "factory": 294,
+            "building": 128,
+            "dependencies": 511
           },
           "failed": false,
           "errors": 0,
@@ -6233,7 +6233,7 @@
           "issuerId": 47,
           "issuerName": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
           "profile": {
-            "factory": 119,
+            "factory": 82,
             "building": 1
           },
           "failed": false,
@@ -6275,8 +6275,8 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 296,
-            "building": 136
+            "factory": 294,
+            "building": 130
           },
           "failed": false,
           "errors": 0,
@@ -6319,9 +6319,9 @@
           "issuerId": 93,
           "issuerName": "./node_modules/react-router-dom/es/Prompt.js",
           "profile": {
-            "factory": 587,
-            "building": 300,
-            "dependencies": 160
+            "factory": 511,
+            "building": 278,
+            "dependencies": 132
           },
           "failed": false,
           "errors": 0,
@@ -6366,8 +6366,8 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 296,
-            "building": 138
+            "factory": 294,
+            "building": 131
           },
           "failed": false,
           "errors": 0,
@@ -6410,9 +6410,9 @@
           "issuerId": 95,
           "issuerName": "./node_modules/react-router-dom/es/Redirect.js",
           "profile": {
-            "factory": 585,
-            "building": 311,
-            "dependencies": 149
+            "factory": 510,
+            "building": 281,
+            "dependencies": 129
           },
           "failed": false,
           "errors": 0,
@@ -6457,8 +6457,8 @@
           "issuerId": 96,
           "issuerName": "./node_modules/react-router/es/Redirect.js",
           "profile": {
-            "factory": 272,
-            "building": 31
+            "factory": 246,
+            "building": 20
           },
           "failed": false,
           "errors": 0,
@@ -6510,9 +6510,9 @@
           "issuerId": 97,
           "issuerName": "./node_modules/history/es/index.js",
           "profile": {
-            "factory": 50,
-            "building": 62,
-            "dependencies": 46
+            "factory": 48,
+            "building": 40,
+            "dependencies": 29
           },
           "failed": false,
           "errors": 0,
@@ -6555,9 +6555,9 @@
           "issuerId": 97,
           "issuerName": "./node_modules/history/es/index.js",
           "profile": {
-            "factory": 50,
-            "building": 75,
-            "dependencies": 40
+            "factory": 48,
+            "building": 48,
+            "dependencies": 27
           },
           "failed": false,
           "errors": 0,
@@ -6600,9 +6600,9 @@
           "issuerId": 97,
           "issuerName": "./node_modules/history/es/index.js",
           "profile": {
-            "factory": 50,
-            "building": 87,
-            "dependencies": 28
+            "factory": 48,
+            "building": 54,
+            "dependencies": 20
           },
           "failed": false,
           "errors": 0,
@@ -6645,8 +6645,8 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 297,
-            "building": 139
+            "factory": 294,
+            "building": 132
           },
           "failed": false,
           "errors": 0,
@@ -6691,9 +6691,9 @@
           "issuerId": 101,
           "issuerName": "./node_modules/react-router-dom/es/StaticRouter.js",
           "profile": {
-            "factory": 583,
-            "building": 331,
-            "dependencies": 252
+            "factory": 509,
+            "building": 311,
+            "dependencies": 216
           },
           "failed": false,
           "errors": 0,
@@ -6738,8 +6738,8 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 297,
-            "building": 139
+            "factory": 295,
+            "building": 132
           },
           "failed": false,
           "errors": 0,
@@ -6782,9 +6782,9 @@
           "issuerId": 103,
           "issuerName": "./node_modules/react-router-dom/es/Switch.js",
           "profile": {
-            "factory": 584,
-            "building": 335,
-            "dependencies": 124
+            "factory": 508,
+            "building": 317,
+            "dependencies": 93
           },
           "failed": false,
           "errors": 0,
@@ -6829,8 +6829,8 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 297,
-            "building": 140
+            "factory": 295,
+            "building": 132
           },
           "failed": false,
           "errors": 0,
@@ -6873,8 +6873,8 @@
           "issuerId": 11,
           "issuerName": "./node_modules/react-router-dom/es/index.js",
           "profile": {
-            "factory": 298,
-            "building": 139
+            "factory": 295,
+            "building": 133
           },
           "failed": false,
           "errors": 0,
@@ -6917,9 +6917,9 @@
           "issuerId": 106,
           "issuerName": "./node_modules/react-router-dom/es/withRouter.js",
           "profile": {
-            "factory": 583,
-            "building": 350,
-            "dependencies": 109
+            "factory": 508,
+            "building": 328,
+            "dependencies": 81
           },
           "failed": false,
           "errors": 0,
@@ -6964,9 +6964,9 @@
           "issuerId": 49,
           "issuerName": "./node_modules/react-redux/es/index.js",
           "profile": {
-            "factory": 306,
-            "building": 165,
-            "dependencies": 549
+            "factory": 304,
+            "building": 160,
+            "dependencies": 473
           },
           "failed": false,
           "errors": 0,
@@ -7012,8 +7012,8 @@
           "issuerId": 51,
           "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
           "profile": {
-            "factory": 340,
-            "building": 33
+            "factory": 261,
+            "building": 37
           },
           "failed": false,
           "errors": 0,
@@ -7058,9 +7058,9 @@
           "issuerId": 49,
           "issuerName": "./node_modules/react-redux/es/index.js",
           "profile": {
-            "factory": 307,
-            "building": 191,
-            "dependencies": 3
+            "factory": 304,
+            "building": 179,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -7106,8 +7106,8 @@
           "issuerId": 110,
           "issuerName": "./node_modules/react-redux/es/connect/connect.js",
           "profile": {
-            "factory": 326,
-            "building": 34
+            "factory": 253,
+            "building": 38
           },
           "failed": false,
           "errors": 0,
@@ -7152,9 +7152,9 @@
           "issuerId": 110,
           "issuerName": "./node_modules/react-redux/es/connect/connect.js",
           "profile": {
-            "factory": 318,
-            "building": 27,
-            "dependencies": 16
+            "factory": 244,
+            "building": 29,
+            "dependencies": 19
           },
           "failed": false,
           "errors": 0,
@@ -7202,8 +7202,8 @@
           "issuerId": 32,
           "issuerName": "./node_modules/lodash-es/isPlainObject.js",
           "profile": {
-            "factory": 70,
-            "building": 38
+            "factory": 53,
+            "building": 26
           },
           "failed": false,
           "errors": 0,
@@ -7248,8 +7248,8 @@
           "issuerId": 53,
           "issuerName": "./node_modules/lodash-es/_Symbol.js",
           "profile": {
-            "factory": 46,
-            "building": 44
+            "factory": 44,
+            "building": 34
           },
           "failed": false,
           "errors": 0,
@@ -7294,8 +7294,8 @@
           "issuerId": 114,
           "issuerName": "./node_modules/lodash-es/_root.js",
           "profile": {
-            "factory": 66,
-            "building": 8
+            "factory": 38,
+            "building": 5
           },
           "failed": false,
           "errors": 0,
@@ -7340,9 +7340,9 @@
           "issuerId": 113,
           "issuerName": "./node_modules/lodash-es/_baseGetTag.js",
           "profile": {
-            "factory": 123,
-            "building": 33,
-            "dependencies": 0
+            "factory": 116,
+            "building": 21,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -7387,8 +7387,8 @@
           "issuerId": 113,
           "issuerName": "./node_modules/lodash-es/_baseGetTag.js",
           "profile": {
-            "factory": 123,
-            "building": 33
+            "factory": 116,
+            "building": 22
           },
           "failed": false,
           "errors": 0,
@@ -7433,8 +7433,8 @@
           "issuerId": 32,
           "issuerName": "./node_modules/lodash-es/isPlainObject.js",
           "profile": {
-            "factory": 70,
-            "building": 40
+            "factory": 54,
+            "building": 26
           },
           "failed": false,
           "errors": 0,
@@ -7479,8 +7479,8 @@
           "issuerId": 118,
           "issuerName": "./node_modules/lodash-es/_getPrototype.js",
           "profile": {
-            "factory": 121,
-            "building": 35
+            "factory": 115,
+            "building": 22
           },
           "failed": false,
           "errors": 0,
@@ -7525,8 +7525,8 @@
           "issuerId": 32,
           "issuerName": "./node_modules/lodash-es/isPlainObject.js",
           "profile": {
-            "factory": 70,
-            "building": 42
+            "factory": 54,
+            "building": 27
           },
           "failed": false,
           "errors": 0,
@@ -7571,8 +7571,8 @@
           "issuerId": 52,
           "issuerName": "./node_modules/redux/es/createStore.js",
           "profile": {
-            "factory": 771,
-            "building": 227
+            "factory": 687,
+            "building": 198
           },
           "failed": false,
           "errors": 0,
@@ -7615,8 +7615,8 @@
           "issuerId": 121,
           "issuerName": "./node_modules/symbol-observable/index.js",
           "profile": {
-            "factory": 90,
-            "building": 79,
+            "factory": 69,
+            "building": 78,
             "dependencies": 1
           },
           "failed": false,
@@ -7658,8 +7658,8 @@
           "issuerId": 122,
           "issuerName": "./node_modules/symbol-observable/lib/index.js",
           "profile": {
-            "factory": 31,
-            "building": 79
+            "factory": 55,
+            "building": 35
           },
           "failed": false,
           "errors": 0,
@@ -7700,9 +7700,9 @@
           "issuerId": 31,
           "issuerName": "./node_modules/redux/es/index.js",
           "profile": {
-            "factory": 275,
-            "building": 153,
-            "dependencies": 568
+            "factory": 276,
+            "building": 147,
+            "dependencies": 628
           },
           "failed": false,
           "errors": 0,
@@ -7747,8 +7747,8 @@
           "issuerId": 31,
           "issuerName": "./node_modules/redux/es/index.js",
           "profile": {
-            "factory": 275,
-            "building": 156
+            "factory": 276,
+            "building": 150
           },
           "failed": false,
           "errors": 0,
@@ -7793,9 +7793,9 @@
           "issuerId": 31,
           "issuerName": "./node_modules/redux/es/index.js",
           "profile": {
-            "factory": 275,
-            "building": 158,
-            "dependencies": 0
+            "factory": 276,
+            "building": 153,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -7840,9 +7840,9 @@
           "issuerId": 110,
           "issuerName": "./node_modules/react-redux/es/connect/connect.js",
           "profile": {
-            "factory": 318,
-            "building": 28,
-            "dependencies": 176
+            "factory": 244,
+            "building": 30,
+            "dependencies": 179
           },
           "failed": false,
           "errors": 0,
@@ -7889,8 +7889,8 @@
           "issuerId": 110,
           "issuerName": "./node_modules/react-redux/es/connect/connect.js",
           "profile": {
-            "factory": 318,
-            "building": 30
+            "factory": 244,
+            "building": 32
           },
           "failed": false,
           "errors": 0,
@@ -7939,8 +7939,8 @@
           "issuerId": 110,
           "issuerName": "./node_modules/react-redux/es/connect/connect.js",
           "profile": {
-            "factory": 318,
-            "building": 33
+            "factory": 245,
+            "building": 34
           },
           "failed": false,
           "errors": 0,
@@ -7987,8 +7987,8 @@
           "issuerId": 129,
           "issuerName": "./node_modules/react-redux/es/connect/selectorFactory.js",
           "profile": {
-            "factory": 171,
-            "building": 239,
+            "factory": 174,
+            "building": 232,
             "dependencies": 0
           },
           "failed": false,
@@ -8035,7 +8035,7 @@
           "issuerName": "./node_modules/react-router-config/es/index.js",
           "profile": {
             "factory": 277,
-            "building": 141
+            "building": 134
           },
           "failed": false,
           "errors": 0,
@@ -8080,9 +8080,9 @@
           "issuerId": 131,
           "issuerName": "./node_modules/react-router-config/es/matchRoutes.js",
           "profile": {
-            "factory": 579,
-            "building": 273,
-            "dependencies": 188
+            "factory": 505,
+            "building": 260,
+            "dependencies": 151
           },
           "failed": false,
           "errors": 0,
@@ -8126,8 +8126,8 @@
           "issuerName": "./node_modules/react-router-config/es/index.js",
           "profile": {
             "factory": 277,
-            "building": 143,
-            "dependencies": 59
+            "building": 137,
+            "dependencies": 51
           },
           "failed": false,
           "errors": 0,
@@ -8172,9 +8172,9 @@
           "issuerId": 133,
           "issuerName": "./node_modules/react-router-config/es/renderRoutes.js",
           "profile": {
-            "factory": 577,
-            "building": 281,
-            "dependencies": 180
+            "factory": 502,
+            "building": 266,
+            "dependencies": 145
           },
           "failed": false,
           "errors": 0,
@@ -8217,9 +8217,9 @@
           "issuerId": 133,
           "issuerName": "./node_modules/react-router-config/es/renderRoutes.js",
           "profile": {
-            "factory": 577,
-            "building": 289,
-            "dependencies": 172
+            "factory": 502,
+            "building": 272,
+            "dependencies": 139
           },
           "failed": false,
           "errors": 0,
@@ -8262,9 +8262,9 @@
           "issuerId": 5,
           "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
           "profile": {
-            "factory": 661,
-            "building": 80,
-            "dependencies": 16
+            "factory": 592,
+            "building": 82,
+            "dependencies": 12
           },
           "failed": false,
           "errors": 0,
@@ -8305,8 +8305,8 @@
           "issuerId": 136,
           "issuerName": "./node_modules/react-side-effect/lib/index.js",
           "profile": {
-            "factory": 182,
-            "building": 32
+            "factory": 135,
+            "building": 28
           },
           "failed": false,
           "errors": 0,
@@ -8347,8 +8347,8 @@
           "issuerId": 136,
           "issuerName": "./node_modules/react-side-effect/lib/index.js",
           "profile": {
-            "factory": 182,
-            "building": 33
+            "factory": 135,
+            "building": 30
           },
           "failed": false,
           "errors": 0,
@@ -8389,8 +8389,8 @@
           "issuerId": 5,
           "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
           "profile": {
-            "factory": 607,
-            "building": 120
+            "factory": 553,
+            "building": 114
           },
           "failed": false,
           "errors": 0,
@@ -8431,8 +8431,8 @@
           "issuerId": 139,
           "issuerName": "./node_modules/deep-equal/index.js",
           "profile": {
-            "factory": 70,
-            "building": 44
+            "factory": 58,
+            "building": 35
           },
           "failed": false,
           "errors": 0,
@@ -8473,8 +8473,8 @@
           "issuerId": 139,
           "issuerName": "./node_modules/deep-equal/index.js",
           "profile": {
-            "factory": 70,
-            "building": 45
+            "factory": 59,
+            "building": 35
           },
           "failed": false,
           "errors": 0,
@@ -8515,8 +8515,8 @@
           "issuerId": 5,
           "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
           "profile": {
-            "factory": 71,
-            "building": 293,
+            "factory": 74,
+            "building": 277,
             "dependencies": 1
           },
           "failed": false,
@@ -8558,9 +8558,9 @@
           "issuerId": 20,
           "issuerName": "./source/universal/components/Page/index.js",
           "profile": {
-            "factory": 130,
+            "factory": 129,
             "building": 128,
-            "dependencies": 166
+            "dependencies": 182
           },
           "failed": false,
           "errors": 0,
@@ -8606,8 +8606,8 @@
           "issuerId": 6,
           "issuerName": "./node_modules/styled-components/dist/styled-components.es.js",
           "profile": {
-            "factory": 316,
-            "building": 42
+            "factory": 315,
+            "building": 28
           },
           "failed": false,
           "errors": 0,
@@ -8648,8 +8648,8 @@
           "issuerId": 6,
           "issuerName": "./node_modules/styled-components/dist/styled-components.es.js",
           "profile": {
-            "factory": 477,
-            "building": 37
+            "factory": 457,
+            "building": 25
           },
           "failed": false,
           "errors": 0,
@@ -8692,8 +8692,8 @@
           "issuerId": 145,
           "issuerName": "./node_modules/is-plain-object/index.js",
           "profile": {
-            "factory": 168,
-            "building": 28
+            "factory": 123,
+            "building": 27
           },
           "failed": false,
           "errors": 0,
@@ -8734,8 +8734,8 @@
           "issuerId": 6,
           "issuerName": "./node_modules/styled-components/dist/styled-components.es.js",
           "profile": {
-            "factory": 477,
-            "building": 73
+            "factory": 457,
+            "building": 60
           },
           "failed": false,
           "errors": 0,
@@ -8778,8 +8778,8 @@
           "issuerId": 6,
           "issuerName": "./node_modules/styled-components/dist/styled-components.es.js",
           "profile": {
-            "factory": 406,
-            "building": 80
+            "factory": 370,
+            "building": 91
           },
           "failed": false,
           "errors": 0,
@@ -8822,9 +8822,9 @@
           "issuerId": 35,
           "issuerName": "./source/universal/components/Center/index.js",
           "profile": {
-            "factory": 123,
-            "building": 140,
-            "dependencies": 154
+            "factory": 122,
+            "building": 143,
+            "dependencies": 167
           },
           "failed": false,
           "errors": 0,
@@ -8870,9 +8870,9 @@
           "issuerId": 36,
           "issuerName": "./source/universal/components/Text/index.js",
           "profile": {
-            "factory": 114,
-            "building": 152,
-            "dependencies": 143
+            "factory": 117,
+            "building": 156,
+            "dependencies": 153
           },
           "failed": false,
           "errors": 0,
@@ -8918,9 +8918,9 @@
           "issuerId": 37,
           "issuerName": "./source/universal/components/Flexbox/index.js",
           "profile": {
-            "factory": 107,
-            "building": 166,
-            "dependencies": 129
+            "factory": 109,
+            "building": 167,
+            "dependencies": 143
           },
           "failed": false,
           "errors": 0,
@@ -8966,9 +8966,9 @@
           "issuerId": 59,
           "issuerName": "./source/universal/Routes/Routes.js",
           "profile": {
-            "factory": 198,
-            "building": 149,
-            "dependencies": 4
+            "factory": 178,
+            "building": 140,
+            "dependencies": 5
           },
           "failed": false,
           "errors": 0,
@@ -9011,9 +9011,9 @@
           "issuerId": 59,
           "issuerName": "./source/universal/Routes/Routes.js",
           "profile": {
-            "factory": 199,
-            "building": 187,
-            "dependencies": 714
+            "factory": 180,
+            "building": 185,
+            "dependencies": 635
           },
           "failed": false,
           "errors": 0,
@@ -9058,9 +9058,9 @@
           "issuerId": 59,
           "issuerName": "./source/universal/Routes/Routes.js",
           "profile": {
-            "factory": 200,
-            "building": 208,
-            "dependencies": 692
+            "factory": 180,
+            "building": 206,
+            "dependencies": 614
           },
           "failed": false,
           "errors": 0,
@@ -9105,9 +9105,9 @@
           "issuerId": 59,
           "issuerName": "./source/universal/Routes/Routes.js",
           "profile": {
-            "factory": 200,
-            "building": 238,
-            "dependencies": 662
+            "factory": 180,
+            "building": 232,
+            "dependencies": 588
           },
           "failed": false,
           "errors": 0,
@@ -9152,9 +9152,9 @@
           "issuerId": 59,
           "issuerName": "./source/universal/Routes/Routes.js",
           "profile": {
-            "factory": 200,
+            "factory": 180,
             "building": 261,
-            "dependencies": 639
+            "dependencies": 559
           },
           "failed": false,
           "errors": 0,
@@ -9199,9 +9199,9 @@
           "issuerId": 67,
           "issuerName": "./source/universal/pages/HomePage/HomePage.js",
           "profile": {
-            "factory": 440,
-            "building": 251,
-            "dependencies": 20
+            "factory": 453,
+            "building": 215,
+            "dependencies": 13
           },
           "failed": false,
           "errors": 0,
@@ -9246,8 +9246,8 @@
           "issuerId": 68,
           "issuerName": "./source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js",
           "profile": {
-            "factory": 89,
-            "building": 105
+            "factory": 73,
+            "building": 67
           },
           "failed": false,
           "errors": 0,
@@ -9292,9 +9292,9 @@
           "issuerId": 158,
           "issuerName": "./source/universal/components/ImageBackground/index.js",
           "profile": {
-            "factory": 10,
-            "building": 34,
-            "dependencies": 4
+            "factory": 7,
+            "building": 28,
+            "dependencies": 6
           },
           "failed": false,
           "errors": 0,
@@ -9327,7 +9327,7 @@
           "name": "./source/universal/components/themes/Flexbox.js",
           "index": 160,
           "index2": 153,
-          "size": 497,
+          "size": 597,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -9340,8 +9340,8 @@
           "issuerId": 68,
           "issuerName": "./source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js",
           "profile": {
-            "factory": 45,
-            "building": 61
+            "factory": 30,
+            "building": 55
           },
           "failed": false,
           "errors": 0,
@@ -9365,7 +9365,7 @@
           ],
           "optimizationBailout": [],
           "depth": 7,
-          "source": "var _default = {\n    rowAlignLeft: {\n        flexDirection: 'row',\n        justifyContent: 'flex-start'\n    },\n    rowGapped: {\n        flexDirection: 'row',\n        justifyContent: 'space-between'\n    }\n\n};\nexport default _default;\n;\n\nvar _temp = function () {\n    if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n        return;\n    }\n\n    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/universal/components/themes/Flexbox.js');\n}();\n\n;"
+          "source": "var _default = {\n    rowAlignLeft: {\n        flexDirection: 'row',\n        justifyContent: 'flex-start'\n    },\n    rowGapped: {\n        flexDirection: 'row',\n        justifyContent: 'space-between'\n    },\n    columnGapped: {\n        flexDirection: 'column',\n        justifyContent: 'space-between'\n    }\n\n};\nexport default _default;\n;\n\nvar _temp = function () {\n    if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n        return;\n    }\n\n    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/universal/components/themes/Flexbox.js');\n}();\n\n;"
         },
         {
           "id": 161,
@@ -9386,8 +9386,8 @@
           "issuerId": 68,
           "issuerName": "./source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js",
           "profile": {
-            "factory": 46,
-            "building": 70
+            "factory": 31,
+            "building": 60
           },
           "failed": false,
           "errors": 0,
@@ -9432,8 +9432,8 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 79,
-            "building": 76
+            "factory": 68,
+            "building": 74
           },
           "failed": false,
           "errors": 0,
@@ -9478,9 +9478,9 @@
           "issuerId": 162,
           "issuerName": "./source/server/App/index.js",
           "profile": {
-            "factory": 24,
-            "building": 161,
-            "dependencies": 85
+            "factory": 26,
+            "building": 153,
+            "dependencies": 80
           },
           "failed": false,
           "errors": 0,
@@ -9526,8 +9526,8 @@
           "issuerId": 163,
           "issuerName": "./source/server/App/App.js",
           "profile": {
-            "factory": 468,
-            "building": 309
+            "factory": 449,
+            "building": 246
           },
           "failed": false,
           "errors": 0,
@@ -9572,9 +9572,9 @@
           "issuerId": 164,
           "issuerName": "./source/universal/App/index.js",
           "profile": {
-            "factory": 102,
-            "building": 258,
-            "dependencies": 7
+            "factory": 107,
+            "building": 255,
+            "dependencies": 5
           },
           "failed": false,
           "errors": 0,
@@ -9620,9 +9620,9 @@
           "issuerId": 165,
           "issuerName": "./source/universal/App/App.js",
           "profile": {
-            "factory": 273,
-            "building": 79,
-            "dependencies": 1
+            "factory": 231,
+            "building": 57,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -9667,7 +9667,7 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 141,
+            "factory": 127,
             "building": 27
           },
           "failed": false,
@@ -9700,7 +9700,7 @@
           "name": "./source/server/components/Html/Html.js",
           "index": 168,
           "index2": 171,
-          "size": 3844,
+          "size": 4134,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -9713,9 +9713,9 @@
           "issuerId": 167,
           "issuerName": "./source/server/components/Html/index.js",
           "profile": {
-            "factory": 45,
-            "building": 204,
-            "dependencies": 701
+            "factory": 52,
+            "building": 185,
+            "dependencies": 626
           },
           "failed": false,
           "errors": 0,
@@ -9740,7 +9740,7 @@
           ],
           "optimizationBailout": [],
           "depth": 3,
-          "source": "var _templateObject = _taggedTemplateLiteral(['', ''], ['', '']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n      html, body, #', ' {\\n        height: 100%;\\n  \\n        margin: 0;\\n  \\n        padding: 0;\\n  \\n        width: 100%;\\n\\n        box-sizing: border-box;\\n\\n        font-family: \\'Source Sans Pro\\', sans-serif;\\n      }\\n\\n      *, *:before, *:after {\\n        -webkit-box-sizing: inherit;\\n        -moz-box-sizing: inherit;\\n        box-sizing: inherit;\\n      }\\n    '], ['\\n      html, body, #', ' {\\n        height: 100%;\\n  \\n        margin: 0;\\n  \\n        padding: 0;\\n  \\n        width: 100%;\\n\\n        box-sizing: border-box;\\n\\n        font-family: \\'Source Sans Pro\\', sans-serif;\\n      }\\n\\n      *, *:before, *:after {\\n        -webkit-box-sizing: inherit;\\n        -moz-box-sizing: inherit;\\n        box-sizing: inherit;\\n      }\\n    ']);\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nimport React from 'react';\nimport { renderToString, renderToStaticMarkup } from 'react-dom/server';\nimport { Helmet } from 'react-helmet';\nimport { injectGlobal, ServerStyleSheet } from 'styled-components';\nimport { normalize } from 'polished';\nimport { flushChunkNames } from 'react-universal-component/server';\nimport flushChunks from 'webpack-flush-chunks';\n\nimport faviconUrl from 'server/components/Html/images/favicon.ico';\n\nexport var Html = function Html(_ref) {\n  var children = _ref.children,\n      clientStats = _ref.clientStats,\n      store = _ref.store;\n\n  try {\n    injectGlobal(_templateObject, normalize());\n\n    injectGlobal(_templateObject2, process.env.REACT_CONTAINER_ID);\n\n    var styleSheet = new ServerStyleSheet();\n\n    styleSheet.collectStyles(renderToString(children));\n\n    var helmet = Helmet.renderStatic();\n\n    var htmlAttributes = helmet.htmlAttributes.toComponent();\n    var bodyAttributes = helmet.bodyAttributes.toComponent();\n\n    var base = helmet.base.toComponent();\n    var link = helmet.link.toComponent();\n    var meta = helmet.meta.toComponent();\n    var noscript = helmet.noscript.toComponent();\n    var script = helmet.script.toComponent();\n    var style = helmet.style.toComponent();\n    var title = helmet.title.toComponent();\n\n    var chunkNames = flushChunkNames();\n\n    var chunks = flushChunks(clientStats, { chunkNames: chunkNames });\n\n    var CssHash = chunks.CssHash,\n        Js = chunks.Js,\n        Styles = chunks.Styles,\n        scripts = chunks.scripts;\n\n\n    return React.createElement(\n      'html',\n      htmlAttributes,\n      React.createElement(\n        'head',\n        null,\n        base,\n        link,\n        meta,\n        noscript,\n        script,\n        style,\n        title,\n        React.createElement('link', { rel: 'shortcut icon', href: faviconUrl }),\n        styleSheet.getStyleElement(),\n        React.createElement(Styles, null)\n      ),\n      React.createElement(\n        'body',\n        bodyAttributes,\n        React.createElement(\n          'div',\n          { id: process.env.REACT_CONTAINER_ID },\n          children\n        ),\n        React.createElement('script', { dangerouslySetInnerHTML: { __html: 'window._INITIAL_STATE_ = ' + JSON.stringify(store.getState()) } }),\n        React.createElement(CssHash, null),\n        React.createElement(Js, null)\n      )\n    );\n  } catch (error) {\n    return null;\n  }\n};\n\nvar _default = Html;\nexport default _default;\n;\n\nvar _temp = function () {\n  if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n    return;\n  }\n\n  __REACT_HOT_LOADER__.register(Html, 'Html', '/Users/hafizalfaza/practice/react/instaclone/source/server/components/Html/Html.js');\n\n  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/server/components/Html/Html.js');\n}();\n\n;"
+          "source": "var _templateObject = _taggedTemplateLiteral(['', ''], ['', '']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n      html, body, #', ' {\\n        height: 100%;\\n  \\n        margin: 0;\\n  \\n        padding: 0;\\n  \\n        width: 100%;\\n\\n        box-sizing: border-box;\\n\\n        font-family: \\'Source Sans Pro\\', sans-serif;\\n\\n        color: \\'black\\';\\n\\n        font-size: \\'12px\\';   \\n        \\n      }\\n\\n      *, *:before, *:after {\\n        -webkit-box-sizing: inherit;\\n        -moz-box-sizing: inherit;\\n        box-sizing: inherit;\\n        font-size: \\'12px\\';\\n        margin: 0;\\n        padding: 0;\\n      }\\n    '], ['\\n      html, body, #', ' {\\n        height: 100%;\\n  \\n        margin: 0;\\n  \\n        padding: 0;\\n  \\n        width: 100%;\\n\\n        box-sizing: border-box;\\n\\n        font-family: \\'Source Sans Pro\\', sans-serif;\\n\\n        color: \\'black\\';\\n\\n        font-size: \\'12px\\';   \\n        \\n      }\\n\\n      *, *:before, *:after {\\n        -webkit-box-sizing: inherit;\\n        -moz-box-sizing: inherit;\\n        box-sizing: inherit;\\n        font-size: \\'12px\\';\\n        margin: 0;\\n        padding: 0;\\n      }\\n    ']);\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nimport React from 'react';\nimport { renderToString, renderToStaticMarkup } from 'react-dom/server';\nimport { Helmet } from 'react-helmet';\nimport { injectGlobal, ServerStyleSheet } from 'styled-components';\nimport { normalize } from 'polished';\nimport { flushChunkNames } from 'react-universal-component/server';\nimport flushChunks from 'webpack-flush-chunks';\n\nimport faviconUrl from 'server/components/Html/images/favicon.ico';\n\nexport var Html = function Html(_ref) {\n  var children = _ref.children,\n      clientStats = _ref.clientStats,\n      store = _ref.store;\n\n  try {\n    injectGlobal(_templateObject, normalize());\n\n    injectGlobal(_templateObject2, process.env.REACT_CONTAINER_ID);\n\n    var styleSheet = new ServerStyleSheet();\n\n    styleSheet.collectStyles(renderToString(children));\n\n    var helmet = Helmet.renderStatic();\n\n    var htmlAttributes = helmet.htmlAttributes.toComponent();\n    var bodyAttributes = helmet.bodyAttributes.toComponent();\n\n    var base = helmet.base.toComponent();\n    var link = helmet.link.toComponent();\n    var meta = helmet.meta.toComponent();\n    var noscript = helmet.noscript.toComponent();\n    var script = helmet.script.toComponent();\n    var style = helmet.style.toComponent();\n    var title = helmet.title.toComponent();\n\n    var chunkNames = flushChunkNames();\n\n    var chunks = flushChunks(clientStats, { chunkNames: chunkNames });\n\n    var CssHash = chunks.CssHash,\n        Js = chunks.Js,\n        Styles = chunks.Styles,\n        scripts = chunks.scripts;\n\n\n    return React.createElement(\n      'html',\n      htmlAttributes,\n      React.createElement(\n        'head',\n        null,\n        base,\n        link,\n        meta,\n        noscript,\n        script,\n        style,\n        title,\n        React.createElement('link', { rel: 'shortcut icon', href: faviconUrl }),\n        styleSheet.getStyleElement(),\n        React.createElement(Styles, null)\n      ),\n      React.createElement(\n        'body',\n        bodyAttributes,\n        React.createElement(\n          'div',\n          { id: process.env.REACT_CONTAINER_ID },\n          children\n        ),\n        React.createElement('script', { dangerouslySetInnerHTML: { __html: 'window._INITIAL_STATE_ = ' + JSON.stringify(store.getState()) } }),\n        React.createElement(CssHash, null),\n        React.createElement(Js, null)\n      )\n    );\n  } catch (error) {\n    return null;\n  }\n};\n\nvar _default = Html;\nexport default _default;\n;\n\nvar _temp = function () {\n  if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n    return;\n  }\n\n  __REACT_HOT_LOADER__.register(Html, 'Html', '/Users/hafizalfaza/practice/react/instaclone/source/server/components/Html/Html.js');\n\n  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/server/components/Html/Html.js');\n}();\n\n;"
         },
         {
           "id": 169,
@@ -9761,8 +9761,8 @@
           "issuerId": 168,
           "issuerName": "./source/server/components/Html/Html.js",
           "profile": {
-            "factory": 728,
-            "building": 205
+            "factory": 657,
+            "building": 289
           },
           "failed": false,
           "errors": 0,
@@ -9864,8 +9864,8 @@
           "issuerId": 168,
           "issuerName": "./source/server/components/Html/Html.js",
           "profile": {
-            "factory": 704,
-            "building": 97
+            "factory": 629,
+            "building": 101
           },
           "failed": false,
           "errors": 0,
@@ -9908,8 +9908,8 @@
           "issuerId": 168,
           "issuerName": "./source/server/components/Html/Html.js",
           "profile": {
-            "factory": 729,
-            "building": 282
+            "factory": 657,
+            "building": 297
           },
           "failed": false,
           "errors": 0,
@@ -9952,9 +9952,9 @@
           "issuerId": 171,
           "issuerName": "(webpack)-flush-chunks/dist/flushChunks.js",
           "profile": {
-            "factory": 270,
-            "building": 51,
-            "dependencies": 12
+            "factory": 228,
+            "building": 34,
+            "dependencies": 8
           },
           "failed": false,
           "errors": 0,
@@ -10036,8 +10036,8 @@
           "issuerId": 168,
           "issuerName": "./source/server/components/Html/Html.js",
           "profile": {
-            "factory": 808,
-            "building": 276
+            "factory": 737,
+            "building": 268
           },
           "failed": false,
           "errors": 0,
@@ -10080,8 +10080,8 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 175,
-            "building": 140
+            "factory": 164,
+            "building": 135
           },
           "failed": false,
           "errors": 0,
@@ -10124,9 +10124,9 @@
           "issuerId": 73,
           "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
           "profile": {
-            "factory": 75,
-            "building": 63,
-            "dependencies": 37
+            "factory": 64,
+            "building": 23,
+            "dependencies": 76
           },
           "failed": false,
           "errors": 0,
@@ -10171,8 +10171,8 @@
           "issuerId": 176,
           "issuerName": "./source/universal/reducers/index.js",
           "profile": {
-            "factory": 32,
-            "building": 40
+            "factory": 70,
+            "building": 45
           },
           "failed": false,
           "errors": 0,
@@ -10279,8 +10279,8 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 171,
-        "building": 41
+        "factory": 158,
+        "building": 47
       },
       "failed": false,
       "errors": 0,
@@ -10654,8 +10654,8 @@
       "issuerId": 83,
       "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "profile": {
-        "factory": 606,
-        "building": 234
+        "factory": 527,
+        "building": 227
       },
       "failed": false,
       "errors": 0,
@@ -10876,8 +10876,8 @@
       "issuerId": 83,
       "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "profile": {
-        "factory": 738,
-        "building": 255
+        "factory": 671,
+        "building": 216
       },
       "failed": false,
       "errors": 0,
@@ -11080,8 +11080,8 @@
       "issuerId": 44,
       "issuerName": "./node_modules/react-router-dom/es/Link.js",
       "profile": {
-        "factory": 728,
-        "building": 257
+        "factory": 662,
+        "building": 220
       },
       "failed": false,
       "errors": 0,
@@ -11248,9 +11248,9 @@
       "issuerId": 152,
       "issuerName": "./source/universal/pages/IndexPage/index.js",
       "profile": {
-        "factory": 753,
-        "building": 237,
-        "dependencies": 278
+        "factory": 681,
+        "building": 241,
+        "dependencies": 235
       },
       "failed": false,
       "errors": 0,
@@ -11345,9 +11345,9 @@
       "issuerId": 34,
       "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
       "profile": {
-        "factory": 842,
-        "building": 51,
-        "dependencies": 135
+        "factory": 752,
+        "building": 57,
+        "dependencies": 133
       },
       "failed": false,
       "errors": 0,
@@ -11435,9 +11435,9 @@
       "issuerId": 168,
       "issuerName": "./source/server/components/Html/Html.js",
       "profile": {
-        "factory": 728,
-        "building": 270,
-        "dependencies": 315
+        "factory": 657,
+        "building": 234,
+        "dependencies": 313
       },
       "failed": false,
       "errors": 0,
@@ -11624,8 +11624,8 @@
       "issuerId": 152,
       "issuerName": "./source/universal/pages/IndexPage/index.js",
       "profile": {
-        "factory": 670,
-        "building": 103
+        "factory": 596,
+        "building": 108
       },
       "failed": false,
       "errors": 0,
@@ -11713,9 +11713,9 @@
       "issuerId": 152,
       "issuerName": "./source/universal/pages/IndexPage/index.js",
       "profile": {
-        "factory": 671,
-        "building": 104,
-        "dependencies": 190
+        "factory": 597,
+        "building": 111,
+        "dependencies": 199
       },
       "failed": false,
       "errors": 0,
@@ -11803,9 +11803,9 @@
       "issuerId": 152,
       "issuerName": "./source/universal/pages/IndexPage/index.js",
       "profile": {
-        "factory": 284,
-        "building": 111,
-        "dependencies": 258
+        "factory": 288,
+        "building": 72,
+        "dependencies": 218
       },
       "failed": false,
       "errors": 0,
@@ -11894,8 +11894,8 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 173,
-        "building": 114
+        "factory": 162,
+        "building": 113
       },
       "failed": false,
       "errors": 0,
@@ -11989,8 +11989,8 @@
       "issuerId": 85,
       "issuerName": "./node_modules/history/createBrowserHistory.js",
       "profile": {
-        "factory": 177,
-        "building": 70
+        "factory": 150,
+        "building": 41
       },
       "failed": false,
       "errors": 0,
@@ -12067,8 +12067,8 @@
       "issuerId": 97,
       "issuerName": "./node_modules/history/es/index.js",
       "profile": {
-        "factory": 51,
-        "building": 98
+        "factory": 48,
+        "building": 62
       },
       "failed": false,
       "errors": 0,
@@ -12161,8 +12161,8 @@
       "issuerId": 74,
       "issuerName": "./node_modules/react/cjs/react.development.js",
       "profile": {
-        "factory": 791,
-        "building": 257
+        "factory": 721,
+        "building": 199
       },
       "failed": false,
       "errors": 0,
@@ -12230,8 +12230,8 @@
       "issuerId": 74,
       "issuerName": "./node_modules/react/cjs/react.development.js",
       "profile": {
-        "factory": 663,
-        "building": 233
+        "factory": 579,
+        "building": 225
       },
       "failed": false,
       "errors": 0,
@@ -12299,9 +12299,9 @@
       "issuerId": 74,
       "issuerName": "./node_modules/react/cjs/react.development.js",
       "profile": {
-        "factory": 664,
-        "building": 233,
-        "dependencies": 1
+        "factory": 580,
+        "building": 226,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -12369,8 +12369,8 @@
       "issuerId": 74,
       "issuerName": "./node_modules/react/cjs/react.development.js",
       "profile": {
-        "factory": 664,
-        "building": 234
+        "factory": 580,
+        "building": 227
       },
       "failed": false,
       "errors": 0,
@@ -12438,9 +12438,9 @@
       "issuerId": 97,
       "issuerName": "./node_modules/history/es/index.js",
       "profile": {
-        "factory": 50,
-        "building": 92,
-        "dependencies": 18
+        "factory": 48,
+        "building": 57,
+        "dependencies": 14
       },
       "failed": false,
       "errors": 0,
@@ -12514,8 +12514,8 @@
       "issuerId": 9,
       "issuerName": "./node_modules/babel-plugin-universal-import/universalImport.js",
       "profile": {
-        "factory": 492,
-        "building": 42
+        "factory": 449,
+        "building": 28
       },
       "failed": false,
       "errors": 0,
@@ -12583,8 +12583,8 @@
       "issuerId": 34,
       "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
       "profile": {
-        "factory": 515,
-        "building": 214
+        "factory": 496,
+        "building": 147
       },
       "failed": false,
       "errors": 0,
@@ -12656,9 +12656,9 @@
       "issuerId": 170,
       "issuerName": "./node_modules/react-universal-component/server.js",
       "profile": {
-        "factory": 265,
-        "building": 232,
-        "dependencies": 2
+        "factory": 261,
+        "building": 202,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -12726,9 +12726,9 @@
       "issuerId": 74,
       "issuerName": "./node_modules/react/cjs/react.development.js",
       "profile": {
-        "factory": 534,
-        "building": 259,
-        "dependencies": 49
+        "factory": 491,
+        "building": 232,
+        "dependencies": 31
       },
       "failed": false,
       "errors": 0,
@@ -12787,9 +12787,9 @@
       "issuerId": 85,
       "issuerName": "./node_modules/history/createBrowserHistory.js",
       "profile": {
-        "factory": 177,
-        "building": 63,
-        "dependencies": 1
+        "factory": 149,
+        "building": 47,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -12848,8 +12848,8 @@
       "issuerId": 85,
       "issuerName": "./node_modules/history/createBrowserHistory.js",
       "profile": {
-        "factory": 177,
-        "building": 72,
+        "factory": 150,
+        "building": 49,
         "dependencies": 0
       },
       "failed": false,
@@ -12909,8 +12909,8 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 297,
-        "building": 138
+        "factory": 294,
+        "building": 132
       },
       "failed": false,
       "errors": 0,
@@ -12973,9 +12973,9 @@
       "issuerId": 25,
       "issuerName": "./node_modules/react-router-dom/es/Router.js",
       "profile": {
-        "factory": 584,
-        "building": 322,
-        "dependencies": 138
+        "factory": 509,
+        "building": 300,
+        "dependencies": 110
       },
       "failed": false,
       "errors": 0,
@@ -13038,9 +13038,9 @@
       "issuerId": 105,
       "issuerName": "./node_modules/react-router-dom/es/matchPath.js",
       "profile": {
-        "factory": 583,
-        "building": 348,
-        "dependencies": 274
+        "factory": 509,
+        "building": 319,
+        "dependencies": 234
       },
       "failed": false,
       "errors": 0,
@@ -13103,8 +13103,8 @@
       "issuerId": 98,
       "issuerName": "./node_modules/history/es/createBrowserHistory.js",
       "profile": {
-        "factory": 53,
-        "building": 10,
+        "factory": 34,
+        "building": 7,
         "dependencies": 0
       },
       "failed": false,
@@ -13168,8 +13168,8 @@
       "issuerId": 51,
       "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
       "profile": {
-        "factory": 713,
-        "building": 222
+        "factory": 634,
+        "building": 196
       },
       "failed": false,
       "errors": 0,
@@ -13228,8 +13228,8 @@
       "issuerId": 108,
       "issuerName": "./node_modules/react-redux/es/components/Provider.js",
       "profile": {
-        "factory": 353,
-        "building": 32
+        "factory": 273,
+        "building": 35
       },
       "failed": false,
       "errors": 0,
@@ -13292,8 +13292,8 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 175,
-        "building": 136
+        "factory": 163,
+        "building": 133
       },
       "failed": false,
       "errors": 0,
@@ -13363,8 +13363,8 @@
       "issuerId": 52,
       "issuerName": "./node_modules/redux/es/createStore.js",
       "profile": {
-        "factory": 575,
-        "building": 352
+        "factory": 634,
+        "building": 196
       },
       "failed": false,
       "errors": 0,
@@ -13427,8 +13427,8 @@
       "issuerId": 131,
       "issuerName": "./node_modules/react-router-config/es/matchRoutes.js",
       "profile": {
-        "factory": 579,
-        "building": 269
+        "factory": 505,
+        "building": 255
       },
       "failed": false,
       "errors": 0,
@@ -13487,9 +13487,9 @@
       "issuerId": 59,
       "issuerName": "./source/universal/Routes/Routes.js",
       "profile": {
-        "factory": 55,
+        "factory": 40,
         "building": 104,
-        "dependencies": 40
+        "dependencies": 35
       },
       "failed": false,
       "errors": 0,
@@ -13552,8 +13552,8 @@
       "issuerId": 34,
       "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
       "profile": {
-        "factory": 516,
-        "building": 220
+        "factory": 497,
+        "building": 153
       },
       "failed": false,
       "errors": 0,
@@ -13616,8 +13616,8 @@
       "issuerId": 34,
       "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
       "profile": {
-        "factory": 516,
-        "building": 229
+        "factory": 497,
+        "building": 159
       },
       "failed": false,
       "errors": 0,
@@ -13680,8 +13680,8 @@
       "issuerId": 34,
       "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
       "profile": {
-        "factory": 516,
-        "building": 236
+        "factory": 497,
+        "building": 167
       },
       "failed": false,
       "errors": 0,
@@ -13744,8 +13744,8 @@
       "issuerId": 74,
       "issuerName": "./node_modules/react/cjs/react.development.js",
       "profile": {
-        "factory": 663,
-        "building": 232
+        "factory": 579,
+        "building": 224
       },
       "failed": false,
       "errors": 0,
@@ -13795,8 +13795,8 @@
       "issuerId": 22,
       "issuerName": "./node_modules/prop-types/checkPropTypes.js",
       "profile": {
-        "factory": 285,
-        "building": 45
+        "factory": 239,
+        "building": 28
       },
       "failed": false,
       "errors": 0,
@@ -13846,8 +13846,8 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 157,
-        "building": 21
+        "factory": 143,
+        "building": 24
       },
       "failed": false,
       "errors": 0,
@@ -13900,8 +13900,8 @@
       "issuerId": 23,
       "issuerName": "./node_modules/history/LocationUtils.js",
       "profile": {
-        "factory": 280,
-        "building": 12
+        "factory": 228,
+        "building": 7
       },
       "failed": false,
       "errors": 0,
@@ -13953,8 +13953,8 @@
       "issuerId": 23,
       "issuerName": "./node_modules/history/LocationUtils.js",
       "profile": {
-        "factory": 281,
-        "building": 9
+        "factory": 229,
+        "building": 7
       },
       "failed": false,
       "errors": 0,
@@ -14006,8 +14006,8 @@
       "issuerId": 85,
       "issuerName": "./node_modules/history/createBrowserHistory.js",
       "profile": {
-        "factory": 178,
-        "building": 73
+        "factory": 150,
+        "building": 51
       },
       "failed": false,
       "errors": 0,
@@ -14057,9 +14057,9 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 295,
-        "building": 127,
-        "dependencies": 595
+        "factory": 293,
+        "building": 123,
+        "dependencies": 517
       },
       "failed": false,
       "errors": 0,
@@ -14113,8 +14113,8 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 297,
-        "building": 136
+        "factory": 294,
+        "building": 131
       },
       "failed": false,
       "errors": 0,
@@ -14168,9 +14168,9 @@
       "issuerId": 45,
       "issuerName": "./node_modules/react-router-dom/es/Route.js",
       "profile": {
-        "factory": 586,
-        "building": 307,
-        "dependencies": 153
+        "factory": 510,
+        "building": 290,
+        "dependencies": 120
       },
       "failed": false,
       "errors": 0,
@@ -14224,8 +14224,8 @@
       "issuerId": 33,
       "issuerName": "./node_modules/react-router/matchPath.js",
       "profile": {
-        "factory": 355,
-        "building": 78
+        "factory": 300,
+        "building": 69
       },
       "failed": false,
       "errors": 0,
@@ -14275,8 +14275,8 @@
       "issuerId": 98,
       "issuerName": "./node_modules/history/es/createBrowserHistory.js",
       "profile": {
-        "factory": 53,
-        "building": 13
+        "factory": 35,
+        "building": 8
       },
       "failed": false,
       "errors": 0,
@@ -14344,8 +14344,8 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 174,
-        "building": 110
+        "factory": 162,
+        "building": 109
       },
       "failed": false,
       "errors": 0,
@@ -14403,8 +14403,8 @@
       "issuerId": 108,
       "issuerName": "./node_modules/react-redux/es/components/Provider.js",
       "profile": {
-        "factory": 353,
-        "building": 30,
+        "factory": 272,
+        "building": 35,
         "dependencies": 166
       },
       "failed": false,
@@ -14461,9 +14461,9 @@
       "issuerId": 49,
       "issuerName": "./node_modules/react-redux/es/index.js",
       "profile": {
-        "factory": 306,
-        "building": 178,
-        "dependencies": 669
+        "factory": 304,
+        "building": 172,
+        "dependencies": 606
       },
       "failed": false,
       "errors": 0,
@@ -14517,8 +14517,8 @@
       "issuerId": 31,
       "issuerName": "./node_modules/redux/es/index.js",
       "profile": {
-        "factory": 274,
-        "building": 147
+        "factory": 276,
+        "building": 141
       },
       "failed": false,
       "errors": 0,
@@ -14574,8 +14574,8 @@
       "issuerId": 113,
       "issuerName": "./node_modules/lodash-es/_baseGetTag.js",
       "profile": {
-        "factory": 122,
-        "building": 33
+        "factory": 115,
+        "building": 22
       },
       "failed": false,
       "errors": 0,
@@ -14630,7 +14630,7 @@
       "issuerName": "./node_modules/redux/es/index.js",
       "profile": {
         "factory": 280,
-        "building": 198
+        "building": 183
       },
       "failed": false,
       "errors": 0,
@@ -14684,8 +14684,8 @@
       "issuerId": 31,
       "issuerName": "./node_modules/redux/es/index.js",
       "profile": {
-        "factory": 275,
-        "building": 159
+        "factory": 276,
+        "building": 155
       },
       "failed": false,
       "errors": 0,
@@ -14739,9 +14739,9 @@
       "issuerId": 112,
       "issuerName": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
       "profile": {
-        "factory": 177,
-        "building": 235,
-        "dependencies": 1
+        "factory": 180,
+        "building": 230,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -14798,9 +14798,9 @@
       "issuerId": 128,
       "issuerName": "./node_modules/react-redux/es/connect/mergeProps.js",
       "profile": {
-        "factory": 174,
-        "building": 236,
-        "dependencies": 2
+        "factory": 177,
+        "building": 230,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -14854,8 +14854,8 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 174,
-        "building": 134
+        "factory": 163,
+        "building": 130
       },
       "failed": false,
       "errors": 0,
@@ -14911,9 +14911,9 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 75,
-        "building": 41,
-        "dependencies": 57
+        "factory": 64,
+        "building": 57,
+        "dependencies": 42
       },
       "failed": false,
       "errors": 0,
@@ -14970,8 +14970,8 @@
       "issuerId": 5,
       "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
       "profile": {
-        "factory": 71,
-        "building": 266
+        "factory": 74,
+        "building": 280
       },
       "failed": false,
       "errors": 0,
@@ -15021,9 +15021,9 @@
       "issuerId": 34,
       "issuerName": "./source/universal/pages/IndexPage/IndexPage.js",
       "profile": {
-        "factory": 305,
-        "building": 111,
-        "dependencies": 1
+        "factory": 181,
+        "building": 226,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -15079,8 +15079,8 @@
       "issuerId": 177,
       "issuerName": "./source/universal/reducers/usersReducer.js",
       "profile": {
-        "factory": 370,
-        "building": 93
+        "factory": 206,
+        "building": 251
       },
       "failed": false,
       "errors": 0,
@@ -15136,9 +15136,9 @@
       "issuerId": 4,
       "issuerName": "./node_modules/react-universal-component/dist/index.js",
       "profile": {
-        "factory": 263,
-        "building": 43,
-        "dependencies": 1
+        "factory": 219,
+        "building": 35,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -15188,8 +15188,8 @@
       "issuerId": 170,
       "issuerName": "./node_modules/react-universal-component/server.js",
       "profile": {
-        "factory": 265,
-        "building": 227,
+        "factory": 261,
+        "building": 205,
         "dependencies": 0
       },
       "failed": false,
@@ -15240,9 +15240,9 @@
       "issuerId": 154,
       "issuerName": "./source/universal/pages/TestPage/index.js",
       "profile": {
-        "factory": 224,
-        "building": 148,
-        "dependencies": 221
+        "factory": 222,
+        "building": 91,
+        "dependencies": 198
       },
       "failed": false,
       "errors": 0,
@@ -15295,9 +15295,9 @@
       "issuerId": 155,
       "issuerName": "./source/universal/pages/NotFoundPage/index.js",
       "profile": {
-        "factory": 194,
-        "building": 178,
-        "dependencies": 191
+        "factory": 196,
+        "building": 115,
+        "dependencies": 174
       },
       "failed": false,
       "errors": 0,
@@ -15350,9 +15350,9 @@
       "issuerId": 156,
       "issuerName": "./source/universal/pages/HomePage/index.js",
       "profile": {
-        "factory": 172,
-        "building": 240,
-        "dependencies": 2
+        "factory": 167,
+        "building": 166,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -15391,7 +15391,7 @@
       "name": "./source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js",
       "index": 157,
       "index2": 155,
-      "size": 4597,
+      "size": 8291,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -15404,9 +15404,9 @@
       "issuerId": 157,
       "issuerName": "./source/universal/pages/HomePage/Newsfeed/NewsfeedItem/index.js",
       "profile": {
-        "factory": 71,
-        "building": 131,
-        "dependencies": 3
+        "factory": 47,
+        "building": 123,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -15437,7 +15437,7 @@
       ],
       "optimizationBailout": [],
       "depth": 6,
-      "source": "var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport React, { Component } from 'react';\nimport Flexbox from 'universal/components/Flexbox';\nimport ImageBackground from 'universal/components/ImageBackground';\n\n// Components Themes\n\nimport flexboxTheme from 'universal/components/themes/Flexbox';\nimport imageBackgroundTheme from 'universal/components/themes/ImageBackground';\n\nvar NewsfeedItem = function (_Component) {\n    _inherits(NewsfeedItem, _Component);\n\n    function NewsfeedItem() {\n        _classCallCheck(this, NewsfeedItem);\n\n        return _possibleConstructorReturn(this, (NewsfeedItem.__proto__ || Object.getPrototypeOf(NewsfeedItem)).apply(this, arguments));\n    }\n\n    _createClass(NewsfeedItem, [{\n        key: 'render',\n        value: function render() {\n            return React.createElement(\n                'div',\n                null,\n                React.createElement(\n                    Flexbox,\n                    {\n                        theme: flexboxTheme.rowGapped,\n                        align: 'center',\n                        style: { padding: '12px', border: '1px black solid' }\n                    },\n                    React.createElement(\n                        Flexbox,\n                        {\n                            theme: flexboxTheme.rowAlignLeft\n                        },\n                        React.createElement(ImageBackground, {\n                            theme: imageBackgroundTheme.coverCenter,\n                            backgroundImage: 'https://images.businessoffashion.com/profiles/asset/2170/ca7d6946a3f502181905560b14ead8299d1a9783.jpeg?auto=format%2Ccompress&fit=crop&h=360&ixlib=php-1.1.0&q=60&w=660',\n                            style: { width: '40px', height: '40px' },\n                            round: true\n                        })\n                    ),\n                    React.createElement(\n                        'div',\n                        null,\n                        '...'\n                    )\n                ),\n                React.createElement(\n                    ImageBackground,\n                    {\n                        theme: imageBackgroundTheme.coverCenter,\n                        backgroundImage: 'https://farm1.nzstatic.com/_proxy/imageproxy_1y/serve/driving-in-new-zealand.jpg?focalpointx=50&focalpointy=50&height=440&outputformat=jpg&quality=75&source=2757411&transformationsystem=focalpointcrop&width=1280&securitytoken=10500ECA684FDFB552AD68F889927D1C' },\n                    'style=',\n                    { width: '100%', height: '200px' }\n                )\n            );\n        }\n    }]);\n\n    return NewsfeedItem;\n}(Component);\n\nvar _default = NewsfeedItem;\n\n\nexport default _default;\n;\n\nvar _temp = function () {\n    if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n        return;\n    }\n\n    __REACT_HOT_LOADER__.register(NewsfeedItem, 'NewsfeedItem', '/Users/hafizalfaza/practice/react/instaclone/source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js');\n\n    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js');\n}();\n\n;"
+      "source": "var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport React, { Component } from 'react';\nimport Flexbox from 'universal/components/Flexbox';\nimport ImageBackground from 'universal/components/ImageBackground';\n\n// Components Themes\n\nimport flexboxTheme from 'universal/components/themes/Flexbox';\nimport imageBackgroundTheme from 'universal/components/themes/ImageBackground';\n\nvar NewsfeedItem = function (_Component) {\n    _inherits(NewsfeedItem, _Component);\n\n    function NewsfeedItem() {\n        _classCallCheck(this, NewsfeedItem);\n\n        return _possibleConstructorReturn(this, (NewsfeedItem.__proto__ || Object.getPrototypeOf(NewsfeedItem)).apply(this, arguments));\n    }\n\n    _createClass(NewsfeedItem, [{\n        key: 'render',\n        value: function render() {\n            return React.createElement(\n                'div',\n                null,\n                React.createElement(\n                    Flexbox,\n                    {\n                        theme: flexboxTheme.rowGapped,\n                        align: 'center',\n                        style: { padding: '12px', border: '1px black solid' }\n                    },\n                    React.createElement(\n                        Flexbox,\n                        {\n                            theme: flexboxTheme.rowAlignLeft\n                        },\n                        React.createElement(ImageBackground, {\n                            theme: imageBackgroundTheme.coverCenter,\n                            backgroundImage: 'https://images.businessoffashion.com/profiles/asset/2170/ca7d6946a3f502181905560b14ead8299d1a9783.jpeg?auto=format%2Ccompress&fit=crop&h=360&ixlib=php-1.1.0&q=60&w=660',\n                            style: { width: '40px', height: '40px' },\n                            round: true\n                        }),\n                        React.createElement(\n                            Flexbox,\n                            {\n                                theme: flexboxTheme.columnGapped\n                            },\n                            React.createElement(\n                                'h2',\n                                { style: { fontSize: '14px' } },\n                                'kevinsystrom'\n                            ),\n                            React.createElement(\n                                'h3',\n                                { style: { fontSize: '14px' } },\n                                'New Zealand'\n                            )\n                        )\n                    ),\n                    React.createElement(\n                        'div',\n                        null,\n                        '...'\n                    )\n                ),\n                React.createElement(ImageBackground, {\n                    theme: imageBackgroundTheme.coverCenter,\n                    backgroundImage: 'https://farm1.nzstatic.com/_proxy/imageproxy_1y/serve/driving-in-new-zealand.jpg?focalpointx=50&focalpointy=50&height=440&outputformat=jpg&quality=75&source=2757411&transformationsystem=focalpointcrop&width=1280&securitytoken=10500ECA684FDFB552AD68F889927D1C',\n                    style: { width: '100%', paddingBottom: '100%' }\n                }),\n                React.createElement(\n                    Flexbox,\n                    {\n                        theme: flexboxTheme.rowGapped,\n                        style: { padding: '15px 20px' }\n                    },\n                    React.createElement(\n                        Flexbox,\n                        {\n                            theme: flexboxTheme.rowAlignLeft\n                        },\n                        React.createElement(\n                            'div',\n                            { style: { marginRight: '10px' } },\n                            React.createElement(\n                                'svg',\n                                { width: '22px', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 51.997 51.997' },\n                                React.createElement('path', { d: 'M51.911 16.242c-.759-8.354-6.672-14.415-14.072-14.415-4.93 0-9.444 2.653-11.984 6.905-2.517-4.307-6.846-6.906-11.697-6.906C6.759 1.826.845 7.887.087 16.241c-.06.369-.306 2.311.442 5.478 1.078 4.568 3.568 8.723 7.199 12.013l18.115 16.439 18.426-16.438c3.631-3.291 6.121-7.445 7.199-12.014.748-3.166.502-5.108.443-5.477zm-2.39 5.019c-.984 4.172-3.265 7.973-6.59 10.985L25.855 47.481 9.072 32.25c-3.331-3.018-5.611-6.818-6.596-10.99-.708-2.997-.417-4.69-.416-4.701l.015-.101c.65-7.319 5.731-12.632 12.083-12.632 4.687 0 8.813 2.88 10.771 7.515l.921 2.183.921-2.183c1.927-4.564 6.271-7.514 11.069-7.514 6.351 0 11.433 5.313 12.096 12.727.002.016.293 1.71-.415 4.707z' })\n                            )\n                        ),\n                        React.createElement(\n                            'div',\n                            null,\n                            React.createElement(\n                                'svg',\n                                { width: '22px', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 60 60' },\n                                React.createElement('path', { d: 'M55.232 43.104C58.354 38.745 60 33.705 60 28.5c0-14.888-13.458-27-30-27S0 13.612 0 28.5s13.458 27 30 27c4.262 0 8.378-.79 12.244-2.348 6.805 3.927 16.212 5.282 16.618 5.338a1 1 0 0 0 .846-1.697c-2.301-2.3-3.885-7.153-4.476-13.689zM42.84 51.182c-2.11-1.302-4.467-2.814-5.017-3.249a.998.998 0 0 0-1.337-.29 1.024 1.024 0 0 0-.492.861c-.003.589.006.77 4.081 3.316A30.706 30.706 0 0 1 30 53.5c-15.439 0-28-11.215-28-25s12.561-25 28-25 28 11.215 28 25c0 4.897-1.591 9.643-4.601 13.724a.995.995 0 0 0-.191.677c.35 4.174 1.238 9.49 3.44 13.16-3.334-.678-9.343-2.183-13.808-4.879z' })\n                            )\n                        )\n                    ),\n                    React.createElement(\n                        'div',\n                        null,\n                        React.createElement(\n                            'svg',\n                            { style: { width: '22px' }, xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 46 46' },\n                            React.createElement('path', { d: 'M8 0v46l15-12 15 12V0H8zm28 42L23 31 10 42V2h26v40z' })\n                        )\n                    )\n                )\n            );\n        }\n    }]);\n\n    return NewsfeedItem;\n}(Component);\n\nvar _default = NewsfeedItem;\n\n\nexport default _default;\n;\n\nvar _temp = function () {\n    if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n        return;\n    }\n\n    __REACT_HOT_LOADER__.register(NewsfeedItem, 'NewsfeedItem', '/Users/hafizalfaza/practice/react/instaclone/source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js');\n\n    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js');\n}();\n\n;"
     },
     {
       "id": 69,
@@ -15458,7 +15458,7 @@
       "issuerId": null,
       "issuerName": null,
       "profile": {
-        "factory": 2,
+        "factory": 1,
         "building": 2
       },
       "failed": false,
@@ -15489,8 +15489,8 @@
       "issuerId": 69,
       "issuerName": "multi raf/polyfill ./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 48,
-        "building": 15
+        "factory": 45,
+        "building": 18
       },
       "failed": false,
       "errors": 0,
@@ -15531,8 +15531,8 @@
       "issuerId": 70,
       "issuerName": "./node_modules/raf/polyfill.js",
       "profile": {
-        "factory": 344,
-        "building": 490
+        "factory": 347,
+        "building": 458
       },
       "failed": false,
       "errors": 0,
@@ -15574,7 +15574,7 @@
       "issuerName": "./node_modules/raf/index.js",
       "profile": {
         "factory": 149,
-        "building": 214
+        "building": 198
       },
       "failed": false,
       "errors": 0,
@@ -15615,8 +15615,8 @@
       "issuerId": 69,
       "issuerName": "multi raf/polyfill ./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 65,
-        "building": 768
+        "factory": 64,
+        "building": 746
       },
       "failed": false,
       "errors": 0,
@@ -15660,8 +15660,8 @@
       "issuerId": 0,
       "issuerName": "./node_modules/react/index.js",
       "profile": {
-        "factory": 131,
-        "building": 296
+        "factory": 120,
+        "building": 302
       },
       "failed": false,
       "errors": 0,
@@ -15702,8 +15702,8 @@
       "issuerId": 40,
       "issuerName": "./node_modules/react-dom/server.js",
       "profile": {
-        "factory": 165,
-        "building": 302
+        "factory": 158,
+        "building": 305
       },
       "failed": false,
       "errors": 0,
@@ -15744,9 +15744,9 @@
       "issuerId": 75,
       "issuerName": "./node_modules/react-dom/server.node.js",
       "profile": {
-        "factory": 148,
-        "building": 301,
-        "dependencies": 337
+        "factory": 133,
+        "building": 227,
+        "dependencies": 357
       },
       "failed": false,
       "errors": 0,
@@ -15787,8 +15787,8 @@
       "issuerId": 76,
       "issuerName": "./node_modules/react-dom/cjs/react-dom-server.node.development.js",
       "profile": {
-        "factory": 340,
-        "building": 255
+        "factory": 357,
+        "building": 217
       },
       "failed": false,
       "errors": 0,
@@ -15829,8 +15829,8 @@
       "issuerId": 77,
       "issuerName": "./node_modules/fbjs/lib/hyphenateStyleName.js",
       "profile": {
-        "factory": 63,
-        "building": 136
+        "factory": 45,
+        "building": 126
       },
       "failed": false,
       "errors": 0,
@@ -15871,8 +15871,8 @@
       "issuerId": 76,
       "issuerName": "./node_modules/react-dom/cjs/react-dom-server.node.development.js",
       "profile": {
-        "factory": 340,
-        "building": 256
+        "factory": 360,
+        "building": 215
       },
       "failed": false,
       "errors": 0,
@@ -15913,8 +15913,8 @@
       "issuerId": 76,
       "issuerName": "./node_modules/react-dom/cjs/react-dom-server.node.development.js",
       "profile": {
-        "factory": 340,
-        "building": 256
+        "factory": 361,
+        "building": 214
       },
       "failed": false,
       "errors": 0,
@@ -15955,8 +15955,8 @@
       "issuerId": 80,
       "issuerName": "./node_modules/fbjs/lib/camelizeStyleName.js",
       "profile": {
-        "factory": 62,
-        "building": 135
+        "factory": 45,
+        "building": 125
       },
       "failed": false,
       "errors": 0,
@@ -15997,8 +15997,8 @@
       "issuerId": 76,
       "issuerName": "./node_modules/react-dom/cjs/react-dom-server.node.development.js",
       "profile": {
-        "factory": 2,
-        "building": 0
+        "factory": 1,
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -16038,9 +16038,9 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 294,
-        "building": 117,
-        "dependencies": 88
+        "factory": 292,
+        "building": 114,
+        "dependencies": 76
       },
       "failed": false,
       "errors": 0,
@@ -16083,9 +16083,9 @@
       "issuerId": 1,
       "issuerName": "./node_modules/prop-types/index.js",
       "profile": {
-        "factory": 197,
-        "building": 56,
-        "dependencies": 2
+        "factory": 165,
+        "building": 39,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -16126,9 +16126,9 @@
       "issuerId": 83,
       "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
       "profile": {
-        "factory": 607,
-        "building": 254,
-        "dependencies": 134
+        "factory": 528,
+        "building": 242,
+        "dependencies": 119
       },
       "failed": false,
       "errors": 0,
@@ -16171,9 +16171,9 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 294,
-        "building": 122,
-        "dependencies": 733
+        "factory": 293,
+        "building": 117,
+        "dependencies": 667
       },
       "failed": false,
       "errors": 0,
@@ -16216,9 +16216,9 @@
       "issuerId": 86,
       "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "profile": {
-        "factory": 602,
-        "building": 264,
-        "dependencies": 168
+        "factory": 524,
+        "building": 250,
+        "dependencies": 142
       },
       "failed": false,
       "errors": 0,
@@ -16261,8 +16261,8 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 296,
-        "building": 128
+        "factory": 293,
+        "building": 125
       },
       "failed": false,
       "errors": 0,
@@ -16305,9 +16305,9 @@
       "issuerId": 88,
       "issuerName": "./node_modules/react-router-dom/es/MemoryRouter.js",
       "profile": {
-        "factory": 595,
-        "building": 294,
-        "dependencies": 166
+        "factory": 517,
+        "building": 274,
+        "dependencies": 136
       },
       "failed": false,
       "errors": 0,
@@ -16352,9 +16352,9 @@
       "issuerId": 89,
       "issuerName": "./node_modules/react-router/es/MemoryRouter.js",
       "profile": {
-        "factory": 289,
-        "building": 30,
-        "dependencies": 1
+        "factory": 253,
+        "building": 19,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -16397,9 +16397,9 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 296,
-        "building": 134,
-        "dependencies": 587
+        "factory": 294,
+        "building": 128,
+        "dependencies": 511
       },
       "failed": false,
       "errors": 0,
@@ -16442,7 +16442,7 @@
       "issuerId": 47,
       "issuerName": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
       "profile": {
-        "factory": 119,
+        "factory": 82,
         "building": 1
       },
       "failed": false,
@@ -16484,8 +16484,8 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 296,
-        "building": 136
+        "factory": 294,
+        "building": 130
       },
       "failed": false,
       "errors": 0,
@@ -16528,9 +16528,9 @@
       "issuerId": 93,
       "issuerName": "./node_modules/react-router-dom/es/Prompt.js",
       "profile": {
-        "factory": 587,
-        "building": 300,
-        "dependencies": 160
+        "factory": 511,
+        "building": 278,
+        "dependencies": 132
       },
       "failed": false,
       "errors": 0,
@@ -16575,8 +16575,8 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 296,
-        "building": 138
+        "factory": 294,
+        "building": 131
       },
       "failed": false,
       "errors": 0,
@@ -16619,9 +16619,9 @@
       "issuerId": 95,
       "issuerName": "./node_modules/react-router-dom/es/Redirect.js",
       "profile": {
-        "factory": 585,
-        "building": 311,
-        "dependencies": 149
+        "factory": 510,
+        "building": 281,
+        "dependencies": 129
       },
       "failed": false,
       "errors": 0,
@@ -16666,8 +16666,8 @@
       "issuerId": 96,
       "issuerName": "./node_modules/react-router/es/Redirect.js",
       "profile": {
-        "factory": 272,
-        "building": 31
+        "factory": 246,
+        "building": 20
       },
       "failed": false,
       "errors": 0,
@@ -16719,9 +16719,9 @@
       "issuerId": 97,
       "issuerName": "./node_modules/history/es/index.js",
       "profile": {
-        "factory": 50,
-        "building": 62,
-        "dependencies": 46
+        "factory": 48,
+        "building": 40,
+        "dependencies": 29
       },
       "failed": false,
       "errors": 0,
@@ -16764,9 +16764,9 @@
       "issuerId": 97,
       "issuerName": "./node_modules/history/es/index.js",
       "profile": {
-        "factory": 50,
-        "building": 75,
-        "dependencies": 40
+        "factory": 48,
+        "building": 48,
+        "dependencies": 27
       },
       "failed": false,
       "errors": 0,
@@ -16809,9 +16809,9 @@
       "issuerId": 97,
       "issuerName": "./node_modules/history/es/index.js",
       "profile": {
-        "factory": 50,
-        "building": 87,
-        "dependencies": 28
+        "factory": 48,
+        "building": 54,
+        "dependencies": 20
       },
       "failed": false,
       "errors": 0,
@@ -16854,8 +16854,8 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 297,
-        "building": 139
+        "factory": 294,
+        "building": 132
       },
       "failed": false,
       "errors": 0,
@@ -16900,9 +16900,9 @@
       "issuerId": 101,
       "issuerName": "./node_modules/react-router-dom/es/StaticRouter.js",
       "profile": {
-        "factory": 583,
-        "building": 331,
-        "dependencies": 252
+        "factory": 509,
+        "building": 311,
+        "dependencies": 216
       },
       "failed": false,
       "errors": 0,
@@ -16947,8 +16947,8 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 297,
-        "building": 139
+        "factory": 295,
+        "building": 132
       },
       "failed": false,
       "errors": 0,
@@ -16991,9 +16991,9 @@
       "issuerId": 103,
       "issuerName": "./node_modules/react-router-dom/es/Switch.js",
       "profile": {
-        "factory": 584,
-        "building": 335,
-        "dependencies": 124
+        "factory": 508,
+        "building": 317,
+        "dependencies": 93
       },
       "failed": false,
       "errors": 0,
@@ -17038,8 +17038,8 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 297,
-        "building": 140
+        "factory": 295,
+        "building": 132
       },
       "failed": false,
       "errors": 0,
@@ -17082,8 +17082,8 @@
       "issuerId": 11,
       "issuerName": "./node_modules/react-router-dom/es/index.js",
       "profile": {
-        "factory": 298,
-        "building": 139
+        "factory": 295,
+        "building": 133
       },
       "failed": false,
       "errors": 0,
@@ -17126,9 +17126,9 @@
       "issuerId": 106,
       "issuerName": "./node_modules/react-router-dom/es/withRouter.js",
       "profile": {
-        "factory": 583,
-        "building": 350,
-        "dependencies": 109
+        "factory": 508,
+        "building": 328,
+        "dependencies": 81
       },
       "failed": false,
       "errors": 0,
@@ -17173,9 +17173,9 @@
       "issuerId": 49,
       "issuerName": "./node_modules/react-redux/es/index.js",
       "profile": {
-        "factory": 306,
-        "building": 165,
-        "dependencies": 549
+        "factory": 304,
+        "building": 160,
+        "dependencies": 473
       },
       "failed": false,
       "errors": 0,
@@ -17221,8 +17221,8 @@
       "issuerId": 51,
       "issuerName": "./node_modules/react-redux/es/components/connectAdvanced.js",
       "profile": {
-        "factory": 340,
-        "building": 33
+        "factory": 261,
+        "building": 37
       },
       "failed": false,
       "errors": 0,
@@ -17267,9 +17267,9 @@
       "issuerId": 49,
       "issuerName": "./node_modules/react-redux/es/index.js",
       "profile": {
-        "factory": 307,
-        "building": 191,
-        "dependencies": 3
+        "factory": 304,
+        "building": 179,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -17315,8 +17315,8 @@
       "issuerId": 110,
       "issuerName": "./node_modules/react-redux/es/connect/connect.js",
       "profile": {
-        "factory": 326,
-        "building": 34
+        "factory": 253,
+        "building": 38
       },
       "failed": false,
       "errors": 0,
@@ -17361,9 +17361,9 @@
       "issuerId": 110,
       "issuerName": "./node_modules/react-redux/es/connect/connect.js",
       "profile": {
-        "factory": 318,
-        "building": 27,
-        "dependencies": 16
+        "factory": 244,
+        "building": 29,
+        "dependencies": 19
       },
       "failed": false,
       "errors": 0,
@@ -17411,8 +17411,8 @@
       "issuerId": 32,
       "issuerName": "./node_modules/lodash-es/isPlainObject.js",
       "profile": {
-        "factory": 70,
-        "building": 38
+        "factory": 53,
+        "building": 26
       },
       "failed": false,
       "errors": 0,
@@ -17457,8 +17457,8 @@
       "issuerId": 53,
       "issuerName": "./node_modules/lodash-es/_Symbol.js",
       "profile": {
-        "factory": 46,
-        "building": 44
+        "factory": 44,
+        "building": 34
       },
       "failed": false,
       "errors": 0,
@@ -17503,8 +17503,8 @@
       "issuerId": 114,
       "issuerName": "./node_modules/lodash-es/_root.js",
       "profile": {
-        "factory": 66,
-        "building": 8
+        "factory": 38,
+        "building": 5
       },
       "failed": false,
       "errors": 0,
@@ -17549,9 +17549,9 @@
       "issuerId": 113,
       "issuerName": "./node_modules/lodash-es/_baseGetTag.js",
       "profile": {
-        "factory": 123,
-        "building": 33,
-        "dependencies": 0
+        "factory": 116,
+        "building": 21,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -17596,8 +17596,8 @@
       "issuerId": 113,
       "issuerName": "./node_modules/lodash-es/_baseGetTag.js",
       "profile": {
-        "factory": 123,
-        "building": 33
+        "factory": 116,
+        "building": 22
       },
       "failed": false,
       "errors": 0,
@@ -17642,8 +17642,8 @@
       "issuerId": 32,
       "issuerName": "./node_modules/lodash-es/isPlainObject.js",
       "profile": {
-        "factory": 70,
-        "building": 40
+        "factory": 54,
+        "building": 26
       },
       "failed": false,
       "errors": 0,
@@ -17688,8 +17688,8 @@
       "issuerId": 118,
       "issuerName": "./node_modules/lodash-es/_getPrototype.js",
       "profile": {
-        "factory": 121,
-        "building": 35
+        "factory": 115,
+        "building": 22
       },
       "failed": false,
       "errors": 0,
@@ -17734,8 +17734,8 @@
       "issuerId": 32,
       "issuerName": "./node_modules/lodash-es/isPlainObject.js",
       "profile": {
-        "factory": 70,
-        "building": 42
+        "factory": 54,
+        "building": 27
       },
       "failed": false,
       "errors": 0,
@@ -17780,8 +17780,8 @@
       "issuerId": 52,
       "issuerName": "./node_modules/redux/es/createStore.js",
       "profile": {
-        "factory": 771,
-        "building": 227
+        "factory": 687,
+        "building": 198
       },
       "failed": false,
       "errors": 0,
@@ -17824,8 +17824,8 @@
       "issuerId": 121,
       "issuerName": "./node_modules/symbol-observable/index.js",
       "profile": {
-        "factory": 90,
-        "building": 79,
+        "factory": 69,
+        "building": 78,
         "dependencies": 1
       },
       "failed": false,
@@ -17867,8 +17867,8 @@
       "issuerId": 122,
       "issuerName": "./node_modules/symbol-observable/lib/index.js",
       "profile": {
-        "factory": 31,
-        "building": 79
+        "factory": 55,
+        "building": 35
       },
       "failed": false,
       "errors": 0,
@@ -17909,9 +17909,9 @@
       "issuerId": 31,
       "issuerName": "./node_modules/redux/es/index.js",
       "profile": {
-        "factory": 275,
-        "building": 153,
-        "dependencies": 568
+        "factory": 276,
+        "building": 147,
+        "dependencies": 628
       },
       "failed": false,
       "errors": 0,
@@ -17956,8 +17956,8 @@
       "issuerId": 31,
       "issuerName": "./node_modules/redux/es/index.js",
       "profile": {
-        "factory": 275,
-        "building": 156
+        "factory": 276,
+        "building": 150
       },
       "failed": false,
       "errors": 0,
@@ -18002,9 +18002,9 @@
       "issuerId": 31,
       "issuerName": "./node_modules/redux/es/index.js",
       "profile": {
-        "factory": 275,
-        "building": 158,
-        "dependencies": 0
+        "factory": 276,
+        "building": 153,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -18049,9 +18049,9 @@
       "issuerId": 110,
       "issuerName": "./node_modules/react-redux/es/connect/connect.js",
       "profile": {
-        "factory": 318,
-        "building": 28,
-        "dependencies": 176
+        "factory": 244,
+        "building": 30,
+        "dependencies": 179
       },
       "failed": false,
       "errors": 0,
@@ -18098,8 +18098,8 @@
       "issuerId": 110,
       "issuerName": "./node_modules/react-redux/es/connect/connect.js",
       "profile": {
-        "factory": 318,
-        "building": 30
+        "factory": 244,
+        "building": 32
       },
       "failed": false,
       "errors": 0,
@@ -18148,8 +18148,8 @@
       "issuerId": 110,
       "issuerName": "./node_modules/react-redux/es/connect/connect.js",
       "profile": {
-        "factory": 318,
-        "building": 33
+        "factory": 245,
+        "building": 34
       },
       "failed": false,
       "errors": 0,
@@ -18196,8 +18196,8 @@
       "issuerId": 129,
       "issuerName": "./node_modules/react-redux/es/connect/selectorFactory.js",
       "profile": {
-        "factory": 171,
-        "building": 239,
+        "factory": 174,
+        "building": 232,
         "dependencies": 0
       },
       "failed": false,
@@ -18244,7 +18244,7 @@
       "issuerName": "./node_modules/react-router-config/es/index.js",
       "profile": {
         "factory": 277,
-        "building": 141
+        "building": 134
       },
       "failed": false,
       "errors": 0,
@@ -18289,9 +18289,9 @@
       "issuerId": 131,
       "issuerName": "./node_modules/react-router-config/es/matchRoutes.js",
       "profile": {
-        "factory": 579,
-        "building": 273,
-        "dependencies": 188
+        "factory": 505,
+        "building": 260,
+        "dependencies": 151
       },
       "failed": false,
       "errors": 0,
@@ -18335,8 +18335,8 @@
       "issuerName": "./node_modules/react-router-config/es/index.js",
       "profile": {
         "factory": 277,
-        "building": 143,
-        "dependencies": 59
+        "building": 137,
+        "dependencies": 51
       },
       "failed": false,
       "errors": 0,
@@ -18381,9 +18381,9 @@
       "issuerId": 133,
       "issuerName": "./node_modules/react-router-config/es/renderRoutes.js",
       "profile": {
-        "factory": 577,
-        "building": 281,
-        "dependencies": 180
+        "factory": 502,
+        "building": 266,
+        "dependencies": 145
       },
       "failed": false,
       "errors": 0,
@@ -18426,9 +18426,9 @@
       "issuerId": 133,
       "issuerName": "./node_modules/react-router-config/es/renderRoutes.js",
       "profile": {
-        "factory": 577,
-        "building": 289,
-        "dependencies": 172
+        "factory": 502,
+        "building": 272,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -18471,9 +18471,9 @@
       "issuerId": 5,
       "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
       "profile": {
-        "factory": 661,
-        "building": 80,
-        "dependencies": 16
+        "factory": 592,
+        "building": 82,
+        "dependencies": 12
       },
       "failed": false,
       "errors": 0,
@@ -18514,8 +18514,8 @@
       "issuerId": 136,
       "issuerName": "./node_modules/react-side-effect/lib/index.js",
       "profile": {
-        "factory": 182,
-        "building": 32
+        "factory": 135,
+        "building": 28
       },
       "failed": false,
       "errors": 0,
@@ -18556,8 +18556,8 @@
       "issuerId": 136,
       "issuerName": "./node_modules/react-side-effect/lib/index.js",
       "profile": {
-        "factory": 182,
-        "building": 33
+        "factory": 135,
+        "building": 30
       },
       "failed": false,
       "errors": 0,
@@ -18598,8 +18598,8 @@
       "issuerId": 5,
       "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
       "profile": {
-        "factory": 607,
-        "building": 120
+        "factory": 553,
+        "building": 114
       },
       "failed": false,
       "errors": 0,
@@ -18640,8 +18640,8 @@
       "issuerId": 139,
       "issuerName": "./node_modules/deep-equal/index.js",
       "profile": {
-        "factory": 70,
-        "building": 44
+        "factory": 58,
+        "building": 35
       },
       "failed": false,
       "errors": 0,
@@ -18682,8 +18682,8 @@
       "issuerId": 139,
       "issuerName": "./node_modules/deep-equal/index.js",
       "profile": {
-        "factory": 70,
-        "building": 45
+        "factory": 59,
+        "building": 35
       },
       "failed": false,
       "errors": 0,
@@ -18724,8 +18724,8 @@
       "issuerId": 5,
       "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
       "profile": {
-        "factory": 71,
-        "building": 293,
+        "factory": 74,
+        "building": 277,
         "dependencies": 1
       },
       "failed": false,
@@ -18767,9 +18767,9 @@
       "issuerId": 20,
       "issuerName": "./source/universal/components/Page/index.js",
       "profile": {
-        "factory": 130,
+        "factory": 129,
         "building": 128,
-        "dependencies": 166
+        "dependencies": 182
       },
       "failed": false,
       "errors": 0,
@@ -18815,8 +18815,8 @@
       "issuerId": 6,
       "issuerName": "./node_modules/styled-components/dist/styled-components.es.js",
       "profile": {
-        "factory": 316,
-        "building": 42
+        "factory": 315,
+        "building": 28
       },
       "failed": false,
       "errors": 0,
@@ -18857,8 +18857,8 @@
       "issuerId": 6,
       "issuerName": "./node_modules/styled-components/dist/styled-components.es.js",
       "profile": {
-        "factory": 477,
-        "building": 37
+        "factory": 457,
+        "building": 25
       },
       "failed": false,
       "errors": 0,
@@ -18901,8 +18901,8 @@
       "issuerId": 145,
       "issuerName": "./node_modules/is-plain-object/index.js",
       "profile": {
-        "factory": 168,
-        "building": 28
+        "factory": 123,
+        "building": 27
       },
       "failed": false,
       "errors": 0,
@@ -18943,8 +18943,8 @@
       "issuerId": 6,
       "issuerName": "./node_modules/styled-components/dist/styled-components.es.js",
       "profile": {
-        "factory": 477,
-        "building": 73
+        "factory": 457,
+        "building": 60
       },
       "failed": false,
       "errors": 0,
@@ -18987,8 +18987,8 @@
       "issuerId": 6,
       "issuerName": "./node_modules/styled-components/dist/styled-components.es.js",
       "profile": {
-        "factory": 406,
-        "building": 80
+        "factory": 370,
+        "building": 91
       },
       "failed": false,
       "errors": 0,
@@ -19031,9 +19031,9 @@
       "issuerId": 35,
       "issuerName": "./source/universal/components/Center/index.js",
       "profile": {
-        "factory": 123,
-        "building": 140,
-        "dependencies": 154
+        "factory": 122,
+        "building": 143,
+        "dependencies": 167
       },
       "failed": false,
       "errors": 0,
@@ -19079,9 +19079,9 @@
       "issuerId": 36,
       "issuerName": "./source/universal/components/Text/index.js",
       "profile": {
-        "factory": 114,
-        "building": 152,
-        "dependencies": 143
+        "factory": 117,
+        "building": 156,
+        "dependencies": 153
       },
       "failed": false,
       "errors": 0,
@@ -19127,9 +19127,9 @@
       "issuerId": 37,
       "issuerName": "./source/universal/components/Flexbox/index.js",
       "profile": {
-        "factory": 107,
-        "building": 166,
-        "dependencies": 129
+        "factory": 109,
+        "building": 167,
+        "dependencies": 143
       },
       "failed": false,
       "errors": 0,
@@ -19175,9 +19175,9 @@
       "issuerId": 59,
       "issuerName": "./source/universal/Routes/Routes.js",
       "profile": {
-        "factory": 198,
-        "building": 149,
-        "dependencies": 4
+        "factory": 178,
+        "building": 140,
+        "dependencies": 5
       },
       "failed": false,
       "errors": 0,
@@ -19220,9 +19220,9 @@
       "issuerId": 59,
       "issuerName": "./source/universal/Routes/Routes.js",
       "profile": {
-        "factory": 199,
-        "building": 187,
-        "dependencies": 714
+        "factory": 180,
+        "building": 185,
+        "dependencies": 635
       },
       "failed": false,
       "errors": 0,
@@ -19267,9 +19267,9 @@
       "issuerId": 59,
       "issuerName": "./source/universal/Routes/Routes.js",
       "profile": {
-        "factory": 200,
-        "building": 208,
-        "dependencies": 692
+        "factory": 180,
+        "building": 206,
+        "dependencies": 614
       },
       "failed": false,
       "errors": 0,
@@ -19314,9 +19314,9 @@
       "issuerId": 59,
       "issuerName": "./source/universal/Routes/Routes.js",
       "profile": {
-        "factory": 200,
-        "building": 238,
-        "dependencies": 662
+        "factory": 180,
+        "building": 232,
+        "dependencies": 588
       },
       "failed": false,
       "errors": 0,
@@ -19361,9 +19361,9 @@
       "issuerId": 59,
       "issuerName": "./source/universal/Routes/Routes.js",
       "profile": {
-        "factory": 200,
+        "factory": 180,
         "building": 261,
-        "dependencies": 639
+        "dependencies": 559
       },
       "failed": false,
       "errors": 0,
@@ -19408,9 +19408,9 @@
       "issuerId": 67,
       "issuerName": "./source/universal/pages/HomePage/HomePage.js",
       "profile": {
-        "factory": 440,
-        "building": 251,
-        "dependencies": 20
+        "factory": 453,
+        "building": 215,
+        "dependencies": 13
       },
       "failed": false,
       "errors": 0,
@@ -19455,8 +19455,8 @@
       "issuerId": 68,
       "issuerName": "./source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js",
       "profile": {
-        "factory": 89,
-        "building": 105
+        "factory": 73,
+        "building": 67
       },
       "failed": false,
       "errors": 0,
@@ -19501,9 +19501,9 @@
       "issuerId": 158,
       "issuerName": "./source/universal/components/ImageBackground/index.js",
       "profile": {
-        "factory": 10,
-        "building": 34,
-        "dependencies": 4
+        "factory": 7,
+        "building": 28,
+        "dependencies": 6
       },
       "failed": false,
       "errors": 0,
@@ -19536,7 +19536,7 @@
       "name": "./source/universal/components/themes/Flexbox.js",
       "index": 160,
       "index2": 153,
-      "size": 497,
+      "size": 597,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -19549,8 +19549,8 @@
       "issuerId": 68,
       "issuerName": "./source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js",
       "profile": {
-        "factory": 45,
-        "building": 61
+        "factory": 30,
+        "building": 55
       },
       "failed": false,
       "errors": 0,
@@ -19574,7 +19574,7 @@
       ],
       "optimizationBailout": [],
       "depth": 7,
-      "source": "var _default = {\n    rowAlignLeft: {\n        flexDirection: 'row',\n        justifyContent: 'flex-start'\n    },\n    rowGapped: {\n        flexDirection: 'row',\n        justifyContent: 'space-between'\n    }\n\n};\nexport default _default;\n;\n\nvar _temp = function () {\n    if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n        return;\n    }\n\n    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/universal/components/themes/Flexbox.js');\n}();\n\n;"
+      "source": "var _default = {\n    rowAlignLeft: {\n        flexDirection: 'row',\n        justifyContent: 'flex-start'\n    },\n    rowGapped: {\n        flexDirection: 'row',\n        justifyContent: 'space-between'\n    },\n    columnGapped: {\n        flexDirection: 'column',\n        justifyContent: 'space-between'\n    }\n\n};\nexport default _default;\n;\n\nvar _temp = function () {\n    if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n        return;\n    }\n\n    __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/universal/components/themes/Flexbox.js');\n}();\n\n;"
     },
     {
       "id": 161,
@@ -19595,8 +19595,8 @@
       "issuerId": 68,
       "issuerName": "./source/universal/pages/HomePage/Newsfeed/NewsfeedItem/NewsfeedItem.js",
       "profile": {
-        "factory": 46,
-        "building": 70
+        "factory": 31,
+        "building": 60
       },
       "failed": false,
       "errors": 0,
@@ -19641,8 +19641,8 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 79,
-        "building": 76
+        "factory": 68,
+        "building": 74
       },
       "failed": false,
       "errors": 0,
@@ -19687,9 +19687,9 @@
       "issuerId": 162,
       "issuerName": "./source/server/App/index.js",
       "profile": {
-        "factory": 24,
-        "building": 161,
-        "dependencies": 85
+        "factory": 26,
+        "building": 153,
+        "dependencies": 80
       },
       "failed": false,
       "errors": 0,
@@ -19735,8 +19735,8 @@
       "issuerId": 163,
       "issuerName": "./source/server/App/App.js",
       "profile": {
-        "factory": 468,
-        "building": 309
+        "factory": 449,
+        "building": 246
       },
       "failed": false,
       "errors": 0,
@@ -19781,9 +19781,9 @@
       "issuerId": 164,
       "issuerName": "./source/universal/App/index.js",
       "profile": {
-        "factory": 102,
-        "building": 258,
-        "dependencies": 7
+        "factory": 107,
+        "building": 255,
+        "dependencies": 5
       },
       "failed": false,
       "errors": 0,
@@ -19829,9 +19829,9 @@
       "issuerId": 165,
       "issuerName": "./source/universal/App/App.js",
       "profile": {
-        "factory": 273,
-        "building": 79,
-        "dependencies": 1
+        "factory": 231,
+        "building": 57,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -19876,7 +19876,7 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 141,
+        "factory": 127,
         "building": 27
       },
       "failed": false,
@@ -19909,7 +19909,7 @@
       "name": "./source/server/components/Html/Html.js",
       "index": 168,
       "index2": 171,
-      "size": 3844,
+      "size": 4134,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -19922,9 +19922,9 @@
       "issuerId": 167,
       "issuerName": "./source/server/components/Html/index.js",
       "profile": {
-        "factory": 45,
-        "building": 204,
-        "dependencies": 701
+        "factory": 52,
+        "building": 185,
+        "dependencies": 626
       },
       "failed": false,
       "errors": 0,
@@ -19949,7 +19949,7 @@
       ],
       "optimizationBailout": [],
       "depth": 3,
-      "source": "var _templateObject = _taggedTemplateLiteral(['', ''], ['', '']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n      html, body, #', ' {\\n        height: 100%;\\n  \\n        margin: 0;\\n  \\n        padding: 0;\\n  \\n        width: 100%;\\n\\n        box-sizing: border-box;\\n\\n        font-family: \\'Source Sans Pro\\', sans-serif;\\n      }\\n\\n      *, *:before, *:after {\\n        -webkit-box-sizing: inherit;\\n        -moz-box-sizing: inherit;\\n        box-sizing: inherit;\\n      }\\n    '], ['\\n      html, body, #', ' {\\n        height: 100%;\\n  \\n        margin: 0;\\n  \\n        padding: 0;\\n  \\n        width: 100%;\\n\\n        box-sizing: border-box;\\n\\n        font-family: \\'Source Sans Pro\\', sans-serif;\\n      }\\n\\n      *, *:before, *:after {\\n        -webkit-box-sizing: inherit;\\n        -moz-box-sizing: inherit;\\n        box-sizing: inherit;\\n      }\\n    ']);\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nimport React from 'react';\nimport { renderToString, renderToStaticMarkup } from 'react-dom/server';\nimport { Helmet } from 'react-helmet';\nimport { injectGlobal, ServerStyleSheet } from 'styled-components';\nimport { normalize } from 'polished';\nimport { flushChunkNames } from 'react-universal-component/server';\nimport flushChunks from 'webpack-flush-chunks';\n\nimport faviconUrl from 'server/components/Html/images/favicon.ico';\n\nexport var Html = function Html(_ref) {\n  var children = _ref.children,\n      clientStats = _ref.clientStats,\n      store = _ref.store;\n\n  try {\n    injectGlobal(_templateObject, normalize());\n\n    injectGlobal(_templateObject2, process.env.REACT_CONTAINER_ID);\n\n    var styleSheet = new ServerStyleSheet();\n\n    styleSheet.collectStyles(renderToString(children));\n\n    var helmet = Helmet.renderStatic();\n\n    var htmlAttributes = helmet.htmlAttributes.toComponent();\n    var bodyAttributes = helmet.bodyAttributes.toComponent();\n\n    var base = helmet.base.toComponent();\n    var link = helmet.link.toComponent();\n    var meta = helmet.meta.toComponent();\n    var noscript = helmet.noscript.toComponent();\n    var script = helmet.script.toComponent();\n    var style = helmet.style.toComponent();\n    var title = helmet.title.toComponent();\n\n    var chunkNames = flushChunkNames();\n\n    var chunks = flushChunks(clientStats, { chunkNames: chunkNames });\n\n    var CssHash = chunks.CssHash,\n        Js = chunks.Js,\n        Styles = chunks.Styles,\n        scripts = chunks.scripts;\n\n\n    return React.createElement(\n      'html',\n      htmlAttributes,\n      React.createElement(\n        'head',\n        null,\n        base,\n        link,\n        meta,\n        noscript,\n        script,\n        style,\n        title,\n        React.createElement('link', { rel: 'shortcut icon', href: faviconUrl }),\n        styleSheet.getStyleElement(),\n        React.createElement(Styles, null)\n      ),\n      React.createElement(\n        'body',\n        bodyAttributes,\n        React.createElement(\n          'div',\n          { id: process.env.REACT_CONTAINER_ID },\n          children\n        ),\n        React.createElement('script', { dangerouslySetInnerHTML: { __html: 'window._INITIAL_STATE_ = ' + JSON.stringify(store.getState()) } }),\n        React.createElement(CssHash, null),\n        React.createElement(Js, null)\n      )\n    );\n  } catch (error) {\n    return null;\n  }\n};\n\nvar _default = Html;\nexport default _default;\n;\n\nvar _temp = function () {\n  if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n    return;\n  }\n\n  __REACT_HOT_LOADER__.register(Html, 'Html', '/Users/hafizalfaza/practice/react/instaclone/source/server/components/Html/Html.js');\n\n  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/server/components/Html/Html.js');\n}();\n\n;"
+      "source": "var _templateObject = _taggedTemplateLiteral(['', ''], ['', '']),\n    _templateObject2 = _taggedTemplateLiteral(['\\n      html, body, #', ' {\\n        height: 100%;\\n  \\n        margin: 0;\\n  \\n        padding: 0;\\n  \\n        width: 100%;\\n\\n        box-sizing: border-box;\\n\\n        font-family: \\'Source Sans Pro\\', sans-serif;\\n\\n        color: \\'black\\';\\n\\n        font-size: \\'12px\\';   \\n        \\n      }\\n\\n      *, *:before, *:after {\\n        -webkit-box-sizing: inherit;\\n        -moz-box-sizing: inherit;\\n        box-sizing: inherit;\\n        font-size: \\'12px\\';\\n        margin: 0;\\n        padding: 0;\\n      }\\n    '], ['\\n      html, body, #', ' {\\n        height: 100%;\\n  \\n        margin: 0;\\n  \\n        padding: 0;\\n  \\n        width: 100%;\\n\\n        box-sizing: border-box;\\n\\n        font-family: \\'Source Sans Pro\\', sans-serif;\\n\\n        color: \\'black\\';\\n\\n        font-size: \\'12px\\';   \\n        \\n      }\\n\\n      *, *:before, *:after {\\n        -webkit-box-sizing: inherit;\\n        -moz-box-sizing: inherit;\\n        box-sizing: inherit;\\n        font-size: \\'12px\\';\\n        margin: 0;\\n        padding: 0;\\n      }\\n    ']);\n\nfunction _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }\n\nimport React from 'react';\nimport { renderToString, renderToStaticMarkup } from 'react-dom/server';\nimport { Helmet } from 'react-helmet';\nimport { injectGlobal, ServerStyleSheet } from 'styled-components';\nimport { normalize } from 'polished';\nimport { flushChunkNames } from 'react-universal-component/server';\nimport flushChunks from 'webpack-flush-chunks';\n\nimport faviconUrl from 'server/components/Html/images/favicon.ico';\n\nexport var Html = function Html(_ref) {\n  var children = _ref.children,\n      clientStats = _ref.clientStats,\n      store = _ref.store;\n\n  try {\n    injectGlobal(_templateObject, normalize());\n\n    injectGlobal(_templateObject2, process.env.REACT_CONTAINER_ID);\n\n    var styleSheet = new ServerStyleSheet();\n\n    styleSheet.collectStyles(renderToString(children));\n\n    var helmet = Helmet.renderStatic();\n\n    var htmlAttributes = helmet.htmlAttributes.toComponent();\n    var bodyAttributes = helmet.bodyAttributes.toComponent();\n\n    var base = helmet.base.toComponent();\n    var link = helmet.link.toComponent();\n    var meta = helmet.meta.toComponent();\n    var noscript = helmet.noscript.toComponent();\n    var script = helmet.script.toComponent();\n    var style = helmet.style.toComponent();\n    var title = helmet.title.toComponent();\n\n    var chunkNames = flushChunkNames();\n\n    var chunks = flushChunks(clientStats, { chunkNames: chunkNames });\n\n    var CssHash = chunks.CssHash,\n        Js = chunks.Js,\n        Styles = chunks.Styles,\n        scripts = chunks.scripts;\n\n\n    return React.createElement(\n      'html',\n      htmlAttributes,\n      React.createElement(\n        'head',\n        null,\n        base,\n        link,\n        meta,\n        noscript,\n        script,\n        style,\n        title,\n        React.createElement('link', { rel: 'shortcut icon', href: faviconUrl }),\n        styleSheet.getStyleElement(),\n        React.createElement(Styles, null)\n      ),\n      React.createElement(\n        'body',\n        bodyAttributes,\n        React.createElement(\n          'div',\n          { id: process.env.REACT_CONTAINER_ID },\n          children\n        ),\n        React.createElement('script', { dangerouslySetInnerHTML: { __html: 'window._INITIAL_STATE_ = ' + JSON.stringify(store.getState()) } }),\n        React.createElement(CssHash, null),\n        React.createElement(Js, null)\n      )\n    );\n  } catch (error) {\n    return null;\n  }\n};\n\nvar _default = Html;\nexport default _default;\n;\n\nvar _temp = function () {\n  if (typeof __REACT_HOT_LOADER__ === 'undefined') {\n    return;\n  }\n\n  __REACT_HOT_LOADER__.register(Html, 'Html', '/Users/hafizalfaza/practice/react/instaclone/source/server/components/Html/Html.js');\n\n  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/hafizalfaza/practice/react/instaclone/source/server/components/Html/Html.js');\n}();\n\n;"
     },
     {
       "id": 169,
@@ -19970,8 +19970,8 @@
       "issuerId": 168,
       "issuerName": "./source/server/components/Html/Html.js",
       "profile": {
-        "factory": 728,
-        "building": 205
+        "factory": 657,
+        "building": 289
       },
       "failed": false,
       "errors": 0,
@@ -20073,8 +20073,8 @@
       "issuerId": 168,
       "issuerName": "./source/server/components/Html/Html.js",
       "profile": {
-        "factory": 704,
-        "building": 97
+        "factory": 629,
+        "building": 101
       },
       "failed": false,
       "errors": 0,
@@ -20117,8 +20117,8 @@
       "issuerId": 168,
       "issuerName": "./source/server/components/Html/Html.js",
       "profile": {
-        "factory": 729,
-        "building": 282
+        "factory": 657,
+        "building": 297
       },
       "failed": false,
       "errors": 0,
@@ -20161,9 +20161,9 @@
       "issuerId": 171,
       "issuerName": "(webpack)-flush-chunks/dist/flushChunks.js",
       "profile": {
-        "factory": 270,
-        "building": 51,
-        "dependencies": 12
+        "factory": 228,
+        "building": 34,
+        "dependencies": 8
       },
       "failed": false,
       "errors": 0,
@@ -20245,8 +20245,8 @@
       "issuerId": 168,
       "issuerName": "./source/server/components/Html/Html.js",
       "profile": {
-        "factory": 808,
-        "building": 276
+        "factory": 737,
+        "building": 268
       },
       "failed": false,
       "errors": 0,
@@ -20289,8 +20289,8 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 175,
-        "building": 140
+        "factory": 164,
+        "building": 135
       },
       "failed": false,
       "errors": 0,
@@ -20333,9 +20333,9 @@
       "issuerId": 73,
       "issuerName": "./source/server/entry/serverSideRender.entry.development.js",
       "profile": {
-        "factory": 75,
-        "building": 63,
-        "dependencies": 37
+        "factory": 64,
+        "building": 23,
+        "dependencies": 76
       },
       "failed": false,
       "errors": 0,
@@ -20380,8 +20380,8 @@
       "issuerId": 176,
       "issuerName": "./source/universal/reducers/index.js",
       "profile": {
-        "factory": 32,
-        "building": 40
+        "factory": 70,
+        "building": 45
       },
       "failed": false,
       "errors": 0,

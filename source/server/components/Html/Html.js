@@ -23,6 +23,8 @@ export const Html = ({ children, clientStats, store }: Object) => {
         padding: 0;
   
         width: 100%;
+
+        box-sizing: border-box;
       }
     `
 
@@ -48,8 +50,6 @@ export const Html = ({ children, clientStats, store }: Object) => {
     const chunks: Object = flushChunks(clientStats, { chunkNames })
 
     const { CssHash, Js, Styles, scripts } = chunks
-
-    const initialState = {users: {test: '\'hoohohohoh\''}}
 
     return (
       <html {...htmlAttributes}>

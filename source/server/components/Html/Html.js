@@ -25,6 +25,7 @@ export const Html = ({ children, clientStats, store }: Object) => {
         width: 100%;
 
         box-sizing: border-box;
+        
       }
 
       *, *:before, *:after {

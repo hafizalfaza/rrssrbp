@@ -30,7 +30,7 @@ export const Html = ({ children, clientStats, store }: Object) => {
 
         color: 'black';
 
-        font-size: '12px';
+        font-size: '12px';   
         
       }
 

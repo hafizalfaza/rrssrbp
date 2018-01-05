@@ -13,7 +13,6 @@ const webpackClientConfig = {
       ),
     ],
     vendor: [
-      'babel-polyfill',
       'polished',
       'raf/polyfill',
       'react',

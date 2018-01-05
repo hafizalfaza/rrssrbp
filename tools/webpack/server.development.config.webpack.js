@@ -7,7 +7,6 @@ const webpack = require('webpack')
 const webpackServerConfig = {
   devtool: 'eval',
   entry: [
-    'babel-polyfill',
     'raf/polyfill',
     resolvePath(
       '../../source/server/entry/serverSideRender.entry.development.js',

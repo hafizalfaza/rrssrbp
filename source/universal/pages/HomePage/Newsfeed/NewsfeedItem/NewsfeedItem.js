@@ -8,11 +8,13 @@ class NewsfeedItem extends Component {
         return (
             <div>
                 {/* newsfeed item header */}
-                <Flexbox theme={flexboxTheme.rowGapped}>
+                <Flexbox theme={flexboxTheme.rowGapped} style={{padding: '0 20'}}>
                     <div>haha</div>
                     <div>wkwk</div>
                 </Flexbox>
                 {/* ----------------------*/}
+                <div>test</div>
+
             </div>
         )
     }

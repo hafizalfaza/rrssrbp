@@ -26,11 +26,9 @@ export const Html = ({ children, clientStats, store }: Object) => {
 
         box-sizing: border-box;
 
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
 
         color: 'black';
-
-        font-size: '12px';   
         
       }
 
@@ -38,7 +36,6 @@ export const Html = ({ children, clientStats, store }: Object) => {
         -webkit-box-sizing: inherit;
         -moz-box-sizing: inherit;
         box-sizing: inherit;
-        font-size: '12px';
         margin: 0;
         padding: 0;
       }

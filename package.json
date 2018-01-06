@@ -70,7 +70,7 @@
     "prettier": "prettier --config tools/prettier/config.prettier.js --write \"./**/*.js\"",
     "stylelint": "stylelint --config tools/stylelint/config.stylelint.js \"**/*.js\"",
     "--DEVELOPMENT--": "",
-    "development": "yarn run webpack:development && yarn run node:development",
+    "dev": "yarn run webpack:development && yarn run node:development",
     "node:development": "node --inspect server/server.development.js",
     "prewebpack:development": "yarn run rimraf:development && yarn run mkdirp:development",
     "mkdirp:development": "mkdirp client/development && mkdirp server/development",

@@ -12,7 +12,7 @@ class NewsfeedItem extends Component {
     render(){
         return (
             <div>
-                {/* newsfeed item header */}
+                {/* header */}
                 <Flexbox 
                     theme={flexboxTheme.rowGapped} 
                     align="center"
@@ -32,10 +32,10 @@ class NewsfeedItem extends Component {
                             theme={flexboxTheme.columnGapped}
                             style={{padding: '3px 10px'}}
                         >
-                            <h2 style={{fontSize: '13px'}}>
+                            <h2 style={{fontSize: '13px', fontWeight: '600'}}>
                                 kevinsystrom
                             </h2>
-                            <h3 style={{fontSize: '13px'}}>
+                            <h3 style={{fontSize: '13px',  fontWeight: '400'}}>
                                 New Zealand
                             </h3>
                         </Flexbox>
@@ -44,7 +44,7 @@ class NewsfeedItem extends Component {
                 </Flexbox>
                 {/* ----------------------*/}
 
-                {/*  newsfeed item content */}
+                {/* content */}
 
                 <ImageBackground 
                     theme={imageBackgroundTheme.coverCenter} 
@@ -54,11 +54,12 @@ class NewsfeedItem extends Component {
                 </ImageBackground>
 
                 {/* ----------------------*/}
+                <div style={{padding: '0 20px'}}>
 
-                {/* newsfeed item actions */}
+                    {/* actions */}
                     <Flexbox
                         theme={flexboxTheme.rowGapped}
-                        style={{padding: '15px 20px'}}
+                        style={{padding: '15px 0 5px 0'}}
                     >
                         <Flexbox 
                             theme={flexboxTheme.rowAlignLeft}
@@ -74,7 +75,29 @@ class NewsfeedItem extends Component {
                             <svg style={{width: '22px'}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 46"><path d="M8 0v46l15-12 15 12V0H8zm28 42L23 31 10 42V2h26v40z"/></svg>
                         </div>
                     </Flexbox>
-                {/* ---------------------- */}
+                    {/* ---------------------- */}
+
+                    {/* likes */}
+                    <p style={{marginBottom: '10px', fontSize: '13px'}}>
+                        500 likes
+                    </p>
+                    {/* ---------------------- */}
+
+
+                    {/* comments */}
+
+                    <ul>
+                        <p style={{fontSize: '13px'}}>
+                            <span style={{fontWeight: 'bold'}}>zuckerberg</span>
+                            &nbsp;cool! cool! cool! cool! cool! cool! cool! cool! cool! cool! cool!
+                        </p>
+                    </ul>
+
+                    
+
+                    {/* ---------------------- */}
+
+                </div>
                 
             </div>
         )

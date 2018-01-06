@@ -39,7 +39,7 @@ export const routes = [
 ]
 
 export const Routes = () => (
-  <div style={{width: '100%', height:'100%'}}>
+  <div style={{width: '100%'}}>
     {renderRoutes(routes)}
   </div>
 )

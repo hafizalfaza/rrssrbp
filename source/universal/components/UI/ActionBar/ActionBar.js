@@ -8,7 +8,7 @@ class ActionBar extends Component {
 
     render(){
         return (
-            <div style={{position: 'relative', width: '100%'}}>
+            <div style={{position: 'relative', width: '100%', height: '44px'}}>
                 <Flexbox theme={rowGapped} style={{width: '100%', height: '100%', padding: '0 20px', position: 'absolute'}} align="center">
                     <Flexbox theme={rowAlignLeft}>
                         <div>
@@ -21,7 +21,7 @@ class ActionBar extends Component {
                         </div>
                     </Flexbox>
                 </Flexbox>
-                <Flexbox  theme={rowCentered} align="center" style={{width: '100%', height: '100%', padding: '10px 0'}}>
+                <Flexbox  theme={rowCentered} align="center" style={{width: '100%', height: '100%'}}>
                     <img src={img} style={{width: '100px'}} alt="" />
                 </Flexbox>
             </div>

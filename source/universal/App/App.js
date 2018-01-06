@@ -18,7 +18,9 @@ export const App = () => (
       <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet"/>
     </Helmet>
     <ActionBar />
-    <Routes />
+    <div style={{height: 'calc(100vh - 44px)', overflowY: 'auto'}}>
+      <Routes />
+    </div>
   </Page>
 )
 

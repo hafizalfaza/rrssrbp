@@ -8,6 +8,8 @@ import Routes from 'universal/Routes'
 
 import Page from 'universal/components/Page'
 
+import ActionBar from 'universal/components/UI/ActionBar'
+
 export const App = () => (
   <Page>
     <Helmet>
@@ -15,6 +17,7 @@ export const App = () => (
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"/>
       <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet"/>
     </Helmet>
+    <ActionBar />
     <Routes />
   </Page>
 )

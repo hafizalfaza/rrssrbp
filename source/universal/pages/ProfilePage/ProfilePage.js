@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Flexbox from 'universal/components/Flexbox';
-import flexboxTheme from 'universal/components/themes/Flexbox';
+import { rowGapped, rowGappedAround } from 'universal/components/themes/Flexbox';
 import { ImageBackground } from 'universal/components/ImageBackground/ImageBackground';
 import imageBackgroundTheme from 'universal/components/themes/ImageBackground';
 
@@ -9,7 +9,7 @@ class ProfilePage extends Component {
     render(){
         return (
             <div>
-                <Flexbox theme={flexboxTheme.rowGapped} style={{
+                <Flexbox theme={rowGapped} style={{
                     padding: '30px 16px 20px'
                 }}>
                     <div style={{flex: 1}}>
@@ -99,7 +99,7 @@ class ProfilePage extends Component {
                     height: 1,
                     backgroundColor: '#efefef'
                 }}></div>
-                <Flexbox theme={flexboxTheme.rowGappedAround} style={{
+                <Flexbox theme={rowGappedAround} style={{
                     padding: 16
                 }}>
                     <div>
@@ -156,7 +156,7 @@ class ProfilePage extends Component {
                     height: 1,
                     backgroundColor: '#efefef'
                 }}></div>
-                <Flexbox theme={flexboxTheme.rowGappedAround} style={{
+                <Flexbox theme={rowGappedAround} style={{
                     padding: 16
                 }}>
                     <div>
@@ -169,7 +169,7 @@ class ProfilePage extends Component {
 
 
 
-                <Flexbox theme={flexboxTheme.rowGapped} style={{
+                <Flexbox theme={rowGapped} style={{
                     width: '100%',
                     padding: '0',
                     flexWrap: 'wrap'
@@ -278,7 +278,7 @@ class ProfilePage extends Component {
 
 
                 {/*
-                <Flexbox theme={flexboxTheme.rowGappedAround} style={{
+                <Flexbox theme={rowGappedAround} style={{
                     padding: '0 16px'
                 }}>
                     <div style={{
@@ -318,7 +318,7 @@ class ProfilePage extends Component {
                       </ImageBackground>
                     </div>
                 </Flexbox>
-                <Flexbox theme={flexboxTheme.rowGappedAround} style={{
+                <Flexbox theme={rowGappedAround} style={{
                     padding: 16
                 }}>
                     <div style={{

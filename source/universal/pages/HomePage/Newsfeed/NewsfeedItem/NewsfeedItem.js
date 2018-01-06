@@ -40,7 +40,9 @@ class NewsfeedItem extends Component {
                             </h3>
                         </Flexbox>
                     </Flexbox>
-                    <div>...</div>
+                    <div>    
+                        <svg width="22px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><path d="M8 22c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8zM52 22c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8zM30 22c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8z"/></svg>
+                    </div>
                 </Flexbox>
                 {/* ----------------------*/}
 
@@ -78,7 +80,7 @@ class NewsfeedItem extends Component {
                     {/* ---------------------- */}
 
                     {/* likes */}
-                    <p style={{marginBottom: '10px', fontSize: '13px'}}>
+                    <p style={{marginBottom: '10px', fontSize: '13px', fontWeight: 'bold'}}>
                         500 likes
                     </p>
                     {/* ---------------------- */}
@@ -87,10 +89,13 @@ class NewsfeedItem extends Component {
                     {/* comments */}
 
                     <ul>
-                        <p style={{fontSize: '13px'}}>
-                            <span style={{fontWeight: 'bold'}}>zuckerberg</span>
-                            &nbsp;cool! cool! cool! cool! cool! cool! cool! cool! cool! cool! cool!
-                        </p>
+                        <li>
+                            <p style={{fontSize: '13px'}}>
+                                <span style={{fontWeight: 'bold'}}>zuckerberg</span>
+                                &nbsp;cool! cool! cool! cool! cool! cool! cool! cool! cool! cool! cool!
+                            </p>
+                        </li>
+                        
                     </ul>
 
                     

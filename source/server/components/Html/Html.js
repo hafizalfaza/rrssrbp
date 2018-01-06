@@ -39,6 +39,10 @@ export const Html = ({ children, clientStats, store }: Object) => {
         margin: 0;
         padding: 0;
       }
+
+      ul {
+        list-style: none;
+      }
     `
 
     const styleSheet = new ServerStyleSheet()

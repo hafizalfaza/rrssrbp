@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Flexbox from 'universal/components/Flexbox';
-import flexboxTheme from 'universal/components/themes/Flexbox';
+import { rowGapped, rowGappedAround } from 'universal/components/themes/Flexbox';
 import { ImageBackground } from 'universal/components/ImageBackground/ImageBackground';
 import imageBackgroundTheme from 'universal/components/themes/ImageBackground';
 import { loadImagesData } from 'universal/actions/imagesAction';
@@ -43,7 +43,7 @@ class ProfilePage extends Component {
     render(){
         return (
             <div style={{backgroundColor: '#fafafa'}}>
-                <Flexbox theme={flexboxTheme.rowGapped} style={{
+                <Flexbox theme={rowGapped} style={{
                     padding: '30px 16px 20px'
                 }}>
                     <div style={{flex: 1}}>
@@ -140,7 +140,7 @@ class ProfilePage extends Component {
                     height: 1,
                     backgroundColor: '#efefef'
                 }}></div>
-                <Flexbox theme={flexboxTheme.rowGappedAround} style={{
+                <Flexbox theme={rowGappedAround} style={{
                     padding: 12
                 }}>
                     <div>
@@ -179,7 +179,7 @@ class ProfilePage extends Component {
                     height: 1,
                     backgroundColor: '#efefef'
                 }}></div>
-                <Flexbox theme={flexboxTheme.rowGappedAround} style={{
+                <Flexbox theme={rowGappedAround} style={{
                     padding: 16
                 }}>
                     <div>
@@ -194,7 +194,7 @@ class ProfilePage extends Component {
                     </div>
                 </Flexbox>
                 { this.state.grid === 'posts' &&
-                <Flexbox theme={flexboxTheme.rowGapped} style={{
+                <Flexbox theme={rowGapped} style={{
                     width: '100%',
                     padding: '0',
                     flexWrap: 'wrap'
@@ -232,7 +232,7 @@ class ProfilePage extends Component {
                 }}>
                 Only you can see what you've saved
                 </div>
-                <Flexbox theme={flexboxTheme.rowGapped} style={{
+                <Flexbox theme={rowGapped} style={{
                     width: '100%',
                     padding: '0',
                     flexWrap: 'wrap'

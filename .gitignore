@@ -1,5 +1,5 @@
 node_modules/
-client/development
-client/production
-server/development
-server/production
+client/development/
+client/production/
+server/development/
+server/production/

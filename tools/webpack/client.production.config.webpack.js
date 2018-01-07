@@ -40,7 +40,7 @@ const webpackClientConfig = {
       {
         test: /\.(gif|ico|jpg|png|svg)$/,
         loader: 'url-loader',
-      },
+      }
     ],
   },
   name: 'client',

@@ -30,7 +30,7 @@ export const serverSideRender = ({ clientStats }: { clientStats: Object }) => (
 
 
   const promises = matchRoutes(routes, req.path).map(({route}) => {
-    return route.loadData ? route.loadData(store) : null
+    return route.loadData ? route.loadData(store, req) : null
   })
 
   Promise.all(promises).then(() => {

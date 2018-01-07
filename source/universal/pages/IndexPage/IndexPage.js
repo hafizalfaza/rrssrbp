@@ -36,7 +36,6 @@ export const IndexPage = (props) => {
 
 
 export function loadData(store){
-  console.log('LOAD DATA')
   store.dispatch(loadUser());
 }
 

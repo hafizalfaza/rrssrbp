@@ -37,6 +37,10 @@ class ProfilePage extends Component {
         };
     }
 
+    componentDidMount() {
+        this.props.loadImagesData();
+    }
+
     changeGrid = (gridType) => {
         this.setState({grid: gridType});
     }
@@ -273,4 +277,10 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps)(ProfilePage);
+const mapDispatchtoProps = (dispatch) => {
+    return {
+        loadImagesData: () => {dispatch(loadImagesData())}
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchtoProps)(ProfilePage);

@@ -5,6 +5,14 @@ import { changeActionBar } from 'universal/actions/actionBarAction';
 
 class HomePage extends Component {
 
+
+    componentDidMount(){
+        setTimeout(() => {
+            this.props.history.push('/profile')
+        }, 5000)
+    }
+
+
     render(){
         return (
             <div>

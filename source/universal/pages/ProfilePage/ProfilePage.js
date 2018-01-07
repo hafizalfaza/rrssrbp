@@ -5,6 +5,7 @@ import { ImageBackground } from 'universal/components/ImageBackground/ImageBackg
 import imageBackgroundTheme from 'universal/components/themes/ImageBackground';
 import { loadImagesData } from 'universal/actions/imagesAction';
 import { connect } from 'react-redux';
+import { changeActionBar } from 'universal/actions/actionBarAction';
 
 const styles = {
     dataAnchor: {
@@ -261,8 +262,9 @@ class ProfilePage extends Component {
 
 }
 
-export function loadData(store){
-    return store.dispatch(loadImagesData())
+export function loadData(store, req){
+    store.dispatch(changeActionBar(req.url))
+    store.dispatch(loadImagesData())
 }
 
 const mapStateToProps = (state) => {
@@ -271,4 +273,4 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps, {loadImagesData})(ProfilePage);
+export default connect(mapStateToProps)(ProfilePage);

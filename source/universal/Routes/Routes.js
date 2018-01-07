@@ -3,7 +3,8 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import { renderRoutes } from 'react-router-config';
-import { loadData } from '../pages/ProfilePage/ProfilePage';
+import { loadData as profilePageLoadData} from '../pages/ProfilePage/ProfilePage';
+import { loadData as homePageLoadData } from '../pages/HomePage/HomePage'
 
 import IndexPage from 'universal/pages/IndexPage'
 import LoadingPage from 'universal/pages/LoadingPage'
@@ -16,7 +17,8 @@ export const routes = [
   {
     path: '/',
     component: HomePage,
-    exact: true
+    exact: true,
+    loadData: homePageLoadData
   },
   {
     path: '/loading',
@@ -32,7 +34,7 @@ export const routes = [
     path: '/profile',
     component: ProfilePage,
     exact: true,
-    loadData
+    loadData: profilePageLoadData
   },
   {
     component: NotFoundPage,

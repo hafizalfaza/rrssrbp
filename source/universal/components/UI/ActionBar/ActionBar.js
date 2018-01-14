@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Flexbox from 'universal/components/Flexbox';
-import { rowAlignLeft, rowCentered, rowGapped } from 'universal/components/themes/Flexbox';
+import { rowAlignLeft, rowCentered, rowGapped } from 'universal/components/themes/flexbox';
 import img from './instagram.png'
-import {CameraIcon, AddUserIcon, SettingsIcon} from './actionBarIcons';
+import {CameraIcon, AddUserIcon, SettingsIcon} from './ActionBarIcons';
 import { changeActionBar } from 'universal/actions/actionBarAction';
 import { connect } from 'react-redux';
 

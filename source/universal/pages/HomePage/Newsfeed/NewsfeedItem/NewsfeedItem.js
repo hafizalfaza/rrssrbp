@@ -4,7 +4,7 @@ import ImageBackground from 'universal/components/ImageBackground';
 
 // Components Themes
 
-import { rowAlignLeft, rowGapped, columnGapped } from 'universal/components/themes/Flexbox';
+import { rowAlignLeft, rowGapped, columnGapped } from 'universal/components/themes/flexbox';
 import imageBackgroundTheme from 'universal/components/themes/ImageBackground';
 
 class NewsfeedItem extends Component {

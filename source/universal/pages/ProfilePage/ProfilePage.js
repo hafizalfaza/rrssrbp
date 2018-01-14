@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Flexbox from 'universal/components/Flexbox';
-import { rowGapped, rowGappedAround } from 'universal/components/themes/Flexbox';
+import { rowGapped, rowGappedAround } from 'universal/components/themes/flexbox';
 import { ImageBackground } from 'universal/components/ImageBackground/ImageBackground';
 import imageBackgroundTheme from 'universal/components/themes/ImageBackground';
 import { loadImagesData } from 'universal/actions/imagesAction';
 import { connect } from 'react-redux';
 import { changeActionBar } from 'universal/actions/actionBarAction';
+import { setActiveRoute } from 'universal/actions/navBarAction';
 
 const styles = {
     dataAnchor: {
@@ -35,6 +36,10 @@ class ProfilePage extends Component {
         this.state = {
             grid: 'posts'
         };
+    }
+
+    componentDidMount() {
+        this.props.loadImagesData();
     }
 
     changeGrid = (gridType) => {
@@ -264,6 +269,7 @@ class ProfilePage extends Component {
 
 export function loadData(store, req){
     store.dispatch(changeActionBar(req.url))
+    store.dispatch(setActiveRoute(req.url))
     store.dispatch(loadImagesData())
 }
 
@@ -273,4 +279,10 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps)(ProfilePage);
+const mapDispatchtoProps = (dispatch) => {
+    return {
+        loadImagesData: () => {dispatch(loadImagesData())}
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchtoProps)(ProfilePage);

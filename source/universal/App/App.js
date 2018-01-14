@@ -9,6 +9,7 @@ import Routes from 'universal/Routes'
 import Page from 'universal/components/Page'
 
 import ActionBar from 'universal/components/UI/ActionBar'
+import NavBar from 'universal/components/UI/NavBar'
 
 export const App = () => (
   <Page>
@@ -18,9 +19,10 @@ export const App = () => (
       <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet"/>
     </Helmet>
     <ActionBar />
-    <div style={{height: 'calc(100vh - 44px)', overflowY: 'auto'}}>
+    <div style={{height: 'calc(100vh - 88px)', overflowY: 'auto'}}>
       <Routes />
     </div>
+    <NavBar/>
   </Page>
 )
 

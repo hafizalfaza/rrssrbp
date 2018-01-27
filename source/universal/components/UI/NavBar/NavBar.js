@@ -13,23 +13,26 @@ class NavBar extends Component {
 
         const { activeRoute } = this.props;
         return (
-            <Flexbox theme={rowAlignLeft} style={{height: '44px'}}>
-                <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
-                    <HomeNavIcon active={activeRoute==='/'}/>
+            <div>
+                <div style={{backgroundColor: 'rgba(0,0,0,0.0975)', height: '1px'}}></div>
+                <Flexbox theme={rowAlignLeft} style={{height: '44px'}}>
+                    <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
+                        <HomeNavIcon active={activeRoute==='/'}/>
+                    </Flexbox>
+                    <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
+                        <SearchNavIcon active={activeRoute==='/search'}/>
+                    </Flexbox>
+                    <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
+                        <AddNavIcon />
+                    </Flexbox>
+                    <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
+                        <LikeNavIcon active={activeRoute==='/notifications'}/>
+                    </Flexbox>
+                    <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
+                        <ProfileNavIcon active={activeRoute==='/profile'}/>
+                    </Flexbox>
                 </Flexbox>
-                <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
-                    <SearchNavIcon active={activeRoute==='/search'}/>
-                </Flexbox>
-                <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
-                    <AddNavIcon />
-                </Flexbox>
-                <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
-                    <LikeNavIcon active={activeRoute==='/notifications'}/>
-                </Flexbox>
-                <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
-                    <ProfileNavIcon active={activeRoute==='/profile'}/>
-                </Flexbox>
-            </Flexbox>
+            </div>
         )
     }
 }

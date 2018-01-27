@@ -10,20 +10,21 @@ import imageBackgroundTheme from 'universal/components/themes/ImageBackground';
 class NewsfeedItem extends Component {
 
     render(){
+        const {newsfeedItem} = this.props;
         return (
             <div>
                 {/* header */}
                 <Flexbox 
                     theme={rowGapped} 
                     align="center"
-                    style={{padding: '12px', border: '1px black solid'}}
+                    style={{padding: '12px'}}
                 >
                     <Flexbox 
                         theme={rowAlignLeft}
                     >
                         <ImageBackground 
                             theme={imageBackgroundTheme.coverCenter} 
-                            backgroundImage="https://images.businessoffashion.com/profiles/asset/2170/ca7d6946a3f502181905560b14ead8299d1a9783.jpeg?auto=format%2Ccompress&fit=crop&h=360&ixlib=php-1.1.0&q=60&w=660"
+                            backgroundImage={newsfeedItem.owner.profile_pic_url}
                             style={{width: '40px', height: '40px'}}
                             round
                         >
@@ -33,10 +34,10 @@ class NewsfeedItem extends Component {
                             style={{padding: '3px 10px'}}
                         >
                             <h2 style={{fontSize: '13px', fontWeight: '600'}}>
-                                kevinsystrom
+                                {newsfeedItem.owner.username}
                             </h2>
                             <h3 style={{fontSize: '13px',  fontWeight: '400'}}>
-                                New Zealand
+                                {newsfeedItem.location}
                             </h3>
                         </Flexbox>
                     </Flexbox>
@@ -46,7 +47,7 @@ class NewsfeedItem extends Component {
                 </Flexbox>
                 {/* ----------------------*/}
 
-                {/* content */}
+                {/* newsfeedItem */}
 
                 <ImageBackground 
                     theme={imageBackgroundTheme.coverCenter} 
@@ -81,7 +82,7 @@ class NewsfeedItem extends Component {
 
                     {/* likes */}
                     <p style={{marginBottom: '10px', fontSize: '13px', fontWeight: 'bold'}}>
-                        500 likes
+                        {newsfeedItem.likes_count} likes
                     </p>
                     {/* ---------------------- */}
 
@@ -97,6 +98,13 @@ class NewsfeedItem extends Component {
                         </li>
                         
                     </ul>
+
+
+                    <div style={{marginBottom: '20px'}}>
+                        <time style={{letterSpacing: '.2px', color: '#999', fontSize: '10px'}}>
+                            {newsfeedItem.created_at}
+                        </time>
+                    </div>
 
                     
 

@@ -264,7 +264,6 @@ class ProfilePage extends Component {
             </div>
         )
     }
-
 }
 
 export function loadData(store, req){

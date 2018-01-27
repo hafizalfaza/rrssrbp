@@ -18,7 +18,8 @@ class NavBar extends Component {
                     <HomeNavIcon active={activeRoute==='/'}/>
                 </Flexbox>
                 <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
-                    <SearchNavIcon active={activeRoute==='/search'}/>
+                    {/*<SearchNavIcon active={activeRoute==='/search'}/>*/}
+                    <SearchNavIcon active={activeRoute==='/explore'}/>
                 </Flexbox>
                 <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
                     <AddNavIcon />

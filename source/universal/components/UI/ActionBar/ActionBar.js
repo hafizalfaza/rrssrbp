@@ -26,7 +26,11 @@ class ActionBar extends Component {
         const rightIcons = this.props.actionBar.rightIcons.map((rightIcon) => {
             switch(rightIcon){
                 case 'add-user':
-                    return    <div key={new Date().toISOString()}><AddUserIcon /></div>
+                    return    <div key={new Date().toISOString()}>
+                    <a href="/explore/people">
+                    <AddUserIcon />
+                    </a>
+                    </div>
                 default:
                     return <div  key={new Date().toISOString()}></div>
             }

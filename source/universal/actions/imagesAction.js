@@ -1,7 +1,7 @@
 import { TEST, LOAD_IMAGES} from './constants';
 
 export const loadImagesData = () => {
-    console.log('asdasdas')
+    
     const data = [
     
     ];

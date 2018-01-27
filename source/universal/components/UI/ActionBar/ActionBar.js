@@ -62,6 +62,7 @@ class ActionBar extends Component {
                 <Flexbox  theme={rowCentered} align="center" style={{width: '100%', height: '100%'}}>
                     {title === 'instagram' ? <img src={img} style={{width: '100px'}} alt="" /> : title}
                 </Flexbox>
+                <div style={{backgroundColor: '#000', opacity: '0.1', height: '1px', bottom: '-1px', left: '0', right: '0'}}></div>
             </div>
         )
     }

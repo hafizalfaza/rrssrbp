@@ -1,56 +1,71 @@
 import React, { Component } from 'react';
 import Flexbox from 'universal/components/Flexbox';
 import ImageBackground from 'universal/components/ImageBackground';
+import Gradient from 'universal/components/Gradient';
+import { numberToString } from '../tools/numberToString';
+import { toggleShadowBlock } from 'universal/actions/uiAction';
+import { connect } from 'react-redux';
 
 // Components Themes
 
-import { rowAlignLeft, rowGapped, columnGapped } from 'universal/components/themes/flexbox';
+import { rowAlignLeft, rowGapped, columnGapped, rowCentered } from 'universal/components/themes/flexbox';
 import imageBackgroundTheme from 'universal/components/themes/ImageBackground';
 
 class NewsfeedItem extends Component {
 
+    toggleNewsfeedModal(){
+        this.props.toggleShadowBlock()
+    }
+
     render(){
+        const {newsfeedItem} = this.props;
         return (
             <div>
                 {/* header */}
                 <Flexbox 
                     theme={rowGapped} 
                     align="center"
-                    style={{padding: '12px', border: '1px black solid'}}
+                    style={{padding: '12px'}}
                 >
                     <Flexbox 
                         theme={rowAlignLeft}
                     >
-                        <ImageBackground 
-                            theme={imageBackgroundTheme.coverCenter} 
-                            backgroundImage="https://images.businessoffashion.com/profiles/asset/2170/ca7d6946a3f502181905560b14ead8299d1a9783.jpeg?auto=format%2Ccompress&fit=crop&h=360&ixlib=php-1.1.0&q=60&w=660"
-                            style={{width: '40px', height: '40px'}}
-                            round
-                        >
-                        </ImageBackground>
+                        <Flexbox theme={rowCentered} align="center">
+                            <Gradient direction="to top right" colors={newsfeedItem.owner.viewed_stories ? ['transparent', 'transparent'] : ['#FCBF5F', '#9323C3']} display="flex" justifyContent="center" alignItems="center" style={{width: '46px', height: '46px', borderRadius: '50%'}}>
+                                <Flexbox theme={rowCentered} align="center" style={{width: '42px', height: '42px', backgroundColor: 'white', borderRadius: '50%'}}>    
+                                    <ImageBackground 
+                                        theme={imageBackgroundTheme.coverCenter} 
+                                        backgroundImage={newsfeedItem.owner.profile_pic_url}
+                                        style={{width: '40px', height: '40px'}}
+                                        round
+                                    >
+                                    </ImageBackground>
+                                </Flexbox>   
+                            </Gradient>
+                        </Flexbox>
                         <Flexbox
                             theme={columnGapped}
                             style={{padding: '3px 10px'}}
                         >
                             <h2 style={{fontSize: '13px', fontWeight: '600'}}>
-                                kevinsystrom
+                                {newsfeedItem.owner.username}
                             </h2>
                             <h3 style={{fontSize: '13px',  fontWeight: '400'}}>
-                                New Zealand
+                                {newsfeedItem.location}
                             </h3>
                         </Flexbox>
                     </Flexbox>
-                    <div>    
+                    <div onClick={() => this.toggleNewsfeedModal()}>    
                         <svg width="22px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><path d="M8 22c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8zM52 22c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8zM30 22c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8z"/></svg>
                     </div>
                 </Flexbox>
                 {/* ----------------------*/}
 
-                {/* content */}
+                {/* newsfeedItem */}
 
                 <ImageBackground 
                     theme={imageBackgroundTheme.coverCenter} 
-                    backgroundImage="https://farm1.nzstatic.com/_proxy/imageproxy_1y/serve/driving-in-new-zealand.jpg?focalpointx=50&focalpointy=50&height=440&outputformat=jpg&quality=75&source=2757411&transformationsystem=focalpointcrop&width=1280&securitytoken=10500ECA684FDFB552AD68F889927D1C"
+                    backgroundImage={newsfeedItem.content_url}
                     style={{width: '100%', paddingBottom: '100%'}}
                 >
                 </ImageBackground>
@@ -81,7 +96,7 @@ class NewsfeedItem extends Component {
 
                     {/* likes */}
                     <p style={{marginBottom: '10px', fontSize: '13px', fontWeight: 'bold'}}>
-                        500 likes
+                        {numberToString(newsfeedItem.likes_count)} likes
                     </p>
                     {/* ---------------------- */}
 
@@ -98,6 +113,13 @@ class NewsfeedItem extends Component {
                         
                     </ul>
 
+
+                    <div style={{marginBottom: '20px'}}>
+                        <time style={{letterSpacing: '.2px', color: '#999', fontSize: '10px'}}>
+                            {newsfeedItem.created_at}
+                        </time>
+                    </div>
+
                     
 
                     {/* ---------------------- */}
@@ -109,4 +131,17 @@ class NewsfeedItem extends Component {
     }
 }
 
-export default NewsfeedItem;
+const mapStateToProps = (state) => {
+    return {
+        shadowBlockActive: state.ui.shadowBlockActive
+    }
+}
+
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        toggleShadowBlock: () => {dispatch(toggleShadowBlock())}
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(NewsfeedItem);

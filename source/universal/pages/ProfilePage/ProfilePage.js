@@ -7,6 +7,7 @@ import { loadImagesData } from 'universal/actions/imagesAction';
 import { connect } from 'react-redux';
 import { changeActionBar } from 'universal/actions/actionBarAction';
 import { setActiveRoute } from 'universal/actions/navBarAction';
+import { withRouter } from 'react-router-dom';
 
 const styles = {
     dataAnchor: {
@@ -36,6 +37,10 @@ class ProfilePage extends Component {
         this.state = {
             grid: 'posts'
         };
+    }
+
+    componentWillMount(){
+        this.props.setActiveRoute('/profile')
     }
 
     componentDidMount() {
@@ -280,8 +285,9 @@ const mapStateToProps = (state) => {
 
 const mapDispatchtoProps = (dispatch) => {
     return {
-        loadImagesData: () => {dispatch(loadImagesData())}
+        loadImagesData: () => {dispatch(loadImagesData())},
+        setActiveRoute: (path) => {dispatch(setActiveRoute(path))}
     }
 }
 
-export default connect(mapStateToProps, mapDispatchtoProps)(ProfilePage);
+export default withRouter(connect(mapStateToProps, mapDispatchtoProps)(ProfilePage));

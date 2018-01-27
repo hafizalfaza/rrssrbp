@@ -1,13 +1,21 @@
 import React, { Component } from 'react';
 import Flexbox from 'universal/components/Flexbox';
 import ImageBackground from 'universal/components/ImageBackground';
+import Gradient from 'universal/components/Gradient';
+import { numberToString } from '../tools/numberToString';
+import { toggleShadowBlock } from 'universal/actions/uiAction';
+import { connect } from 'react-redux';
 
 // Components Themes
 
-import { rowAlignLeft, rowGapped, columnGapped } from 'universal/components/themes/flexbox';
+import { rowAlignLeft, rowGapped, columnGapped, rowCentered } from 'universal/components/themes/flexbox';
 import imageBackgroundTheme from 'universal/components/themes/ImageBackground';
 
 class NewsfeedItem extends Component {
+
+    toggleNewsfeedModal(){
+        this.props.toggleShadowBlock()
+    }
 
     render(){
         const {newsfeedItem} = this.props;
@@ -22,13 +30,19 @@ class NewsfeedItem extends Component {
                     <Flexbox 
                         theme={rowAlignLeft}
                     >
-                        <ImageBackground 
-                            theme={imageBackgroundTheme.coverCenter} 
-                            backgroundImage={newsfeedItem.owner.profile_pic_url}
-                            style={{width: '40px', height: '40px'}}
-                            round
-                        >
-                        </ImageBackground>
+                        <Flexbox theme={rowCentered} align="center">
+                            <Gradient direction="to top right" colors={newsfeedItem.owner.viewed_stories ? ['transparent', 'transparent'] : ['#FCBF5F', '#9323C3']} display="flex" justifyContent="center" alignItems="center" style={{width: '46px', height: '46px', borderRadius: '50%'}}>
+                                <Flexbox theme={rowCentered} align="center" style={{width: '42px', height: '42px', backgroundColor: 'white', borderRadius: '50%'}}>    
+                                    <ImageBackground 
+                                        theme={imageBackgroundTheme.coverCenter} 
+                                        backgroundImage={newsfeedItem.owner.profile_pic_url}
+                                        style={{width: '40px', height: '40px'}}
+                                        round
+                                    >
+                                    </ImageBackground>
+                                </Flexbox>   
+                            </Gradient>
+                        </Flexbox>
                         <Flexbox
                             theme={columnGapped}
                             style={{padding: '3px 10px'}}
@@ -41,7 +55,7 @@ class NewsfeedItem extends Component {
                             </h3>
                         </Flexbox>
                     </Flexbox>
-                    <div>    
+                    <div onClick={() => this.toggleNewsfeedModal()}>    
                         <svg width="22px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><path d="M8 22c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8zM52 22c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8zM30 22c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8z"/></svg>
                     </div>
                 </Flexbox>
@@ -51,7 +65,7 @@ class NewsfeedItem extends Component {
 
                 <ImageBackground 
                     theme={imageBackgroundTheme.coverCenter} 
-                    backgroundImage="https://farm1.nzstatic.com/_proxy/imageproxy_1y/serve/driving-in-new-zealand.jpg?focalpointx=50&focalpointy=50&height=440&outputformat=jpg&quality=75&source=2757411&transformationsystem=focalpointcrop&width=1280&securitytoken=10500ECA684FDFB552AD68F889927D1C"
+                    backgroundImage={newsfeedItem.content_url}
                     style={{width: '100%', paddingBottom: '100%'}}
                 >
                 </ImageBackground>
@@ -82,7 +96,7 @@ class NewsfeedItem extends Component {
 
                     {/* likes */}
                     <p style={{marginBottom: '10px', fontSize: '13px', fontWeight: 'bold'}}>
-                        {newsfeedItem.likes_count} likes
+                        {numberToString(newsfeedItem.likes_count)} likes
                     </p>
                     {/* ---------------------- */}
 
@@ -117,4 +131,17 @@ class NewsfeedItem extends Component {
     }
 }
 
-export default NewsfeedItem;
+const mapStateToProps = (state) => {
+    return {
+        shadowBlockActive: state.ui.shadowBlockActive
+    }
+}
+
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        toggleShadowBlock: () => {dispatch(toggleShadowBlock())}
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(NewsfeedItem);

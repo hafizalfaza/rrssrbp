@@ -5,6 +5,7 @@ import actionBarReducer from './actionBarReducer';
 import navBarReducer from './navBarReducer';
 import storiesReducer from './storiesReducer';
 import newsfeedReducer from './newsfeedReducer';
+import uiReducer from './uiReducer';
 
 export default combineReducers({
     users: usersReducer,
@@ -13,4 +14,5 @@ export default combineReducers({
     navBar: navBarReducer,
     stories: storiesReducer,
     newsfeed: newsfeedReducer,
+    ui: uiReducer,
 })

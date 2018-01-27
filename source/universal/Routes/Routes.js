@@ -33,8 +33,7 @@ export const routes = [
   {
     path: '/profile',
     component: ProfilePage,
-    exact: true,
-    loadData: profilePageLoadData
+    exact: true
   },
   {
     component: NotFoundPage,

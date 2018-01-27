@@ -11,7 +11,9 @@ import { connect } from 'react-redux';
 
 class HomePage extends Component {
 
-    componentDidMount(){
+
+    componentWillMount(){
+        this.props.setActiveRoute('/')
         this.props.fetchStoriesThumbs();
         this.props.fetchNewsfeedItems();
     }
@@ -44,7 +46,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         fetchStoriesThumbs: () => {dispatch(fetchStoriesThumbs)},
-        fetchNewsfeedItems: () => {dispatch(fetchNewsfeedItems)}
+        fetchNewsfeedItems: () => {dispatch(fetchNewsfeedItems)},
+        setActiveRoute: (path) => {dispatch(setActiveRoute(path))}
     }
 }
 

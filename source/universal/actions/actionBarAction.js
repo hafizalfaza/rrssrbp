@@ -17,6 +17,11 @@ export const changeActionBar = (route) => {
         actionBarData.leftIcons = ['settings'];
         actionBarData.rightIcons = ['add-user'];
         actionBarData.title = 'Profile';
+    }else if(route === '/activity'){
+        actionBarData.title = 'Activity';
+    }else if(route === '/explore'){
+    }else if(route === '/explore/people'){
+        actionBarData.title = 'Discover People';
     }
     
     return {

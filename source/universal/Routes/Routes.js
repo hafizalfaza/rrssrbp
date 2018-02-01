@@ -8,6 +8,7 @@ import { loadData as profilePageLoadData} from '../pages/ProfilePage/ProfilePage
 import { loadData as activityPageLoadData } from '../pages/ActivityPage/ActivityPage'
 import { loadData as explorePageLoadData } from '../pages/ExplorePage/ExplorePage'
 import { loadData as explorePeoplePageLoadData } from '../pages/ExplorePeoplePage/ExplorePeoplePage'
+import { loadData as createPageLoadData } from '../pages/CreatePage/CreatePage'
 
 import IndexPage from 'universal/pages/IndexPage'
 import LoadingPage from 'universal/pages/LoadingPage'
@@ -18,6 +19,7 @@ import ProfilePage from 'universal/pages/ProfilePage'
 import ActivityPage from 'universal/pages/ActivityPage'
 import ExplorePage from 'universal/pages/ExplorePage'
 import ExplorePeoplePage from 'universal/pages/ExplorePeoplePage'
+import CreatePage from 'universal/pages/CreatePage'
 
 export const routes = [
   {
@@ -58,6 +60,12 @@ export const routes = [
     component: ExplorePeoplePage,
     exact: true,
     loadData: explorePeoplePageLoadData
+  },
+  {
+    path: '/create',
+    component: CreatePage,
+    exact: true,
+    loadData: createPageLoadData
   },
   {
     component: NotFoundPage,

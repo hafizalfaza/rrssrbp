@@ -26,7 +26,7 @@ class StoriesLine extends Component {
         </Flexbox>
         <ScrollView orientation="horizontal" style={{padding: '0 0 40px 10px'}}>
           {storiesThumbsEl}
-          <div style={{backgroundColor: 'black', height: '50px', width: '100px'}}></div>
+          {/* <div style={{backgroundColor: 'black', height: '50px', width: '100px'}}></div> */}
         </ScrollView>
       </div>
     )

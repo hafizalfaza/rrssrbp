@@ -25,7 +25,9 @@ class NavBar extends Component {
                         <SearchNavIcon active={activeRoute==='/search'}/>
                     </Flexbox>
                     <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
-                        <AddNavIcon />
+                        <Link to="/create">
+                            <AddNavIcon />
+                        </Link>
                     </Flexbox>
                     <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
                         <LikeNavIcon active={activeRoute==='/notifications'}/>

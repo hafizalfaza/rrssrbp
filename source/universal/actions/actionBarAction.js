@@ -22,6 +22,10 @@ export const changeActionBar = (route) => {
     }else if(route === '/explore'){
     }else if(route === '/explore/people'){
         actionBarData.title = 'Discover People';
+    }else if(route === '/create'){
+        actionBarData.leftIcons = ['settings'];
+        actionBarData.rightIcons = ['add-user'];
+        actionBarData.title = 'New Post';
     }
     
     return {

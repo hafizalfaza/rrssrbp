@@ -22,13 +22,17 @@ class NavBar extends Component {
                         </Link>
                     </Flexbox>
                     <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
-                        <SearchNavIcon active={activeRoute==='/search'}/>
+                        <Link to="/explore">
+                            <SearchNavIcon active={activeRoute==='/explore'}/>
+                        </Link>
                     </Flexbox>
                     <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
                         <AddNavIcon />
                     </Flexbox>
                     <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
-                        <LikeNavIcon active={activeRoute==='/notifications'}/>
+                        <Link to="/activity">
+                            <LikeNavIcon active={activeRoute==='/activity'}/>
+                        </Link>
                     </Flexbox>
                     <Flexbox theme={rowCentered} align="center" style={{width: '20%'}}>
                         <Link to="/profile">

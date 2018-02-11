@@ -13,7 +13,7 @@ import Text from 'universal/components/Text'
 import Flexbox from 'universal/components/Flexbox'
 
 export const IndexPage = (props) => {
-  // console.log(window)
+  
   return (
     <Page backgroundColor={'#03A9F4'}>
       <Helmet>

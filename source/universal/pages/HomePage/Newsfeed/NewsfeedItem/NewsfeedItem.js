@@ -5,7 +5,9 @@ import Gradient from 'universal/components/Gradient';
 import { numberToString } from '../tools/numberToString';
 import { toggleShadowBlock } from 'universal/actions/uiAction';
 import { connect } from 'react-redux';
-
+import { trimText } from '../tools/trimText';
+import { revealCompleteComment } from 'universal/actions/newsfeedAction';
+import CommentsSection from './CommentsSection';
 // Components Themes
 
 import { rowAlignLeft, rowGapped, columnGapped, rowCentered } from 'universal/components/themes/flexbox';
@@ -17,8 +19,13 @@ class NewsfeedItem extends Component {
         this.props.toggleShadowBlock()
     }
 
+    revealCompleteComment(data) {
+        this.props.revealCompleteComment(data)
+    }
+
     render(){
         const {newsfeedItem} = this.props;
+
         return (
             <div>
                 {/* header */}
@@ -103,15 +110,9 @@ class NewsfeedItem extends Component {
 
                     {/* comments */}
 
-                    <ul>
-                        <li>
-                            <p style={{fontSize: '13px'}}>
-                                <span style={{fontWeight: 'bold'}}>zuckerberg</span>
-                                &nbsp;cool! cool! cool! cool! cool! cool! cool! cool! cool! cool! cool!
-                            </p>
-                        </li>
-                        
-                    </ul>
+                    <CommentsSection newsfeedId={newsfeedItem.id} hasMoreComments={newsfeedItem.has_more_comments} comments={newsfeedItem.comments}/>
+
+                    
 
 
                     <div style={{marginBottom: '20px'}}>
@@ -133,14 +134,16 @@ class NewsfeedItem extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        shadowBlockActive: state.ui.shadowBlockActive
+        shadowBlockActive: state.ui.shadowBlockActive,
+        newsfeedItems: state.newsfeed.newsfeedItems
     }
 }
 
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        toggleShadowBlock: () => {dispatch(toggleShadowBlock())}
+        toggleShadowBlock: () => {dispatch(toggleShadowBlock())},
+        revealCompleteComment: (data) => {dispatch(revealCompleteComment(data))}
     }
 }
 

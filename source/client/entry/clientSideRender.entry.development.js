@@ -9,6 +9,8 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import reducers from '../../universal/reducers/index';
 import store from '../../universal/store/store';
+import { client } from '../../universal/reducers/index';
+import { ApolloProvider } from 'react-apollo';
 
 import ClientApp from 'client/App'
 
@@ -26,9 +28,11 @@ export const clientSideRender = (
   hydrate(
       <AppContainer>
         <Provider store={store}>
-          <BrowserRouter>
-            <Component />
-          </BrowserRouter>
+          <ApolloProvider client={client}>
+            <BrowserRouter>
+              <Component />
+            </BrowserRouter>
+          </ApolloProvider>
         </Provider>
       </AppContainer>,
     container,

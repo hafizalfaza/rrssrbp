@@ -38,11 +38,8 @@ class ActionBar extends Component {
 
         const {title} = this.props.actionBar;
 
-
-        console.log(title);
-
         return (
-            <div style={{position: 'relative', width: '100%', height: '44px'}}>
+            <div style={{position: 'relative', width: '100%', height: '44px', backgroundColor: title==='Explore' ? '#fafafa': 'white'}}>
                 <Flexbox theme={rowGapped} style={{width: '100%', height: '100%', padding: '0 20px', position: 'absolute'}} align="center">
                     <Flexbox theme={rowAlignLeft}>
                         <div>
@@ -60,7 +57,7 @@ class ActionBar extends Component {
                     </Flexbox>
                 </Flexbox>
                 <Flexbox  theme={rowCentered} align="center" style={{width: '100%', height: '100%'}}>
-                    {title === 'instagram' ? <img src={img} style={{width: '100px'}} alt="" /> : title}
+                    {title === 'instagram' ? <img src={img} style={{width: '100px'}} alt="" /> : title === 'Explore' ? <input style={{zIndex: 2}} type="text" placeholder="search" /> : title}
                 </Flexbox>
                 <div style={{backgroundColor: '#000', opacity: '0.1', height: '1px', bottom: '-1px', left: '0', right: '0'}}></div>
             </div>

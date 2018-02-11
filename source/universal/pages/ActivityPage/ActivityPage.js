@@ -34,6 +34,11 @@ class ActivityPage extends Component {
         super(props);
     }
 
+    componentWillMount(){
+        this.props.changeActionBar('/activity')
+        this.props.setActiveRoute('/activity')
+    }
+
     render(){
         return (
             <div style={{backgroundColor: '#fff'}}>
@@ -133,270 +138,6 @@ class ActivityPage extends Component {
                 type="friendToFollow" 
                 followingStatus="following" 
                 />
-
-
-
-                {/*
-                {/* start of like ---------------------------- * /}
-                <Flexbox theme={rowGapped} style={{
-                    alignItems: 'center',
-                    padding: '12px 16px'
-                }}>
-                    <div style={{width: 50}}>
-                        <ImageBackground
-                            theme={imageBackgroundTheme.coverCenter}
-                            backgroundImage="https://images.businessoffashion.com/profiles/asset/2170/ca7d6946a3f502181905560b14ead8299d1a9783.jpeg"
-                            style={{
-                                width: 34,
-                                height: 34,
-                                borderRadius: '50%',
-                                overflow: 'hidden',
-                                marginRight: 28
-                            }}
-                        >
-                        </ImageBackground>
-                    </div>
-                    <div style={{flex: 'auto'}}>
-                        <div>
-                            <h1 style={{
-                                display: 'inline',
-                                fontWeight: 600,
-                                fontSize: 14,
-                                lineHeight: 1,
-                                marginRight: 5,
-                                lineHeight: 1
-                            }}>
-                                Name
-                            </h1>
-                            <span style={{
-                                display: 'inline',
-                                fontWeight: 'normal',
-                                fontSize: 14,
-                                lineHeight: 1,
-                                marginRight: 5
-                            }}>
-                                liked your photo.
-                            </span>
-                            <span style={{
-                                display: 'inline',
-                                fontWeight: 'normal',
-                                fontSize: 14,
-                                lineHeight: 1,
-                                marginRight: 5,
-                                color: '#999'
-                            }}>
-                                2h
-                            </span>
-                        </div>
-                    </div>
-                    <div style={{justifyContent: 'flex-end', marginLeft: 10}}>
-                        <ImageBackground
-                            theme={imageBackgroundTheme.coverCenter}
-                            backgroundImage="https://images.businessoffashion.com/profiles/asset/2170/ca7d6946a3f502181905560b14ead8299d1a9783.jpeg"
-                            style={{
-                                width: 40,
-                                height: 40
-                            }}
-                        >
-                        </ImageBackground>
-                    </div>
-                </Flexbox>
-                <Flexbox theme={rowGapped} style={{
-                    alignItems: 'center'
-                }}>
-                    <div style={{width: 60}}>
-                    </div>
-                    <div
-                        style={{
-                            flex: 'auto',
-                            backgroundColor: '#efefef',
-                            height: 1,
-                            width: 'auto'
-                        }}
-                    ></div>
-                </Flexbox>
-                {/* end of like ---------------------------- * /}
-                {/* start of info to action ---------------------------- * /}
-                <Flexbox theme={rowGapped} style={{
-                    alignItems: 'center',
-                    padding: '12px 16px'
-                }}>
-                    <div style={{width: 50}}>
-                        <ImageBackground
-                            theme={imageBackgroundTheme.coverCenter}
-                            backgroundImage="https://images.businessoffashion.com/profiles/asset/2170/ca7d6946a3f502181905560b14ead8299d1a9783.jpeg"
-                            style={{
-                                width: 34,
-                                height: 34,
-                                borderRadius: '50%',
-                                overflow: 'hidden',
-                                marginRight: 28
-                            }}
-                        >
-                        </ImageBackground>
-                    </div>
-                    <div style={{flex: 'auto'}}>
-                        <div>
-                            <h1 style={{
-                                display: 'inline',
-                                fontWeight: 600,
-                                fontSize: 14,
-                                lineHeight: 1,
-                                marginRight: 5,
-                                lineHeight: 1
-                            }}>
-                                Name
-                            </h1>
-                            <span style={{
-                                display: 'inline',
-                                fontWeight: 'normal',
-                                fontSize: 14,
-                                lineHeight: 1,
-                                marginRight: 5
-                            }}>
-                                liked your photo.
-                            </span>
-                            <span style={{
-                                display: 'inline',
-                                fontWeight: 'normal',
-                                fontSize: 14,
-                                lineHeight: 1,
-                                marginRight: 5,
-                                color: '#999'
-                            }}>
-                                2h
-                            </span>
-                        </div>
-                    </div>
-                    <div style={{justifyContent: 'flex-end', marginLeft: 10}}>
-                        <button style={{
-                            padding: '0 8px',
-                            cursor:'pointer',
-                            background: '#3897f0',
-                            borderColor: '#3897f0',
-                            color: '#fff',
-                            WebkitQppearance: 'none',
-                            borderRadius: 3,
-                            borderStyle: 'solid',
-                            borderWidth: 1,
-                            fontSize: 14,
-                            fontWeight: 600,
-                            lineHeight: 2.0,
-                            outline: 'none',
-                            overflow: 'hidden',
-                            textOverflow: 'ellipsis',
-                            whiteSpace: 'nowrap',
-                            width: '100%'
-                        }}>Follow</button>
-                    </div>
-                </Flexbox>
-                <Flexbox theme={rowGapped} style={{
-                    alignItems: 'center'
-                }}>
-                    <div style={{width: 60}}>
-                    </div>
-                    <div
-                        style={{
-                            flex: 'auto',
-                            backgroundColor: '#efefef',
-                            height: 1,
-                            width: 'auto'
-                        }}
-                    ></div>
-                </Flexbox>
-                {/* end of info to action ---------------------------- * /}
-                {/* start of info to action ---------------------------- * /}
-                <Flexbox theme={rowGapped} style={{
-                    alignItems: 'center',
-                    padding: '12px 16px'
-                }}>
-                    <div style={{width: 50}}>
-                        <ImageBackground
-                            theme={imageBackgroundTheme.coverCenter}
-                            backgroundImage="https://images.businessoffashion.com/profiles/asset/2170/ca7d6946a3f502181905560b14ead8299d1a9783.jpeg"
-                            style={{
-                                width: 34,
-                                height: 34,
-                                borderRadius: '50%',
-                                overflow: 'hidden',
-                                marginRight: 28
-                            }}
-                        >
-                        </ImageBackground>
-                    </div>
-                    <div style={{flex: 'auto'}}>
-                        <div>
-                            <h1 style={{
-                                display: 'inline',
-                                fontWeight: 600,
-                                fontSize: 14,
-                                lineHeight: 1,
-                                marginRight: 5,
-                                lineHeight: 1
-                            }}>
-                                Name
-                            </h1>
-                            <span style={{
-                                display: 'inline',
-                                fontWeight: 'normal',
-                                fontSize: 14,
-                                lineHeight: 1,
-                                marginRight: 5
-                            }}>
-                                liked your photo liked your photo liked your 
-                                <a href="#" style={{textDecoration: 'none', color: '#003569', marginLeft: 5}}>@photo</a>
-                                .
-                            </span>
-                            <span style={{
-                                display: 'inline',
-                                fontWeight: 'normal',
-                                fontSize: 14,
-                                lineHeight: 1,
-                                marginRight: 5,
-                                color: '#999'
-                            }}>
-                                2h
-                            </span>
-                        </div>
-                    </div>
-                    <div style={{justifyContent: 'flex-end', marginLeft: 10}}>
-                        <button style={{
-                            padding: '0 8px',
-                            cursor:'pointer',
-                            background: '0 0',
-                            borderColor: '#dbdbdb',
-                            color: '#262626',
-                            WebkitQppearance: 'none',
-                            borderRadius: 3,
-                            borderStyle: 'solid',
-                            borderWidth: 1,
-                            fontSize: 14,
-                            fontWeight: 600,
-                            lineHeight: 2.0,
-                            outline: 'none',
-                            overflow: 'hidden',
-                            textOverflow: 'ellipsis',
-                            whiteSpace: 'nowrap',
-                            width: '100%'
-                        }}>Following</button>
-                    </div>
-                </Flexbox>
-                <Flexbox theme={rowGapped} style={{
-                    alignItems: 'center'
-                }}>
-                    <div style={{width: 60}}>
-                    </div>
-                    <div
-                        style={{
-                            flex: 'auto',
-                            backgroundColor: '#efefef',
-                            height: 1,
-                            width: 'auto'
-                        }}
-                    ></div>
-                </Flexbox>
-                {/* end of info to action ---------------------------- * /}
-            */}
             </div>
         )
     }
@@ -408,4 +149,17 @@ export function loadData(store, req){
     store.dispatch(setActiveRoute(req.url))
 }
 
-export default (ActivityPage);
+const mapStateToProps = (state) => {
+    return {
+        shadowBlockActive: state.ui.shadowBlockActive
+    }
+} 
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        setActiveRoute: (path) => {dispatch(setActiveRoute(path))},
+        changeActionBar: (path) => {dispatch(changeActionBar(path))}
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(ActivityPage);

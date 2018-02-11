@@ -38,18 +38,16 @@ class ExplorePage extends Component {
         };
     }
 
-    componentDidMount() {
+    componentWillMount(){
         this.props.loadImagesData();
-    }
-
-    changeGrid = (gridType) => {
-        this.setState({grid: gridType});
+        this.props.changeActionBar('/explore');
+        this.props.setActiveRoute('/explore');
     }
 
     render(){
         return (
             <div style={{backgroundColor: '#fafafa'}}>
-                <div style={{
+                {/* <div style={{
                     height: 40,
                     width: '100%',
                     backgroundColor: '#fafafa',
@@ -122,7 +120,7 @@ class ExplorePage extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <Flexbox theme={rowGapped} style={{
                     width: '100%',
                     padding: '0',
@@ -163,7 +161,9 @@ const mapStateToProps = (state) => {
 
 const mapDispatchtoProps = (dispatch) => {
     return {
-        loadImagesData: () => {dispatch(loadImagesData())}
+        loadImagesData: () => {dispatch(loadImagesData())},
+        changeActionBar: (path) => {dispatch(changeActionBar(path))},
+        setActiveRoute: (path) => {dispatch(setActiveRoute(path))}
     }
 }
 

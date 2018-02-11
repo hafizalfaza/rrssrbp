@@ -18,11 +18,12 @@ import ProfilePage from 'universal/pages/ProfilePage'
 import ActivityPage from 'universal/pages/ActivityPage'
 import ExplorePage from 'universal/pages/ExplorePage'
 import ExplorePeoplePage from 'universal/pages/ExplorePeoplePage'
+import requireAuth from 'universal/utils/requireAuth';
 
 export const routes = [
   {
     path: '/',
-    component: HomePage,
+    component: requireAuth(HomePage),
     exact: true,
     loadData: homePageLoadData
   },
@@ -39,7 +40,8 @@ export const routes = [
   {
     path: '/profile',
     component: ProfilePage,
-    exact: true
+    exact: true,
+    loadData: profilePageLoadData
   },
   {
     path: '/activity',

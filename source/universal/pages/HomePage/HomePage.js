@@ -8,11 +8,12 @@ import { fetchStoriesThumbs } from 'universal/actions/storiesAction';
 import { fetchNewsfeedItems } from 'universal/actions/newsfeedAction';
 import StoriesLine from './StoriesLine';
 import { connect } from 'react-redux';
+import LandingPage from '../LandingPage';
 
 class HomePage extends Component {
 
-
     componentWillMount(){
+        this.props.changeActionBar('/')
         this.props.setActiveRoute('/')
         this.props.fetchStoriesThumbs();
         this.props.fetchNewsfeedItems();
@@ -20,6 +21,7 @@ class HomePage extends Component {
 
     render(){
         const { storiesThumbs, newsfeedItems } = this.props;
+
         return (
             <div>
                 <StoriesLine storiesThumbs={storiesThumbs}/>
@@ -47,7 +49,8 @@ const mapDispatchToProps = (dispatch) => {
     return {
         fetchStoriesThumbs: () => {dispatch(fetchStoriesThumbs)},
         fetchNewsfeedItems: () => {dispatch(fetchNewsfeedItems)},
-        setActiveRoute: (path) => {dispatch(setActiveRoute(path))}
+        setActiveRoute: (path) => {dispatch(setActiveRoute(path))},
+        changeActionBar: (path) => {dispatch(changeActionBar(path))}
     }
 }
 

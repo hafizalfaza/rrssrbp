@@ -19,6 +19,7 @@ class App extends Component {
 
   render() {
     const { shadowBlockActive } = this.props;
+
     return (
       <Page>
         <Helmet>

@@ -40,6 +40,7 @@ class ProfilePage extends Component {
     }
 
     componentWillMount(){
+        this.props.changeActionBar('/profile')
         this.props.setActiveRoute('/profile')
     }
 
@@ -286,7 +287,8 @@ const mapStateToProps = (state) => {
 const mapDispatchtoProps = (dispatch) => {
     return {
         loadImagesData: () => {dispatch(loadImagesData())},
-        setActiveRoute: (path) => {dispatch(setActiveRoute(path))}
+        setActiveRoute: (path) => {dispatch(setActiveRoute(path))},
+        changeActionBar: (path) => {dispatch(changeActionBar(path))}
     }
 }
 

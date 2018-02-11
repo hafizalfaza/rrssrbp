@@ -6,6 +6,9 @@ if (!process.env.SERVER_PORT) process.env.SERVER_PORT = 8888
 const express = require('express')
 
 const webpack = require('webpack')
+
+const proxy = require('express-http-proxy');
+
 const webpackDevMiddleware = require('webpack-dev-middleware')
 const webpackHotMiddleware = require('webpack-hot-middleware')
 const webpackHotServerMiddleware = require('webpack-hot-server-middleware')
@@ -23,6 +26,13 @@ server.disable('x-powered-by')
 server.use(webpackDevMiddleware(webpackCompiler))
 server.use(webpackHotMiddleware(webpackClientCompiler))
 server.use(webpackHotServerMiddleware(webpackCompiler))
+
+server.use('/api', proxy('localhost:3000', {
+  proxyReqOptDecorator(opts){
+    opts.header['x-forwarded-host'] = 'localhost:8888';
+    return opts;
+  }
+}))
 
 let __BUILD_COMPLETE__ = false
 

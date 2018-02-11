@@ -7,8 +7,6 @@ export const changeActionBar = (route) => {
         title: ''
     }
 
-    console.log(route)
-
     if(route === '/'){
         actionBarData.leftIcons = ['camera'];
         actionBarData.rightIcons = ['add-user'];
@@ -20,6 +18,7 @@ export const changeActionBar = (route) => {
     }else if(route === '/activity'){
         actionBarData.title = 'Activity';
     }else if(route === '/explore'){
+        actionBarData.title = 'Explore';
     }else if(route === '/explore/people'){
         actionBarData.title = 'Discover People';
     }

@@ -10,7 +10,7 @@ import flushChunks from 'webpack-flush-chunks'
 
 import faviconUrl from 'server/components/Html/images/favicon.ico'
 
-export const Html = ({ children, clientStats, store }: Object) => {
+export const Html = ({ children, clientStats, store, apolloInitialState }: Object) => {
   try {
     injectGlobal`${normalize()}`
 
@@ -68,6 +68,8 @@ export const Html = ({ children, clientStats, store }: Object) => {
 
     const { CssHash, Js, Styles, scripts } = chunks
 
+
+
     return (
       <html {...htmlAttributes}>
         <head>
@@ -84,7 +86,8 @@ export const Html = ({ children, clientStats, store }: Object) => {
         </head>
         <body {...bodyAttributes}>
           <div id={process.env.REACT_CONTAINER_ID}>{children}</div>
-          <script dangerouslySetInnerHTML={{__html: `window._INITIAL_STATE_ = ${JSON.stringify(store.getState())}`}}/>
+          <script dangerouslySetInnerHTML={{__html: `window._INITIAL_STATE_ = ${JSON.stringify(store.getState())}; 
+                window.__APOLLO_STATE__ = ${JSON.stringify(apolloInitialState)}`}}/>
           <CssHash />
           <Js />
         </body>

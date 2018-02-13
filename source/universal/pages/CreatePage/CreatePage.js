@@ -9,8 +9,8 @@ import { changeActionBar } from 'universal/actions/actionBarAction';
 import { setActiveRoute } from 'universal/actions/navBarAction';
 import ScrollView from 'universal/components/ScrollView';
 import StoryThumb from './StoryThumb';
-import { rowGapped } from '../../../components/themes/flexbox';
-import { orderStories } from './tools/orderStories'; 
+// import { rowGapped } from '../../components/themes/flexbox';
+// import { orderStories } from './tools/orderStories'; 
 
 const styles = {}
 
@@ -43,6 +43,8 @@ class CreatePage extends Component {
       componentDidMount() {
         this.updateDimensions();
         window.addEventListener("resize", this.updateDimensions.bind(this));
+        
+        this.props.loadImagesData();
       }
     
       /**
@@ -54,16 +56,18 @@ class CreatePage extends Component {
     
     render(){
 
-        const { storiesThumbs } = this.props;
+        // const { storiesThumbs } = this.props;
 
-        const storiesThumbsEl = orderStories(storiesThumbs).map((story) => {
-            return (
-                <StoryThumb key={story.id} storyData={story} />
-            )
-        })
+        // const storiesThumbsEl = orderStories(storiesThumbs).map((story) => {
+        //     return (
+        //         <StoryThumb key={story.id} storyData={story} />
+        //     )
+        // })
 
         return (
             <div>
+                {/*
+                */}
                 <ImageBackground
                     theme={imageBackgroundTheme.coverCenter}
                     backgroundImage="https://scontent-sit4-1.cdninstagram.com/vp/3b8d2ee3e7102f5e99e47c17561874af/5B0A8B3C/t51.2885-15/s750x750/sh0.08/e35/24178182_2164852510408668_4545999651890790400_n.jpg"
@@ -96,7 +100,7 @@ class CreatePage extends Component {
                     >
                     Suggestions for you
                     </h2>
-                    <ScrollView orientation="horizontal" style={{padding: '0 0 40px 10px'}}>
+                    {/*<ScrollView orientation="horizontal" style={{padding: '0 0 40px 10px'}}>
 
                         {storiesThumbsEl}
 
@@ -151,9 +155,9 @@ class CreatePage extends Component {
                             }}
                         >
                         </ImageBackground>
-                        */}
+                        * /}
 
-                    </ScrollView>
+                    </ScrollView>*/}
                 </div>
             </div>
         )
@@ -162,8 +166,20 @@ class CreatePage extends Component {
 }
 
 export function loadData(store, req){
-    store.dispatch(changeActionBar(req.url))
     store.dispatch(setActiveRoute(req.url))
+    store.dispatch(loadImagesData())
 }
 
-export default (CreatePage);
+const mapStateToProps = (state) => {
+    return {
+        images: state.images
+    }
+}
+
+const mapDispatchtoProps = (dispatch) => {
+    return {
+        loadImagesData: () => {dispatch(loadImagesData())}
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchtoProps)(CreatePage);

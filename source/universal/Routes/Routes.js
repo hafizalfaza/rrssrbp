@@ -9,6 +9,7 @@ import { loadData as activityPageLoadData } from '../pages/ActivityPage/Activity
 import { loadData as explorePageLoadData } from '../pages/ExplorePage/ExplorePage'
 import { loadData as explorePeoplePageLoadData } from '../pages/ExplorePeoplePage/ExplorePeoplePage'
 import { loadData as createPageLoadData } from '../pages/CreatePage/CreatePage'
+import { loadData as postPageLoadData } from '../pages/PostPage/PostPage'
 
 import IndexPage from 'universal/pages/IndexPage'
 import LoadingPage from 'universal/pages/LoadingPage'
@@ -20,6 +21,7 @@ import ActivityPage from 'universal/pages/ActivityPage'
 import ExplorePage from 'universal/pages/ExplorePage'
 import ExplorePeoplePage from 'universal/pages/ExplorePeoplePage'
 import CreatePage from 'universal/pages/CreatePage'
+import PostPage from 'universal/pages/PostPage'
 
 export const routes = [
   {
@@ -66,6 +68,12 @@ export const routes = [
     component: CreatePage,
     exact: true,
     loadData: createPageLoadData
+  },
+  {
+    path: '/post',
+    component: PostPage,
+    exact: true,
+    loadData: postPageLoadData
   },
   {
     component: NotFoundPage,
